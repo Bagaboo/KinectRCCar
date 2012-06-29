@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bd07543a-a486-40b2-920d-f84a880c4846"
+  name="Modularity"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="d423661a-b40a-48ea-82a8-2539bfa509c3"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Microsoft.Practices.Prism.Modularity"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="cbd4f97a-8ed3-4873-bb4a-504d7fbcf9e4">
+      <profileInstance
+        Id="a512ea77-0cb1-471a-ac5e-c4a21a3f3522"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="2a953d44-afc6-434e-9e89-3ea7053b4fd7"
+        name="IModule"
+        isAbstract="true"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="44ee31bd-9446-4998-9a24-5ad6a9695ea0"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Prism.4.1.0.0/lib/NET40/Microsoft.Practices.Prism.dll&quot; Namespace=Microsoft.Practices.Prism.Modularity Type=IModule"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cf6586c2-9c50-41d2-b60e-2e6fad6fe867"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6fdf6c5e-c7c9-4f9b-9d3c-645da59ba11a">
+                <propertyInstance
+                  Id="51e702c9-1d1a-420c-aa6e-00808144a766"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="efd29230-597a-466e-bf4e-a3fa36dcda21">
+                <propertyInstance
+                  Id="14eea9af-bb37-47f7-96dc-65235fc4d03f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f6e4a0b8-e4aa-4e7a-ba63-a919aea53582">
+                <propertyInstance
+                  Id="425dec94-c398-468c-8a66-c14e76fc5f8c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8f54b61-1242-4540-b404-ae7ce69b6b18">
+                <propertyInstance
+                  Id="43f43697-e22e-4bc3-9d92-290a972ae6f6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="c305cdea-8ba4-43b6-b16b-a5f5a96021dd"
+        name="IModuleCatalog"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="5b03d179-a03c-4825-97ca-a2c8e0d84a6f"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Prism.4.1.0.0/lib/NET40/Microsoft.Practices.Prism.dll&quot; Namespace=Microsoft.Practices.Prism.Modularity Type=IModuleCatalog"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3a994b21-bc06-44a1-b6a0-dc98383db59a"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="90fd6424-b99a-4140-ad98-018ab587524d">
+                <propertyInstance
+                  Id="f9d737a6-baea-451d-a7c4-08ad0eddff73"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fdac3449-c9ce-410f-86b5-f45705c3ff92">
+                <propertyInstance
+                  Id="31449e00-4342-4a35-913d-6cab92c75f5c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b71480d3-8255-4961-9588-b44eff3143d2">
+                <propertyInstance
+                  Id="93afc45f-3906-4024-aa20-58c104cf747a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3edfa947-fca2-4a6c-a6f4-ecae4a3e2531">
+                <propertyInstance
+                  Id="cef1cfe5-db4e-4dd5-a167-92a725589362"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bd57220f-a7ec-4563-9b96-1d9a8c59743b"
+  name="ComponentModel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e2b17631-dc22-4ee6-9911-79afc847badd"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=System.ComponentModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="682a213c-6eda-4fe5-af79-e9efd135a9e4"
+        name="IComponent"
+        isAbstract="true"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="784099a3-dbc5-4506-a01a-427f0b99002f"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.ComponentModel Type=IComponent"
+            tag="ViewCode" />
+        </referencesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a18806b9-e0a8-4064-bf3b-43911d5f0c88"
+        name="Component"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="57fed4f3-4132-411d-8388-3d015d520e93"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.ComponentModel Type=Component"
+            tag="ViewCode" />
+        </referencesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

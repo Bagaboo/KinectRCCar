@@ -1,0 +1,3039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="f3a973a8-9fdc-4d1d-ae24-364566e24473"
+  name="Interfaces"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3aba6c76-1e9f-49ed-8e6d-431649073026"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.Kinect.Adaptors.Interfaces"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="65c61565-0d7c-410e-9b2c-42d41967d644"
+        name="IKinectSensorAdapterFactory"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="74111245-c609-4c35-9925-7761dff7e25a"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapterFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5b68d404-9f20-4fd6-ae59-d99483067b72"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="41359604-bf95-476b-8ab3-2690fbd5c607">
+                <propertyInstance
+                  Id="8ef0e572-c033-4aba-b1cf-454c6a15e317"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="090e8f88-2d63-4e30-885f-3f8839efe5d6">
+                <propertyInstance
+                  Id="6b76a6b1-7758-4194-b5e4-0e42f1350e9a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="352d4b3a-8a58-439a-9478-a6d125d947fd">
+                <propertyInstance
+                  Id="d83e514a-ce27-4966-92ca-919db6bbfc83"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f0055b7b-3e16-409b-9376-6fbc30dfb7d5">
+                <propertyInstance
+                  Id="2a38fcb0-4eab-45fb-a2ca-9af08aebde44"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributes>
+          <property
+            Id="d288405e-58da-4708-91e7-4c8318195700"
+            name="StatusChanged"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2c126af7-0ddc-44c9-8e5d-49eaa002ae3e"
+                handle="viewcode://./CodeSchema_Event?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapterFactory Member=StatusChanged"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ddb9cc7-f13e-4e7d-b5e2-1c8499ed1443"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4260f0cf-d079-46b5-8fae-53cfb268a626">
+                    <propertyInstance
+                      Id="9d4db73b-985a-443f-94d3-16e14b162159"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea1c1635-d1c5-42b1-9113-cd9181dd7c29">
+                    <propertyInstance
+                      Id="73cc48a2-66ca-45f6-9928-e05895fb372c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7d13343-d7d3-4d3b-a931-661b478516a7">
+                    <propertyInstance
+                      Id="9f3c0de3-e9d7-4fd4-805d-078ba99b8797"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="488e1042-3693-4261-bb69-8f7a153025fd">
+                    <propertyInstance
+                      Id="840a3657-7cfb-440b-9748-a5a5a4327fcc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="425da829-a571-42b8-9979-88e2e05bd633">
+                    <propertyInstance
+                      Id="d13f4b71-61f2-4089-8280-1dc76c4213b3"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="82c76ca6-1f24-440b-a540-36908d5b200d"
+                LastKnownName="EventHandler&lt;StatusChangedEventArgs&gt;"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="caa316c4-14d2-44a0-8f78-23e49ce8b6b9"
+            name="GetFirstKinectSensor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="71c0f7ff-58e0-455e-a815-6a2053a6919e"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapterFactory Member=GetFirstKinectSensor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a8d72df7-5cf9-485c-a956-c82827f4bd58"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5de34157-1aff-4173-afc3-edee70f4de8d">
+                    <propertyInstance
+                      Id="391a41ae-c81b-439c-b533-10600ca70881"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82ce8be9-5b6c-4806-a66b-93600fd795ed">
+                    <propertyInstance
+                      Id="4609b7f2-e0dc-4674-ba99-08cd1e46f20f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2def1235-f797-4e4c-a544-7cc200efa82c">
+                    <propertyInstance
+                      Id="4ea89002-6ae6-4893-bdb0-1cfde9c88054"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1468713-ddac-48e7-a107-e41fcbc6ee35">
+                    <propertyInstance
+                      Id="ccd08358-806e-463e-97f7-e861946d005e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="244865ee-2fb7-4bcd-ba03-f1c893e8ad96">
+                    <propertyInstance
+                      Id="de8d14a7-2d85-4791-9004-2afea8bbd7d4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5dab57bf-8953-4a61-bff7-3874edd9b856"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="a2b34b6c-4a7f-40f7-acf9-9fd6b20b7530"
+                      LastKnownName="IKinectSensorAdapter"
+                      LastKnownLocation="Package_1737.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="a278a46d-e9de-4067-a0b6-d1e4906a6ea0"
+        name="IKinectSensorAdaptor"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="127d5e26-d287-4848-bfb7-876aa5eb173a"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d42ef6ea-9906-452b-9f1a-57361949c2bf"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="271b8dec-ff2e-44c8-9cfb-cb240d110d46">
+                <propertyInstance
+                  Id="e46d9535-bc79-411e-a8c0-798a3ac31471"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f8dc6d1e-7047-4dba-bcc5-7c829aeb7eb8">
+                <propertyInstance
+                  Id="90c51d1c-d55b-4bbb-be5a-9e874d8b86fd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="089b806d-c3e4-4d78-9e17-be910d77740b">
+                <propertyInstance
+                  Id="936aa62f-3d51-4e71-8bcf-6050ca94c65a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="da5b856d-39b8-453d-a765-959f8bef7c6b">
+                <propertyInstance
+                  Id="546ee7de-a7b3-4b5f-81f9-0bcc63f2cc2f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b654adb6-ac26-4295-9d89-5021a5412653"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="46e226b8-faff-40d2-9fe5-e2f9ac9677d5"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package3_0013.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="5eb9a8a8-b79e-4d2d-998a-073b455611b7"
+            isDerived="false"
+            sourceEndRoleName="IKinectSensorAdaptor"
+            targetEndRoleName="Status"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="7f8d8907-f3ad-4074-b9ba-08104055c25d"
+              LastKnownName="KinectStatus"
+              LastKnownLocation="Package8_0013.uml" />
+            <description>Property Status references type KinectStatus.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a9c8b8b7-02c0-423f-b2e3-e246dfb28635"
+                  name="IKinectSensorAdaptor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8c5a6494-4e89-429e-9ed2-ff5baca08bf4"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7f1160e0-71e8-4c28-8269-f65c9bccb39d"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c2308ea-3584-4961-a888-99d515e4cdde"
+                  name="Status"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f5fd38c2-6c7a-46a7-bdec-ff695013f9de"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="85a4bea3-823b-42de-943f-40d101e45b8b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="72c37a3a-3083-485a-9631-f977dfd698d1"
+            isDerived="false"
+            sourceEndRoleName="IKinectSensorAdaptor"
+            targetEndRoleName="ColorStream"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="e8fdfee1-f422-49f2-aa02-630980726f41"
+              LastKnownName="IColorImageStreamAdaptor"
+              LastKnownLocation="Package_1737.uml" />
+            <description>Property ColorStream references type IColorImageStreamAdaptor.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="577d1b66-2ca4-4c4d-b6f7-c3bbd03b2ca3"
+                  name="IKinectSensorAdaptor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="23adc80d-659d-4d14-827c-8532dfbf7b23"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b217db32-5ea2-4be5-9ba8-380f391154c5"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ed35f0b3-814d-4d31-876f-30d17dfbc2bf"
+                  name="ColorStream"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5b8d9a01-d008-4d4b-a1d7-6551933bf152"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="cfcf86dd-27a9-47ec-97b1-5b8acc291b3d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="568c9a84-a5ed-4847-839b-34d094d4dfe7"
+            isDerived="false"
+            sourceEndRoleName="IKinectSensorAdaptor"
+            targetEndRoleName="SkeletonStream"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="8707770d-ef48-4430-b648-18fc9ce8cd8b"
+              LastKnownName="ISkeletonStreamAdaptor"
+              LastKnownLocation="Package_1737.uml" />
+            <description>Property SkeletonStream references type ISkeletonStreamAdaptor.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bce3acfe-996c-4861-b61d-581a5bb1ef53"
+                  name="IKinectSensorAdaptor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7e40ff0c-bffb-4bc0-9a82-abea9f96f197"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a44c712f-0b62-459c-9938-1b68a91b1766"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b1676ee4-7aa1-4a5d-85f0-6116b6b58efd"
+                  name="SkeletonStream"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="4fe6649a-e21b-4191-ae52-3741bfd030cd"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7499cc29-a6d8-479b-aed0-0d2a61e50940"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="0c252a60-5edb-4bd6-b919-ddd9ea54f88b"
+            name="Status"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2029946c-55e2-483e-9245-4cd884e72c6c"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=Status"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cffb3f56-f0c9-456f-8604-94a8631776d0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1247e4a8-a06f-442b-bbc4-f8c3945726a6">
+                    <propertyInstance
+                      Id="fe77ce40-eb4a-42d1-89e8-fdcbff02fc07"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58e5a54a-16fc-4e4a-bede-f8f7f3061793">
+                    <propertyInstance
+                      Id="009f2126-58ab-41c7-a611-76c0fbad028f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60d8a139-66a9-4f2e-94c8-cde9d5592423">
+                    <propertyInstance
+                      Id="9b3e1605-bf87-425f-8734-332647eb3728"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c69ba1a-0af9-42e5-b38a-aca47299b6be">
+                    <propertyInstance
+                      Id="f3b4d863-9275-46f4-8614-0c735c73315a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea7750e3-1587-4673-891a-b630d9c9f48e">
+                    <propertyInstance
+                      Id="20121e46-c964-48bf-972e-8c4795888517"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94bf57cf-242e-42dc-ae3b-a7f40f61b4a9">
+                    <propertyInstance
+                      Id="57594c09-cd1d-4047-9847-a6ff0f700d7a"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="7f8d8907-f3ad-4074-b9ba-08104055c25d"
+                LastKnownName="KinectStatus"
+                LastKnownLocation="Package8_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f53833be-eaaa-42dc-bdcf-c4d59318a79c"
+            name="UniqueKinectId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="00af3b98-c71e-40f8-8dbf-2dcba6e83f9d"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=UniqueKinectId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="039c1d93-d0f0-4d84-a1de-e152b736f1bb"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="442f0932-886e-404f-906e-24ee855a1855">
+                    <propertyInstance
+                      Id="506b2717-5be5-4f04-a7fc-11746774cbb1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c9cabbf-ccd7-48d1-98a0-9b9d7263efbd">
+                    <propertyInstance
+                      Id="b80aa876-0386-45b2-89c8-189a29117d7c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6d6fd98-30be-4caa-a6df-80d5eb51be76">
+                    <propertyInstance
+                      Id="86be4cbc-e8fa-4a7b-9ff4-b2602079b558"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7e62804-72c2-4186-8573-02d22f3c8541">
+                    <propertyInstance
+                      Id="fd33e838-577e-49e0-938f-dc52484cb8cf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8744991e-3176-4965-8020-fd223de3daab">
+                    <propertyInstance
+                      Id="8b7b08a2-46c5-45e3-a40a-5ee09d2116ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="004e410a-2854-470a-827d-1f94c5f43c75">
+                    <propertyInstance
+                      Id="7154e994-80b0-473b-bfb9-6b12b650a611"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="be9a8d29-9c21-4bae-8f17-5ebb4c264e43"
+            name="ColorStream"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d23d00e2-ca7c-4bed-9e7b-327d5df3f0e2"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=ColorStream"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f9aa5c60-2879-4d25-8ebd-d2e0fb8c4d10"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e996f3f-475b-4ce5-a514-23bc14701f4e">
+                    <propertyInstance
+                      Id="40d5c3df-5488-4f4b-9846-75e85feb673d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2245d3fd-2653-4e40-bd3f-c39c79c9c60e">
+                    <propertyInstance
+                      Id="83dff0c6-5336-4777-a96c-fb498e36952c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="863e94b5-c95b-4821-a3f0-083f3308cfc1">
+                    <propertyInstance
+                      Id="45e48842-d7be-4f6f-9649-a6be42d549a2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f06401b8-f886-4f29-96cc-b86394d66c29">
+                    <propertyInstance
+                      Id="6c7804ad-b26a-4d6c-b03b-f22e4294b065"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="824a963d-d14e-430d-8c38-7610817bdfac">
+                    <propertyInstance
+                      Id="b2495046-0b0b-4458-999b-dc9bc3910bfa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f7128fc-a9d1-411f-87af-e17b483f2837">
+                    <propertyInstance
+                      Id="3190e7f0-807a-452d-8e10-a2911ba42b56"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="e8fdfee1-f422-49f2-aa02-630980726f41"
+                LastKnownName="IColorImageStreamAdaptor"
+                LastKnownLocation="Package_1737.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f0d12301-4b64-46d6-8c2f-dc8f197c9184"
+            name="SkeletonStream"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2a2f9486-986a-42b1-8fd0-7adc4447f756"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=SkeletonStream"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4d765a8f-197a-4ca6-8a38-889fbb6e6fba"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b1c8429-fbec-49cf-8f4d-6ef73f2cc7e1">
+                    <propertyInstance
+                      Id="8b736607-1e16-41bf-a741-42dcddf64654"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3940e937-e85c-4742-bce9-6dad814675fe">
+                    <propertyInstance
+                      Id="7cbf4cc4-afe8-449c-8b87-dcd40d8647d9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d07a25d8-2a65-4fd4-8bfa-c32c9108d24f">
+                    <propertyInstance
+                      Id="032a46fd-739c-497b-8bcf-17ab58d6ece9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a30f35ce-f3f4-4af5-b7c0-8d4f49a73687">
+                    <propertyInstance
+                      Id="6da0eb18-b4d2-46fc-92ac-7a895073ff17"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04b6fde2-84d3-4f64-af90-0fd9b6ebf640">
+                    <propertyInstance
+                      Id="eb0cb1df-16ec-47ff-b9c9-4e9d8d9e4772"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="322e5da1-8102-4548-9681-469ecb3b0564">
+                    <propertyInstance
+                      Id="831cc67b-e13a-4d82-bdfa-e28314118531"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="8707770d-ef48-4430-b648-18fc9ce8cd8b"
+                LastKnownName="ISkeletonStreamAdaptor"
+                LastKnownLocation="Package_1737.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d0862b88-fdf8-4014-8cb2-f115a161cb10"
+            name="IsRunning"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0afe1b86-9abc-4536-8f53-b5934faa2e6b"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=IsRunning"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2eee35d0-39e7-4371-b921-bd6c582a2910"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef1920eb-5d90-4d0f-a097-eb73f6b16668">
+                    <propertyInstance
+                      Id="94d53209-030e-465d-a614-97bd3ec725d8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e512d74b-0675-4eb8-9c76-36a905c94505">
+                    <propertyInstance
+                      Id="e7cef9f3-7405-4a24-ba19-70cc261b7cb2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71c5fdbb-2fc9-4d50-beaa-bfbdcda8cc50">
+                    <propertyInstance
+                      Id="15ec1003-1771-4230-bb60-e2db1ac53fbc"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3daf02f1-cda4-4543-b8d8-c67f9cbaaf29">
+                    <propertyInstance
+                      Id="b1880611-54e9-425c-b1ac-2e290cc999d1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ee6ce01-8b00-46e3-b42d-917be8758bde">
+                    <propertyInstance
+                      Id="ff2c3a29-3685-4878-a4a9-56f10fa565db"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45d02e16-0640-48af-a236-45429d308b9d">
+                    <propertyInstance
+                      Id="d6eb23d6-8e38-420f-ae7e-9df7cf7dd504"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dd2c38e6-ad36-4471-9660-c6df4c58f0f5"
+            name="ElevationAngle"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7b67713d-0229-49a0-99f5-23eb072dead1"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=ElevationAngle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe7038bc-21b3-45ef-9ab6-9a1d56dbf8f2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43bbdaff-cef9-48a5-822b-0ca160e3a327">
+                    <propertyInstance
+                      Id="c58749e0-59ac-4456-b814-dd7b9c3a81a4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e483196-29f5-4e8c-8cc8-c5e3885bd94c">
+                    <propertyInstance
+                      Id="972b8f51-e1a3-4c4f-a636-3f5ec290a585"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5c0e71b-f79b-42d3-921c-696d383409bc">
+                    <propertyInstance
+                      Id="7dcce2e8-b333-4768-b56c-86003891cd2a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a73f0c1-d2c0-4d84-b277-9f74e6baf6ee">
+                    <propertyInstance
+                      Id="3fbf70e4-4bb6-4b7b-ae9b-4162ffc8e3d7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86e12093-f044-48ee-b93b-fdaf27e487eb">
+                    <propertyInstance
+                      Id="54496faa-665b-4f19-a229-4c74eefefb13"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31d9a921-f97d-46a3-9e00-8addbd222897">
+                    <propertyInstance
+                      Id="31d14f68-c939-4561-bbf1-4cc16eb42f85"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4e6e8fc5-3ecd-4017-ab35-7350753ac2db"
+            name="MaxElevationAngle"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1b5e96a3-a3ff-4237-8325-ad070e730026"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=MaxElevationAngle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="18c6a68c-b20b-4c64-8801-061181db2d9b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f14a4307-569d-4a7c-be29-e6e5317d84fe">
+                    <propertyInstance
+                      Id="f1bb14c2-5fd8-4f00-a613-fa12c64114bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92594422-6318-47fb-bc9f-aaff7b32937a">
+                    <propertyInstance
+                      Id="cb064448-8f76-4997-93d9-1d60f3d06899"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ac56732-524b-4569-bd44-3acda94cc307">
+                    <propertyInstance
+                      Id="4a922935-9218-4d48-8e82-a8d358debc4c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd8a69dd-987c-4b58-8e90-59c582ebf401">
+                    <propertyInstance
+                      Id="2dea6ffe-c063-47c7-8724-53d3b640a14d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8806e5d4-9386-4746-9a59-f9054c4357c8">
+                    <propertyInstance
+                      Id="cb318838-3dea-416e-92ab-3382a5320915"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cf49cc3-ad32-4a86-88b6-943e1d1da023">
+                    <propertyInstance
+                      Id="7cf48cc4-b0be-47a5-a35e-054b7cac7714"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1b0c22db-62c5-430f-8b9f-bdec29dd1b3c"
+            name="MinElevationAngle"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8712eccb-a0b8-4197-a8c9-ad0ef9427f7d"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=MinElevationAngle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="303cb0b4-3ab1-4f7a-8a0f-8a67a6e44fa8"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b703bd1-ca84-4b6c-a928-b0184a960c22">
+                    <propertyInstance
+                      Id="00968e5c-9457-46d3-87f8-c3b2e03df11e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d99363f4-158d-4222-a7f2-0ada4f90ff87">
+                    <propertyInstance
+                      Id="bf845419-efe9-4bb2-b56b-c2f81e4785fd"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="772e81c3-081a-4c3b-8bf3-717be082157c">
+                    <propertyInstance
+                      Id="3f1c38af-947f-419e-8bb7-7bf5de61a804"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="400d4483-b80a-45cd-ad4b-52d7b1b79d7d">
+                    <propertyInstance
+                      Id="2fa4e8ae-2762-4f87-bd94-1e2345e66bc7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e820906-6b7c-414f-91fa-760c3df03034">
+                    <propertyInstance
+                      Id="fa33626f-2acd-4e0d-8009-9569758f5d8c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6792292c-7e9e-4a70-8e8a-7027a438ce41">
+                    <propertyInstance
+                      Id="8bd6cbf7-9136-46cf-9b2d-7547955719e2"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2f37f067-5e01-4cec-b81e-d1e10c975e0b"
+            name="ColorFrameReady"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1840fc09-5091-41d5-9cd0-17ed40546bbe"
+                handle="viewcode://./CodeSchema_Event?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=ColorFrameReady"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cacb3b75-c68f-48eb-9c83-a84ed33c8b32"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4adcd221-1856-4e25-b95e-e07ee7d3f437">
+                    <propertyInstance
+                      Id="5e28e5d0-7e4e-4e0d-93c5-f851f882ab7d"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21c31b05-5133-4226-a48e-319c7fbf7c41">
+                    <propertyInstance
+                      Id="527d98df-9749-4c20-bca5-b564e047900a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a60490a8-bf3a-43ff-84bc-4c9f8277df27">
+                    <propertyInstance
+                      Id="d4d3a477-b4ed-4477-be95-7149bafe5dd5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="273e1a06-486a-4ffb-8404-f3c8b71e1b0b">
+                    <propertyInstance
+                      Id="393c5dda-4d1a-4a2b-b845-c5f7d4675196"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39d125bf-7289-458c-b564-1e57aa82c293">
+                    <propertyInstance
+                      Id="822038ae-749e-4913-8337-724e4f87085e"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0108bc1c-b50f-4306-aece-0163e9af5239"
+                LastKnownName="EventHandler&lt;ColorImageFrameReadyEventArgs&gt;"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="945fd24e-4215-4e24-b84b-0814cd139155"
+            name="SkeletonFrameReady"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fbe88db9-cbad-4233-bfed-a80aa291e35c"
+                handle="viewcode://./CodeSchema_Event?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=SkeletonFrameReady"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="45e0d1c4-db10-4934-8168-6f8700f701bb"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64ae2b3e-6362-4982-8ed8-6e1d87f180bc">
+                    <propertyInstance
+                      Id="f5f7d2fe-756c-4474-9c97-a47ba04b4b7d"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d54f0fc8-5daf-43e5-b10f-62d911ab51e5">
+                    <propertyInstance
+                      Id="f7d878f3-7467-4e16-bab6-bd3390ba2ab5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd7a9700-c055-4402-be5d-f46b8379a824">
+                    <propertyInstance
+                      Id="e64088c4-a3b5-4d84-85bc-7aaf54a48815"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2916545-e5b5-4fdf-b018-868d1d6b7027">
+                    <propertyInstance
+                      Id="add64173-117d-4fb2-b1ce-8b968c32ac52"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5874a072-4880-4dad-9f64-18cafe1949ff">
+                    <propertyInstance
+                      Id="0c49c392-9eee-4455-b760-8d162fed6e1a"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d237c196-5970-4fa9-9891-cd3e0285d517"
+                LastKnownName="EventHandler&lt;SkeletonFrameReadyEventArgs&gt;"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="0b180b8a-9c91-42ba-bba2-f74cb86d29a3"
+            name="Start"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="41d4a538-ba22-4beb-a6d7-87144627ddff"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=Start"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="70db8c22-79b1-4eb0-946a-d154d208362c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5f691f1-51e8-4fa4-97e2-2aa07081beac">
+                    <propertyInstance
+                      Id="daed3ac3-6f64-4320-b625-c5eca4616b45"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67f27d9c-6440-494f-b271-8c6d11e462d0">
+                    <propertyInstance
+                      Id="201941cc-2ebb-457e-bd48-36a671dd831c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f8b4988-7d83-479d-a3bd-96675e40cd7c">
+                    <propertyInstance
+                      Id="aaed436c-7848-4af8-a099-9352156635f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69ddba65-0168-499d-a729-a3a6de2d2180">
+                    <propertyInstance
+                      Id="e3d2d4d5-7256-44dc-9921-b3fe5c7ac483"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfa303b5-9e31-4c8d-9dd3-9bd1ba3d270d">
+                    <propertyInstance
+                      Id="2001b509-6aab-4301-bedc-98ae846b5e0f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="75eb4da9-b984-4747-ab3d-39cf23cdaa13"
+            name="Stop"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a1e27a81-86a6-414b-a140-56770789c24a"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdaptor Member=Stop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="20a1e33e-edc5-4768-9c05-06084df62fdc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfc7219e-9ecd-4b54-9b0c-cfa6ab2dc86d">
+                    <propertyInstance
+                      Id="3ce6a8b2-f4e9-4431-8064-265f6441ec98"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a7a9716-6ef7-4b71-b248-45c5ee9f76fc">
+                    <propertyInstance
+                      Id="ce2fc615-fd7c-4caa-939c-84fa1344a7ea"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea9a8f31-bad3-4623-ae11-680ef06c279a">
+                    <propertyInstance
+                      Id="b0fb6e69-0fd9-43f2-9a28-2cb9f470a32c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd4c5f7b-4079-4789-ae90-4e036e39fb88">
+                    <propertyInstance
+                      Id="28461a2f-1246-4a44-9a5b-72208887c809"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d774074-3884-4337-b451-aa26cd9c694a">
+                    <propertyInstance
+                      Id="9e77283b-cc3a-4cbf-9e3e-740ae715ae93"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e8fdfee1-f422-49f2-aa02-630980726f41"
+        name="IColorImageStreamAdaptor"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="53662e1e-0ef4-4c78-a6de-fd697be69ecd"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IColorImageStreamAdaptor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a2c40e67-dbaf-497b-9e0d-1dcdd3bb5c61"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca1a478f-1b68-4edf-bc0f-cdf3191b7075">
+                <propertyInstance
+                  Id="a85df878-4117-4e6d-853b-4aa8efb0fa44"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11062874-48f6-47a9-b801-5b37961d8dbb">
+                <propertyInstance
+                  Id="b0a507f4-8d12-4a0d-9aab-0a690ba2509b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4b5fc0fe-38d9-4932-8700-ac97c0f35b33">
+                <propertyInstance
+                  Id="cf07b986-22f2-4417-a4fa-d78c04fd8b24"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9aebc429-2add-44b0-a2aa-e926372771c4">
+                <propertyInstance
+                  Id="fb07a98e-de47-4e92-8f90-ae24e17eab37"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="69b02ae6-2673-4a50-9fc1-ad5bc379cbd1"
+            name="Enable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="828261a6-da32-47c2-aeae-7919f1be0051"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IColorImageStreamAdaptor Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=ColorImageFormat)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6af648d2-d82e-4870-b2ea-b86f88eba87c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e275342-d527-47ac-8616-59a529135eb5">
+                    <propertyInstance
+                      Id="7d5cd9bf-160a-4871-99da-2c033c82292c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2282c13d-57b9-42bb-a1f5-77b979341fbd">
+                    <propertyInstance
+                      Id="66ab1a9c-5f64-4c91-aded-12b8232970eb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c349f4c9-7e7f-4017-80e5-ed3dfea32b46">
+                    <propertyInstance
+                      Id="9995c893-6712-4ff8-af49-5ee9e657f56a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e4d3fa6-c332-4a88-9309-0dd5f80c1f47">
+                    <propertyInstance
+                      Id="34988f58-378e-4c59-9f45-ddcebfb2236d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0623344b-6e09-43d7-8245-7a79b3e02479">
+                    <propertyInstance
+                      Id="9003ed3c-fba7-4551-83f4-91ef28e82bf7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d46594e-46d5-4857-bfd0-b6e01aed25a5"
+                  name="colorImageFormat"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9d996392-7d81-459a-8238-04a618e4965d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IColorImageStreamAdaptor Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=ColorImageFormat)]) ParameterIdentifier=colorImageFormat"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="e6033db7-7d6f-4aee-a63b-1423aabe016e"
+                      LastKnownName="ColorImageFormat"
+                      LastKnownLocation="Package8_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="8707770d-ef48-4430-b648-18fc9ce8cd8b"
+        name="ISkeletonStreamAdaptor"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="8b962006-0707-4788-be6f-cf68a7983d00"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdaptor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a3326de7-2e69-4e0c-916b-901a84b68227"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a00f290-677b-472b-8b54-669a6d8b837d">
+                <propertyInstance
+                  Id="7e64dab9-6d12-4a64-8b2a-590f9ab68de2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a9bafbf8-4814-4fc9-849c-6d7882ae6ef7">
+                <propertyInstance
+                  Id="45233670-5305-402d-b2d0-aa4a9642ffb2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3eedb22d-2901-4081-9864-8a99d21d6212">
+                <propertyInstance
+                  Id="46629c13-5790-4fcc-a750-ec6c477f41a9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54ad2054-64e1-46cd-b7a0-899488bb43d1">
+                <propertyInstance
+                  Id="7ea7758f-3fd8-4f27-9d0d-c4546007946e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="5a781618-1ccf-4b7c-b6ec-c888663cfbfd"
+            name="Enable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bf3ecf74-f6dc-4a52-9447-63e095944c1f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdaptor Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=TransformSmoothParameters)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="27f6a27c-4042-4514-b1e7-e43a676f36a3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c603d33d-9a65-4414-ab4c-fcdd3d4a314e">
+                    <propertyInstance
+                      Id="2f96cdb2-d4ce-4798-9902-d48e71f35e47"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f7d5a28-7eac-45a3-8e1c-f9ad555342e5">
+                    <propertyInstance
+                      Id="2b61f338-664e-4b44-838f-d10ca8b5077d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cec24f1c-1d8b-492c-afc3-aa0d90e72600">
+                    <propertyInstance
+                      Id="ab8b7ea7-6c3a-4c8c-8922-cb5d97b23844"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cce7a15-27c2-48f3-85bd-6c7328bea091">
+                    <propertyInstance
+                      Id="2bcf1e0b-84f0-4f7e-958e-09a88fcc08ee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e598f34c-6302-4e3e-a4e9-0ffd55397f97">
+                    <propertyInstance
+                      Id="e28c723c-e35c-4fde-92fa-d0087e258a5e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="78025654-2c31-4575-ba87-6e5be95a0a9e"
+                  name="transformSmoothParameters"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="db760dd2-64bf-4771-84c6-ea1dce8558be"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdaptor Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=TransformSmoothParameters)]) ParameterIdentifier=transformSmoothParameters"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4546ea32-3c33-4df7-9330-bcc2ad6dcb13"
+                      LastKnownName="TransformSmoothParameters"
+                      LastKnownLocation="Package8_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4de33071-d81f-4f79-8e53-00df8659fced"
+            name="Enable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e871abf9-6400-4214-9102-4082d1bbd136"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdaptor Member=Enable"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="117ca5d1-ce00-467c-b8c2-cbd3ca42128a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9525a819-3adc-4b1d-a8f2-0f1728ee7caf">
+                    <propertyInstance
+                      Id="2d1f1983-8244-4b7e-a50c-c2020706aa82"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5515d9f7-9bac-45bd-9b6e-33bd8793fe0e">
+                    <propertyInstance
+                      Id="25a34c03-5395-4b32-bdba-0e9c92c5fa8a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f819979d-aece-4026-aac2-7ca114272e5e">
+                    <propertyInstance
+                      Id="63d4dcb2-4df5-43a2-9829-6a8e49b29426"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b21fa2f2-e52f-45d5-90fe-0089edbb66ed">
+                    <propertyInstance
+                      Id="8b79ace6-26b4-4bf5-89fb-3c761bee59bb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c062823c-e6a0-4682-895f-0ea896ca04ff">
+                    <propertyInstance
+                      Id="2322332f-052a-46b6-96d6-50c4105ada2b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="a2b34b6c-4a7f-40f7-acf9-9fd6b20b7530"
+        name="IKinectSensorAdapter"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="1ae57d66-5f8e-4595-b09f-a667573caa84"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="306e7a13-0791-45a8-bf77-e90e6fb6254b"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="39d5671d-6e18-46ae-a587-51e5017a529b">
+                <propertyInstance
+                  Id="40ff9bf9-c27a-4e4a-992c-0108a3d7282a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d33b41ac-f0ac-43e5-977a-8a49651e067d">
+                <propertyInstance
+                  Id="fbaf250c-667b-4952-92bd-976e191e1e8b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7b67098-4475-4e5e-a4fc-ae771194ee9b">
+                <propertyInstance
+                  Id="19918e12-38aa-4367-9dc9-1bae221b2ea5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="857be411-4322-44ca-8546-c220ad57755f">
+                <propertyInstance
+                  Id="cdabf960-8d07-44d4-a7c6-81de45740ca1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="9d7f4bc1-5e03-4728-9545-e281bfe38696"
+            isSubstitutable="false">
+            <interfaceMoniker
+              Id="46e226b8-faff-40d2-9fe5-e2f9ac9677d5"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package3_0013.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="afb95743-af63-4543-82c1-47bd144e8408"
+            isDerived="false"
+            sourceEndRoleName="IKinectSensorAdapter"
+            targetEndRoleName="ColorStream"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="e3dc0db0-1632-42f7-bc84-afac85a25cc3"
+              LastKnownName="IColorImageStreamAdapter"
+              LastKnownLocation="Package_1737.uml" />
+            <description>Property ColorStream references type IColorImageStreamAdapter.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="123cad8c-996a-45d9-ac23-ca6210d13a15"
+                  name="IKinectSensorAdapter"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e8e24412-3d1f-4002-8a08-94403a7e6901"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="772fc36c-c2f6-4d20-b23b-bf19f009046b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0be25ef4-58d4-43d7-8d22-e21e3f0c7f67"
+                  name="ColorStream"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0f60b45b-f923-47d5-937f-b5819cb495d5"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6d9f6282-36bb-4dfe-9d00-38925c1a1474"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6ba8947b-d54f-449f-97d3-8ea41dec796f"
+            isDerived="false"
+            sourceEndRoleName="IKinectSensorAdapter"
+            targetEndRoleName="SkeletonStream"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="320ce6c6-3342-4748-a152-614eab865542"
+              LastKnownName="ISkeletonStreamAdapter"
+              LastKnownLocation="Package_1737.uml" />
+            <description>Property SkeletonStream references type ISkeletonStreamAdapter.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6d94037f-9e1c-4955-a1d6-96a3c5075a58"
+                  name="IKinectSensorAdapter"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="539f5869-4a96-4090-a59b-60db7b231a47"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4e331f36-d42b-4e96-ac19-fd4e4856c9fa"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="32a77bdd-8f02-433e-86af-1a2b338b8dad"
+                  name="SkeletonStream"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="670e5521-5785-47b2-981c-4dd53a64c978"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e0e82ae9-a16c-4c09-a24d-360e3d4681bd"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="32d015f5-377e-446b-9c8d-e49bab492c1f"
+            isDerived="false"
+            sourceEndRoleName="IKinectSensorAdapter"
+            targetEndRoleName="Status"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="7f8d8907-f3ad-4074-b9ba-08104055c25d"
+              LastKnownName="KinectStatus"
+              LastKnownLocation="Package8_0013.uml" />
+            <description>Property Status references type KinectStatus.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7d9e9c05-399e-4ca4-aa39-a1e4bec5417e"
+                  name="IKinectSensorAdapter"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="19c1bbc9-3f87-4ff1-a7da-1f073b396ae9"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2313dea9-42e5-4851-be0a-2b02d90f6b76"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6a1dda1f-037c-439a-afde-04b580668b25"
+                  name="Status"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8a8fa78f-d697-4451-b448-177f83a1ffbe"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f8793267-e40d-4051-b37b-d0455b5a72df"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="961a260f-2773-44e9-b9dd-1306eff61b24"
+            name="ColorStream"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d9cdf1d4-0412-4539-a416-e0f65bff13c5"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=ColorStream"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b3ffc89c-d83a-4a72-af72-eb1c325e188e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6d05ed6-ef6b-408b-98b1-1947f5999e5e">
+                    <propertyInstance
+                      Id="3df03187-839b-451d-801d-29d5e40b2a45"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd09089b-7408-4737-9961-abb87b5a841c">
+                    <propertyInstance
+                      Id="da45de8b-d8e2-44b2-af70-2654f1c8fd7d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6355905d-3ef9-48fd-ac5a-07b9d2ac87d1">
+                    <propertyInstance
+                      Id="70cc3e93-1f81-458b-96e5-6a2915070e85"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abffd92b-c42d-4afc-a6c8-119c423b46a7">
+                    <propertyInstance
+                      Id="8a48a329-8980-4975-a66c-f9e34c7e6ce7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee5e9758-dcb1-47bb-b51e-01deb9f47046">
+                    <propertyInstance
+                      Id="a5c83cee-95a1-445c-b4ce-f37b9fa45d1c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3db13ea5-2937-4e58-83f2-09aff8d872c8">
+                    <propertyInstance
+                      Id="d0694015-20d1-4273-8f27-99030f9b2791"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="e3dc0db0-1632-42f7-bc84-afac85a25cc3"
+                LastKnownName="IColorImageStreamAdapter"
+                LastKnownLocation="Package_1737.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="812643df-148e-4de5-94aa-2901b037308c"
+            name="ElevationAngle"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9c7d860b-ecd6-4a9b-925b-d14d5af4029b"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=ElevationAngle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f5bb4cce-dc81-4758-a5d1-465d23a3ffa4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d7ebdca-fe3e-4d43-a429-9695b10c0913">
+                    <propertyInstance
+                      Id="625a5493-db3c-4ce6-8e37-65ce10886173"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="325b35eb-69d8-4ff3-91ab-2fc55bcc8047">
+                    <propertyInstance
+                      Id="9c054801-ba38-43a2-97ec-59e80cce1843"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd6423e8-d400-4812-b459-edab013c39a9">
+                    <propertyInstance
+                      Id="2a1c14d3-ae0e-43d3-83d2-621a0fefb3a2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe75f801-e693-4d2b-9e0c-4b64da5c5f2e">
+                    <propertyInstance
+                      Id="554c66de-c665-4ce5-a553-cbc7676aaa99"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41848ffb-0dd7-4db7-86c7-ded341d1dc5c">
+                    <propertyInstance
+                      Id="2470e239-48ed-421d-9edd-14d07bf217a5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="616a46bc-aa85-453c-af59-c14ec480eded">
+                    <propertyInstance
+                      Id="68a6b9f1-ef6d-4a00-a19f-4015d9b2a5ca"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a4dd3790-c7f6-4cfc-9c22-42882f799805"
+            name="IsRunning"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6d12609e-b535-477f-8e37-ebae96b4f7f5"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=IsRunning"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a478abca-e95d-4062-8c91-9c82ba8a0437"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b1d33a6-cf80-4190-a015-63cdceec211e">
+                    <propertyInstance
+                      Id="efbd565a-fc96-4002-88d0-4e6e5196f331"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71d9f06a-df49-441d-b281-a450cf922172">
+                    <propertyInstance
+                      Id="6aead98d-90e2-4810-8b23-8109323f15f4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1aef76e-4da8-4f6d-bd94-610892b8f17c">
+                    <propertyInstance
+                      Id="cd30b4d4-67a2-4936-8d27-3e1f21d6a3bc"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58df041e-ac3c-43da-80d1-c3c7cee8d97a">
+                    <propertyInstance
+                      Id="620d3307-3b8b-473b-ac71-9623d8e0abee"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adabb182-2ec1-4dff-aebd-92aa98e8c107">
+                    <propertyInstance
+                      Id="0021a24a-ef6f-4d5a-a6e2-9172227a2c56"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cd4188e-fbf0-4548-8a05-6e9f821a6607">
+                    <propertyInstance
+                      Id="097f0dc0-8168-459f-aa93-b8b9922a7a58"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="872a989b-c636-44b0-adbe-934b8971c0b5"
+            name="MaxElevationAngle"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e15aeef1-5757-4a9c-a3ba-9d110fac954d"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=MaxElevationAngle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f608601a-a8af-41fa-865e-8c81950e8e5a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f904c388-373f-45d6-a699-65688c4297fc">
+                    <propertyInstance
+                      Id="9183f71b-c033-44a1-871e-ad187ec89484"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9296794-099c-4604-bd97-8493fd1d0da2">
+                    <propertyInstance
+                      Id="9202adda-6d2b-4003-867c-9b8965fadaf2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bca3cf6d-3ad6-46e7-9d43-ee312513233f">
+                    <propertyInstance
+                      Id="e8742f23-83ed-4c7a-928e-ecec74bd5909"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea436d7c-794b-4de2-a54f-975e04b34a3e">
+                    <propertyInstance
+                      Id="04b3a45b-e51d-4a96-b3be-57ebd56ef308"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03033625-eef5-46d6-9d1b-db02b0cdeca4">
+                    <propertyInstance
+                      Id="96ac260f-e195-4ca5-a409-a4496c56fa9c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c50a580d-8bf9-4260-aeaa-2afffd5fceb4">
+                    <propertyInstance
+                      Id="85f4c37e-5619-4652-b50a-8b1461d0d7cb"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="adfe6698-b1f1-4fa6-900e-6071f4b41266"
+            name="MinElevationAngle"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6440e1cf-9fdc-466b-a4a0-b652fafb0322"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=MinElevationAngle"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62072b60-f607-4a29-800f-82b582c0e859"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fa95d2e-f20f-4f80-8477-1433ceeedcb8">
+                    <propertyInstance
+                      Id="a6215d91-0ef7-4665-aa40-3b14b6aa692d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b45df54-47ed-4cb0-b9d1-ce97fa69e1e0">
+                    <propertyInstance
+                      Id="25390ca8-ee9e-4981-840a-dc5d5365950c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee9bf466-cd12-4593-a25f-3111f9ea4db4">
+                    <propertyInstance
+                      Id="0fa83283-d5a2-47b4-bc08-8791244f6a60"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39dbdd3a-4035-46b0-81bb-ea5c0a1404e0">
+                    <propertyInstance
+                      Id="75500ef5-d9f3-4593-9b0e-c9dcc4e9329f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6396bcda-a7ca-4d32-8c93-f8333c62343f">
+                    <propertyInstance
+                      Id="a01e62dd-5fa9-47d2-aa0b-5d4e2400a324"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ebac840-8c26-41c0-bbff-9c13a5ce34d2">
+                    <propertyInstance
+                      Id="7cc79db4-aa31-4bb1-9472-ac4e247fe9af"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6d8f151b-7711-4581-98cf-f2c4c77a47ba"
+            name="SkeletonStream"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b69180b3-1a9e-432d-a74b-0aadc11fe5b4"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=SkeletonStream"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="76eaea0b-6ec3-433c-8d62-e9f9b60c0f28"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e89fd66-a767-4c0d-892c-8bc2013be348">
+                    <propertyInstance
+                      Id="1f86a954-2862-4fdf-a4b7-4b4973bfcbca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c484a24f-c689-4d5c-b40d-fca5c5bebb28">
+                    <propertyInstance
+                      Id="65829e19-4d6c-4939-975d-bba851bec8d1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d6b1d1e-d548-4df9-8114-a74b769dadca">
+                    <propertyInstance
+                      Id="5e1a56c4-1307-4643-813b-d7daf7fa3bb1"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7746e13-c1a9-4dbb-a051-d73d4d8a4421">
+                    <propertyInstance
+                      Id="2a2f5486-6f1c-4622-b0e2-eda6a15ba83f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9a5a03d-ea55-4dbf-852b-a0c93d03f7e2">
+                    <propertyInstance
+                      Id="b0b3a7cd-897f-46fe-add5-22698c88b7ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f363438-8918-4969-a231-02b59d956833">
+                    <propertyInstance
+                      Id="9161e99c-cfc8-4452-a736-57c150bb9e3b"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="320ce6c6-3342-4748-a152-614eab865542"
+                LastKnownName="ISkeletonStreamAdapter"
+                LastKnownLocation="Package_1737.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="60c8a58f-b954-4d46-ad7b-37085a0c0d1d"
+            name="Status"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="849fd165-512b-4e15-b507-65d76a0717c7"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=Status"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d11ecdf1-1e9c-404f-a6a9-1194c6d25bbc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2889b473-c267-4658-a42d-93a189b1622c">
+                    <propertyInstance
+                      Id="eb846013-63af-4219-bf8a-96c1fc050f1f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08bcba1f-9eb2-418d-8c00-2a8782ec9945">
+                    <propertyInstance
+                      Id="2d81b013-18d3-4ae3-bd0e-04a5768032f8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e114eda5-e205-492e-9048-5544dc71332a">
+                    <propertyInstance
+                      Id="184715a2-882a-402b-874a-246fb911868b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00f5467e-ef31-484f-a956-8652272c6493">
+                    <propertyInstance
+                      Id="e3fffe07-00aa-4b51-90db-1680207b19ef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75f0bd7b-43b5-4578-a915-04f666263dea">
+                    <propertyInstance
+                      Id="8d29da63-7c8b-47ff-9937-e548e2eeb714"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e14a2a14-4ae5-4f95-bdfd-fde514fc924a">
+                    <propertyInstance
+                      Id="dd7b27a5-80cb-4d1d-889c-b9ca60a5c4dd"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="7f8d8907-f3ad-4074-b9ba-08104055c25d"
+                LastKnownName="KinectStatus"
+                LastKnownLocation="Package8_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="21d7e7b1-23bc-4eaf-8c33-3e9e73eb8ab5"
+            name="UniqueKinectId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5429c591-921f-47fb-a9df-c9bd7d82491e"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=UniqueKinectId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a350e45f-98ba-4ec3-a683-393937aec221"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68d06105-e757-4880-b439-7d18469a7193">
+                    <propertyInstance
+                      Id="95bce53f-b367-4ed9-a46e-089ddd93bc7b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1c2b3d8-8779-4552-8ed3-b3fdf5d57ad7">
+                    <propertyInstance
+                      Id="593d34bc-2081-4780-9e8d-68473881d518"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9afe7e40-433c-4fa7-a849-57b183e1c55e">
+                    <propertyInstance
+                      Id="3283a1fd-c269-42f3-815f-8fdd76658648"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4dbc14a4-85ee-4741-b5e6-b4aaabe317f1">
+                    <propertyInstance
+                      Id="c7d392a5-1d36-4fd2-8528-c117ac753b0f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e01c934-f06a-44ae-8bce-664f235c2c3e">
+                    <propertyInstance
+                      Id="9f3bd923-8265-4a82-9ab7-13b708b7acf9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6668230d-f196-46ed-87dd-0571d3cf0f63">
+                    <propertyInstance
+                      Id="46e71c74-022b-40aa-9c34-6064b744d89c"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2d5d40d7-6680-45a8-b417-496eec94809c"
+            name="ColorFrameReady"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="72b49ebd-adc0-4965-92f0-ef86e0006ab3"
+                handle="viewcode://./CodeSchema_Event?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=ColorFrameReady"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10facc87-d381-4598-ac54-f090f83a3ce0"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c5391ab-a681-4a7f-9bcb-8ec65aeca25d">
+                    <propertyInstance
+                      Id="8e519ff4-4beb-41de-9b5d-a4e189129c0f"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3be22d2e-a119-4517-ae27-96324ce18209">
+                    <propertyInstance
+                      Id="9c40f2fd-f719-42b3-aac7-ccbe956168f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc8be165-1328-46c9-85a4-e05365da55db">
+                    <propertyInstance
+                      Id="a3449fe3-7342-41f7-a3ea-bff22d6bd587"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e708bf4b-5bf9-45de-883c-20e8a988c36d">
+                    <propertyInstance
+                      Id="65ee911c-afd3-4f5a-8443-04132602b167"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f988516-ea14-4a90-885c-17727c492829">
+                    <propertyInstance
+                      Id="54b40258-5842-4f42-b77e-c4d32dda9ee4"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0108bc1c-b50f-4306-aece-0163e9af5239"
+                LastKnownName="EventHandler&lt;ColorImageFrameReadyEventArgs&gt;"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2b3a27b4-5f34-4dcb-9699-585afd90b5d4"
+            name="SkeletonFrameReady"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a16cbb49-1044-473e-a270-411d69e86085"
+                handle="viewcode://./CodeSchema_Event?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=SkeletonFrameReady"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="81609d23-6214-4e5b-ad83-a4281ff923a8"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d1f9690-ca8b-440a-ae78-f89f7060b68a">
+                    <propertyInstance
+                      Id="ca6774b3-7b4e-44fe-afd3-155df4937930"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="594129bb-9bbc-4e4e-a703-7e45457800e8">
+                    <propertyInstance
+                      Id="8814b541-39e8-456c-9712-f4580ec8639d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9e2229a-9150-4d42-9946-f05dca8db0b6">
+                    <propertyInstance
+                      Id="e79cd5a5-f38d-4997-9b88-27df1fe989ce"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37353b05-efe5-46a3-9eb0-1e7ba3c395ca">
+                    <propertyInstance
+                      Id="b0540acd-9f29-4e86-b32b-b1e1a120169b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e9a8541-299b-4d57-8758-404c08a148f3">
+                    <propertyInstance
+                      Id="19ded8cd-b0f7-4601-ba31-0ca24f5f7dd2"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d237c196-5970-4fa9-9891-cd3e0285d517"
+                LastKnownName="EventHandler&lt;SkeletonFrameReadyEventArgs&gt;"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="aa54f8aa-f25b-405c-a2e1-a495c3524ca9"
+            name="Start"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="45f9813c-5fd2-475a-b722-ac48a5dff377"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=Start"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d24d496e-a996-475e-877a-980bd5ec7adf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e7cfafd-f190-4db5-a380-ebcbaae5dc3b">
+                    <propertyInstance
+                      Id="5a9f9bb6-09d4-476c-a0ff-a06b083ee2d6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e3d05e4-bfd3-4371-af93-64effe60ed4c">
+                    <propertyInstance
+                      Id="6ee37ebc-e5b0-434f-b2dc-63488c5a4a6f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="755ad67c-289f-4f84-aaea-28726dcf1fa1">
+                    <propertyInstance
+                      Id="817fa2bf-ae50-432b-9e87-aa7552997944"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb247e65-60ad-48e9-bfa6-ac151bdba5b2">
+                    <propertyInstance
+                      Id="5540c87a-ed70-4113-9cd4-3d7564b14a3d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b35daa6-c2f6-4427-86af-f6c09c76e54a">
+                    <propertyInstance
+                      Id="6d83ea9b-5c38-49a5-ba9c-56d3678570c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="2252b5e9-8757-4668-8d27-ccac822a64dd"
+            name="Stop"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d9a4dca7-0747-4e90-a700-15ad953d2ea9"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IKinectSensorAdapter Member=Stop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d1b95b74-5b47-4370-8428-a78d97dbe415"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41f07a0b-1c5f-4409-b47c-e4d78c8295b3">
+                    <propertyInstance
+                      Id="9d5fdec4-fe0f-4f80-98ec-796a30157dd3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8f00fac-ce04-47b9-be5b-71fc997e2be3">
+                    <propertyInstance
+                      Id="44621835-aacd-4a63-a7cb-9e0ef1016488"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9f7e5b2-548b-4a27-a99e-da86eb03af7c">
+                    <propertyInstance
+                      Id="a419b3d0-5bdc-413d-8a81-0ce7fde4e4d2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b62d8ff3-e1a4-421b-ae36-470ea61f3242">
+                    <propertyInstance
+                      Id="e4b074f3-3802-4071-8483-402674bb1721"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="799a868d-93f9-4d8c-9bfb-21a2032ef86b">
+                    <propertyInstance
+                      Id="ecffdb02-f71b-48cd-88f1-412b88d425bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e3dc0db0-1632-42f7-bc84-afac85a25cc3"
+        name="IColorImageStreamAdapter"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="61238ff4-d3ba-4458-9e29-2ff3cdf54c0f"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IColorImageStreamAdapter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c7bba4fe-5953-4fa3-a1f5-d5d08b90f71a"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a48e0a89-78c3-4773-b4d7-59e0a870588f">
+                <propertyInstance
+                  Id="0843cf5d-eadb-48f2-92e3-f7a5379ab83c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c51dd05e-b5d1-42d6-8143-1c9290c2de53">
+                <propertyInstance
+                  Id="6c392862-cbc0-456e-85e4-9b375989c58f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff27aaca-adb7-4135-9259-cfd1b29a1531">
+                <propertyInstance
+                  Id="4f70837f-9740-4b38-81e3-bc3d94257baa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ed65074-732b-435b-a14c-a24e70a66f7c">
+                <propertyInstance
+                  Id="adc5820d-09b6-4a20-9a68-eef8ca98d6e7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="85a5a7f9-2f43-43ea-80d7-8a72f7596fe5"
+            name="Enable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5ee604ff-0f09-46e3-8c59-53f302046110"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IColorImageStreamAdapter Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=ColorImageFormat)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4c9137d-3b0f-4e53-a830-9e67cc770576"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7548b6d2-28d8-4eca-a6ea-e31e59a7c77b">
+                    <propertyInstance
+                      Id="66d409c2-be27-44b4-837b-dc1ce2475de4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="249b0835-0b73-4c47-aba8-765233f45c90">
+                    <propertyInstance
+                      Id="c106c2f3-ac9f-4b46-8d2a-e888d2f7697d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="440599da-4c18-41cb-8781-d44c5e524c8a">
+                    <propertyInstance
+                      Id="07b932a3-08c9-4533-a00f-d76fc5d00853"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da9e1be7-0028-40d1-a7da-20d620f28ce4">
+                    <propertyInstance
+                      Id="55c97b80-05de-42ce-95fc-cd687ab1b4eb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e27fd0e7-a987-4cd2-ae38-5cc3865414cc">
+                    <propertyInstance
+                      Id="415f0e66-2489-4a25-8449-165355eca6d2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d0bb0963-31a2-4baa-ac04-7ba823888b23"
+                  name="colorImageFormat"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1a7a30f8-ee41-447b-b769-0aca6e71fdb1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=IColorImageStreamAdapter Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=ColorImageFormat)]) ParameterIdentifier=colorImageFormat"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="e6033db7-7d6f-4aee-a63b-1423aabe016e"
+                      LastKnownName="ColorImageFormat"
+                      LastKnownLocation="Package8_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="320ce6c6-3342-4748-a152-614eab865542"
+        name="ISkeletonStreamAdapter"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="4e5091ba-27f1-4fa3-9863-6978b8285da1"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdapter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ccbbf4ff-7d76-42be-8a42-f5c96619858c"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f1078a0-eedd-4ad8-b306-3abad00910a0">
+                <propertyInstance
+                  Id="4f80790a-ccd8-4565-9908-d59b63e3901f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cee46a62-f21a-4839-bffd-d39ed391e574">
+                <propertyInstance
+                  Id="7f22b5b8-a157-4aa1-97b2-cd2b2836b405"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b55585ca-f186-4366-b50e-ee3cf6a2090e">
+                <propertyInstance
+                  Id="7e9e211a-8aa4-4920-a340-c9ca7c48d30d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5c1d33e2-8197-497a-97d4-32750d2d1d00">
+                <propertyInstance
+                  Id="2aaa0b40-ad25-4d09-bbc7-65a28d51d2d1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="295d44c0-4367-4175-8100-a1dabfec771a"
+            name="Enable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="95d04a16-b520-4f49-a850-ab3c1134c94b"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdapter Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=TransformSmoothParameters)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f5870d9-8aef-4c8c-abdf-447f5dbfa798"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c626bdf-ece9-4c14-a3a8-9d6b4d9250b7">
+                    <propertyInstance
+                      Id="c19dcb69-5e97-434e-b89c-95f9527b2d17"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3cb6071-fdde-41bd-9642-bc759a46f554">
+                    <propertyInstance
+                      Id="3f371df3-aa16-443c-9558-cd9779f8d315"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b04a9950-f652-414f-a5e4-a5f7c1944152">
+                    <propertyInstance
+                      Id="66eb395f-7a0f-4bed-87b0-8764ee0e34ba"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25dc5f08-e1cf-492a-8c38-e1fd28d875c6">
+                    <propertyInstance
+                      Id="8f9f27b1-8b21-483e-9aff-6d04999392f6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b5e91a7-0f30-4da0-bfa6-ad61257e9006">
+                    <propertyInstance
+                      Id="bacc715e-955b-4f59-b6cd-66ecc6988096"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f88aaab2-5670-4e18-a88a-e82cdfeaade1"
+                  name="transformSmoothParameters"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9dff4789-71c5-4ba2-8d29-91b804b870ec"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdapter Member=(Name=Enable OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Microsoft SDKs/Kinect/v1.0/Assemblies/Microsoft.Kinect.dll&quot; Namespace=Microsoft.Kinect Type=TransformSmoothParameters)]) ParameterIdentifier=transformSmoothParameters"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4546ea32-3c33-4df7-9330-bcc2ad6dcb13"
+                      LastKnownName="TransformSmoothParameters"
+                      LastKnownLocation="Package8_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9466d81b-acb5-4127-afc7-a8e4474dc532"
+            name="Enable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="569928ea-6d6a-43eb-95f7-77b26e50af46"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.Kinect/bin/Debug/KinectRCCar.Kinect.dll&quot; Namespace=KinectRCCar.Kinect.Adaptors.Interfaces Type=ISkeletonStreamAdapter Member=Enable"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1b562708-8978-497a-84e2-1879074e0515"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ecf2593-14bc-4950-9ed5-0c689d838086">
+                    <propertyInstance
+                      Id="6ea7c95a-b668-4156-9768-cdd48d800578"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36e05798-7838-49e3-b968-4574d65b8a01">
+                    <propertyInstance
+                      Id="cf3f3c25-c053-4701-a6f7-9907fa1d1c06"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="468eed40-e785-4aa7-80ae-6a5e82008468">
+                    <propertyInstance
+                      Id="7444fbb1-5a2d-47da-902c-43e4fc0abf96"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="768f2e51-0f0e-4a0d-8f53-c39f928669c8">
+                    <propertyInstance
+                      Id="9b3c1d82-d9e7-4a6e-a393-d26ebf636578"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12c06a9c-32a0-4b5b-9648-6f777db13130">
+                    <propertyInstance
+                      Id="87613668-7178-4797-a17b-d0e50864c9a8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

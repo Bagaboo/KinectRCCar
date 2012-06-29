@@ -1,0 +1,865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="03c0d0b2-6cf1-4dcb-9388-1a3aefb55c60"
+  name="Properties"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="316fe268-37e4-43df-ab5d-d97f180f47ea"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.CarController.Properties"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f6943218-d535-49ab-a4d8-e788105585c5"
+        name="Settings"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fa867418-400b-4330-b35f-e811da72e362"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="33bcaea0-7376-46f8-85dd-ccc31cf926dc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2472d19-b36c-4e62-a6d1-3438fe79834b">
+                <propertyInstance
+                  Id="d74db8a9-df5e-48ac-ae19-92d0b660f24f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ba74567-2aa3-47cb-ae3b-a4d2131b3875">
+                <propertyInstance
+                  Id="0d49d575-eff2-4159-8a47-bb246b6031e6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="286a47a7-fe53-48c1-ba41-5bc6b9dc85ab">
+                <propertyInstance
+                  Id="7def664e-122e-470f-8571-fb0991ef9bf0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="68881ea4-aae3-4fbd-9195-9b14e955fa82">
+                <propertyInstance
+                  Id="707f84a6-c20f-4e1f-bcb2-796e2e1b9dbc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="666de616-92da-48ca-bdf2-4da215421be4">
+                <propertyInstance
+                  Id="f72bed17-f6f3-474e-a5f3-adb76b532ac8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="4c4acaba-4343-47b3-8a17-c39f14b1adea"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fe85ecba-3c68-4c16-a401-ece7a148c3ef"
+              LastKnownName="ApplicationSettingsBase"
+              LastKnownLocation="Package13_0013.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="5653c5f6-1fb6-42ca-947b-f86ac3299cf4"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="Default"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f6943218-d535-49ab-a4d8-e788105585c5"
+              LastKnownName="Settings"
+              LastKnownLocation="Package56_0013.uml" />
+            <description>Property Default references type Settings.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="69f5f188-79a2-4838-9300-83384a04b363"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3709c32e-13c3-4c28-a3de-0d7c1aed5bba"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fa843459-ab18-464d-9dfe-68161929b921"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="63a483da-5824-4c90-8596-a8ff833d3d16"
+                  name="Default"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="056f22e3-d7c3-4061-95e1-ae08c7d52165"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="cc486c41-2351-43e0-a03f-d17ec929ef26"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="d8392145-719d-433e-baa5-290c95ece72a"
+            name="Default"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="681b6687-25f8-4062-b0a9-065744b870b9"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=Default"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4bb639d3-d301-484e-9ccf-bbd36518acff"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="797c6b26-08f1-48d0-b299-480a908b43a7">
+                    <propertyInstance
+                      Id="030d4803-9b3e-4585-bceb-2650e80f75f6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1dbecc8-b977-45bd-b2a4-26f11165ce49">
+                    <propertyInstance
+                      Id="541498a0-d348-45e3-9990-841e63cbf258"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bef1d489-17bf-405d-b37e-6068805af991">
+                    <propertyInstance
+                      Id="927c2d4f-4d15-4bec-94c7-e73a542bb3ea"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e131a24-dbf7-43df-b4d4-5f16828b17d3">
+                    <propertyInstance
+                      Id="6cf3343a-4709-4857-bdf2-5f9df7ac5c28"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="191409e0-508e-4659-a08b-1c0ac59d6733">
+                    <propertyInstance
+                      Id="1272170e-b48b-436c-92e4-abc71e593bd7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6beeb2dd-9b3d-4ae7-a00e-1e8eecd1a3cd">
+                    <propertyInstance
+                      Id="6095f42c-d8c4-44cb-bfa1-107aea7e037b"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f6943218-d535-49ab-a4d8-e788105585c5"
+                LastKnownName="Settings"
+                LastKnownLocation="Package56_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d10ce2d3-e17d-49b3-96fc-903726356df0"
+            name="DirectionMaximum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="dce20d90-6fd5-4612-a347-379a165a0822"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=DirectionMaximum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="91b0e83a-ddb3-48b5-8871-c5ae330cb68c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="980b72c2-2bff-49c0-a641-b4315eb838af">
+                    <propertyInstance
+                      Id="b2dcb3a2-b367-42a2-bda2-fa94c9e005fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25acf5a7-397a-4d3d-b3a1-5ed2e0315e79">
+                    <propertyInstance
+                      Id="81cc9627-ba50-485d-996b-b3a9cd8311a5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bab72af7-a087-435b-ba73-1ae253f16e50">
+                    <propertyInstance
+                      Id="b051cb41-efee-445c-90c9-5aaa27f5f240"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a1c1855-5101-43c7-8c3a-ee7392b644da">
+                    <propertyInstance
+                      Id="41ae77d8-7c6e-4604-bfff-315c243f5d4a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ef9775c-c321-4693-8094-95c9d07b305f">
+                    <propertyInstance
+                      Id="583943ca-6f31-4a7f-b60c-45a95d0826d0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c064dd97-5989-4431-b4d1-497f087deab3">
+                    <propertyInstance
+                      Id="d2370afb-42f5-4409-86f6-efc16e27916f"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cb7ebb18-b959-43da-83d0-b4f54d352cb7"
+            name="DirectionMinimum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ea8220c8-3152-4130-a3e0-89a27c6d5694"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=DirectionMinimum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cc51bf10-7ff0-443e-8359-148dcf67c90f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21db2c8a-5cfb-48c4-9532-e7e935e9a3ea">
+                    <propertyInstance
+                      Id="2fff050e-5d8a-499f-8b83-08dfcdfd48dc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5331b685-8973-4271-a4eb-6aef237645a2">
+                    <propertyInstance
+                      Id="8e29fd5c-b8c8-4268-87b9-df87b2b53e7e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16622e49-ba2d-4dd9-9707-82e87be03a22">
+                    <propertyInstance
+                      Id="c73f771b-8132-46b4-b302-0d993a98fcd5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="936f5645-c592-46e4-923d-b90a21ec9a69">
+                    <propertyInstance
+                      Id="067dff9f-941e-4734-bae4-7b80dce88e9b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3963f04a-7c5a-4e4a-a141-2e02babcd7f3">
+                    <propertyInstance
+                      Id="02156cd5-9981-402b-a19a-b68f44b9b706"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5cec08d-86cc-446a-b2f4-ba265523e8ee">
+                    <propertyInstance
+                      Id="cf4535be-75cd-4aaf-9bf2-7be9bd5bab93"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="94f8dd45-5c4d-44c1-94ae-fccd917c9073"
+            name="ForwardMinimum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f042b145-9b18-4384-80f6-927b99c8b9b8"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=ForwardMinimum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e0e7890-95f5-4eb8-9d43-3dfa5b11c33a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecb74fdb-d12c-4a9d-9188-1f633b1deacb">
+                    <propertyInstance
+                      Id="9bc51700-0e7d-498b-b44c-315c44917fcf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77ae5d4a-8639-4a1d-87b2-a95453374a46">
+                    <propertyInstance
+                      Id="95ce9013-6368-407d-bfe4-a5e7f584e0f1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5bf5e25-a58b-4506-b60b-02faa9825c8a">
+                    <propertyInstance
+                      Id="d9897c5d-85db-45db-81c6-828c265288e3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be19d66a-443d-41f7-a407-6373b00bef93">
+                    <propertyInstance
+                      Id="682b2829-3281-4536-912e-75a108771021"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a88c42e-e0db-4f6d-ad8d-5f760a286128">
+                    <propertyInstance
+                      Id="e1dae360-2cf2-459d-9ffa-988cd810d73f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3623535-d6fa-4181-b608-f450cf216813">
+                    <propertyInstance
+                      Id="f55efd9d-0312-4b39-9cf1-a0150289ed86"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1278a54d-8087-47c7-a4e1-d0ed9135355f"
+            name="ForwardMaximum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="51205647-8e4a-4a6b-84b3-df8518fc0a56"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=ForwardMaximum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d6aefe53-7ffa-48cd-a37a-3fffd6e6ab50"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="174be131-479e-4017-bba0-afafcd4b4880">
+                    <propertyInstance
+                      Id="82f2c504-9ff3-4e12-aae2-5c0cdf029d24"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="781a9c98-e528-4d51-8bc2-262a1cb941f0">
+                    <propertyInstance
+                      Id="caa5315f-acf2-4788-a024-e9881a0aa04b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a1c86fd-a18b-4909-ade2-635885ecff9d">
+                    <propertyInstance
+                      Id="a6e4594a-bb5a-4c0f-8e94-e29241277f80"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5431eae4-bc46-442d-9534-94f53696def1">
+                    <propertyInstance
+                      Id="8953ec22-b849-476a-ac21-daa7b4334fea"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fc4be4e-3e5e-422b-b8ac-0e7ec1a05641">
+                    <propertyInstance
+                      Id="a6d909a7-510b-47b3-9375-986d72089f55"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b9c0531-ebca-4b94-9e32-58221d01f1fe">
+                    <propertyInstance
+                      Id="353317c7-3aa5-4fae-82a4-45a215a3d7d4"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7b730fac-f6d4-4ce1-b9db-810a2435795e"
+            name="ReverseMinimum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="741b26f7-8366-4993-b91f-4d601dca99d1"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=ReverseMinimum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f84ce099-eb4b-4f7d-83e3-bd23a06755df"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad9451bc-25d0-4e2c-9ec1-30b970210d80">
+                    <propertyInstance
+                      Id="e4bf7382-30c1-44c4-b74f-0df7a61dbcc5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e69ff515-bc59-4474-b671-8e63d42551f6">
+                    <propertyInstance
+                      Id="4dd09254-398f-4786-b785-ea99ee9832ad"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0faadee0-1d05-49fb-9b27-9c37b5557777">
+                    <propertyInstance
+                      Id="6017dd66-5f64-4551-91fb-9e26993be063"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2d94908-f223-4773-bf39-b0450a7e1dc9">
+                    <propertyInstance
+                      Id="9a7ac578-3eff-41f0-814d-01aa0e238470"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="133b07fd-b6db-4f54-a6d0-78e8e7356067">
+                    <propertyInstance
+                      Id="60693a63-3f8a-4dc1-b0b6-956b5427d479"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="027faf3b-58ba-42ee-b973-5fd7b5de8a51">
+                    <propertyInstance
+                      Id="0101cd47-dcd6-4d2e-8600-d31cefd7dc3e"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c12ec5aa-817f-4336-aca3-6744d5103f8a"
+            name="ReverseMaximum"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6e444a55-4c84-4b51-a82e-409ccf13510d"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=ReverseMaximum"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e0c38776-7973-413d-9646-e9294bb98695"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cb450d4-ae21-4eea-94e1-2bca83535b04">
+                    <propertyInstance
+                      Id="e230bc0c-5eda-46d7-a648-656030c3f612"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5555faa7-1424-442c-b8a5-9fab6f489781">
+                    <propertyInstance
+                      Id="f0378e79-8aa5-4279-b81e-ca9f1f67ccfe"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54ea439f-f80b-4eb3-bbf8-81b664f7e97c">
+                    <propertyInstance
+                      Id="4ccdaeb5-cd5c-4232-8726-1ce8ff25fa48"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16eeabb1-c709-4724-982d-e3ea2ef330dd">
+                    <propertyInstance
+                      Id="351f366b-d6b6-4847-85ef-bbb90dd92553"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="005e5a29-3f58-417e-b3d9-a96542aa639f">
+                    <propertyInstance
+                      Id="37bc0733-4265-4940-908d-df44cfcfb0b6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5dd8b7d-c031-484f-8053-b2a3f935d027">
+                    <propertyInstance
+                      Id="c308b5be-55be-42b2-89b5-01d210ee5058"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="320b7714-4b6f-4146-bd8b-7862c38b2e72"
+            name="PortSearchKey"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0d1984e3-5a69-4178-a49b-79b25d419ad9"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=PortSearchKey"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="667096f3-a50a-484c-a4ca-aa3cf836fe7c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a78d0a1c-023f-4ab3-a381-1be80e26f900">
+                    <propertyInstance
+                      Id="ded6a7dc-5123-442f-8c26-358bf49fc332"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2aa7a10-3574-4ae3-b341-c41907c96592">
+                    <propertyInstance
+                      Id="4952d4e9-904b-4afa-a108-4fd0045512e1"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbdb99d4-e810-41c3-85e6-09f1d76085c0">
+                    <propertyInstance
+                      Id="a1f93d0f-a5a3-4101-9d4b-3b3c1589c445"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="994d8e6d-03de-4f81-8653-bb9eb84364c6">
+                    <propertyInstance
+                      Id="6f1ac053-2715-4a8e-9f28-b9a6df1d437d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8e6a19a-f86f-4c6b-96d5-ef3ab3ae6f61">
+                    <propertyInstance
+                      Id="3a282af8-bd4c-40fc-bd59-724ce1549379"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0967d431-6e23-4fc9-b43d-5da7e0f40d13">
+                    <propertyInstance
+                      Id="9c26c7b2-4444-47c1-8798-e72e7ceb44a6"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e5d18daf-ccfc-4a46-9d15-528c2472d6d1"
+            name="defaultInstance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4a383626-bc7e-486f-a11d-3a8fba1d9ad9"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=defaultInstance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="35988b2d-5fa5-4e6a-ae95-f9c87e7bb388"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e9ea04a-c5bf-4ad7-9457-edcb15e31101">
+                    <propertyInstance
+                      Id="18723ea3-c747-4e5d-9f66-5122cd15a472"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2311cdfa-7eea-4b47-8a54-2282276f9dbf">
+                    <propertyInstance
+                      Id="484075d9-fc2a-44e8-9888-bbf7f98f3dae"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="625e2cd8-fbfe-437c-a7e6-67e70b661208">
+                    <propertyInstance
+                      Id="64b43933-fe2c-4bbb-9e28-ff10ff22652f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d0ef439-1f09-48b3-a5b1-151ff09db17a">
+                    <propertyInstance
+                      Id="20c8038f-8cc6-4559-b615-4e310c602e89"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81cb6b97-884d-450e-9d05-800c3775fc64">
+                    <propertyInstance
+                      Id="207254a1-30a2-4417-9591-b9bef5a1789d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="f6943218-d535-49ab-a4d8-e788105585c5"
+                LastKnownName="Settings"
+                LastKnownLocation="Package56_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f696275d-3272-45b0-938a-182afef89f13"
+            name="Settings"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="122320b5-9106-46f2-8166-616bf9ae7044"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarController/bin/Debug/KinectRCCar.CarController.dll&quot; Namespace=KinectRCCar.CarController.Properties Type=Settings Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="47884d8a-7748-4267-a555-85760322b030"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99159a9f-0e8a-450d-a394-58936fb508bb">
+                    <propertyInstance
+                      Id="adcac132-e2cc-4c10-a7dc-613df5988ed4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82baf976-7163-4b8c-9d0e-09d0d1b7237b">
+                    <propertyInstance
+                      Id="0e5d3fe1-b054-4678-aab8-a095f410a892"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ead32a9-3e92-49b6-a436-d58a62b5d19d">
+                    <propertyInstance
+                      Id="f1b76429-a2ae-4a8d-8992-8c03e991aa14"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dd020ca-bb96-461b-b7af-b672dec023c1">
+                    <propertyInstance
+                      Id="5243a063-2bd6-4360-9c24-73c08895a277"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6615cce3-4ecb-4d88-8175-99dc981a15a4">
+                    <propertyInstance
+                      Id="e3a3bf01-6a2d-49ad-8099-264672f4d941"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

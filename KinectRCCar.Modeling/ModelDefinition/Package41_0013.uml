@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="612632e9-d188-4326-b117-ee7d5897021c"
+  name="UnitTesting"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2f0ce6cb-e533-4ab4-a7f6-912a54e4e159"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Microsoft.VisualStudio.TestTools.UnitTesting"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="fa353212-c6f3-4b01-9b42-c7e43fa17734">
+      <profileInstance
+        Id="30a71c93-01e6-4466-8419-5b49c0c50a8f"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e12117df-963e-491c-87e1-a8e2c80be640"
+        name="TestContext"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a1551e65-fad7-4625-8eb3-a943dadca5ca"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PublicAssemblies/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll&quot; Namespace=Microsoft.VisualStudio.TestTools.UnitTesting Type=TestContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f4486fb3-a811-4bee-b5ff-31f044fecf97"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c98c7d41-1e27-4502-b835-326287d18ec6">
+                <propertyInstance
+                  Id="63b06fd2-fb92-44dd-8d20-e87a4612acfd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a486742f-9ee5-46e4-9949-5a4039d7137b">
+                <propertyInstance
+                  Id="c6d9825d-49ee-439e-9681-28ff32713b4e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5278fa40-de91-45ad-8205-d4b21ce123f0">
+                <propertyInstance
+                  Id="c8a9bc6a-411e-4cf5-a70e-71bb2783a85c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a8a4c02-11fe-40b4-bc8c-b616393083b2">
+                <propertyInstance
+                  Id="5435d5c2-20ab-465e-8291-77136b3c59da"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8030a751-e08d-4b69-9dc7-65d346766e4b">
+                <propertyInstance
+                  Id="0ced77bf-e87b-4f91-8e00-6b2dbd0c6443"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4eee0298-86e4-4142-be63-7dd2fe28c34d"
+        name="PrivateObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fb2d2e68-90ec-42e8-a7ff-ccaae6f8ca4b"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PublicAssemblies/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll&quot; Namespace=Microsoft.VisualStudio.TestTools.UnitTesting Type=PrivateObject"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="66485aa2-e192-4a4e-86d7-1da71e64cb6b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74b968d8-0322-4aeb-802f-c90ad5a21fdf">
+                <propertyInstance
+                  Id="b5d8916d-ff5b-4c1c-8318-60e28ee6ec25"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84452222-5dab-49a3-b48e-403de4b31cbe">
+                <propertyInstance
+                  Id="740b9988-aa63-4068-894a-ae529dd9a0a6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2dd6abf2-2564-4515-94b0-88212ce68453">
+                <propertyInstance
+                  Id="3f4eb9d6-1385-4eac-996d-81f471053c6f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="22650a58-25be-4524-a0b3-e5cbd27a8e3f">
+                <propertyInstance
+                  Id="0e1cad46-2ceb-44e7-9d25-0149f9852965"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db61fedc-2bef-4fe3-ba77-232aab57c630">
+                <propertyInstance
+                  Id="4cc7ee84-60d2-41cc-b6bb-4c6acec4b396"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b2305f26-05fb-4bbf-bb22-0b28c60882ae"
+        name="PrivateType"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6cdee338-7725-4dfc-b4fb-421be0fe3d0d"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PublicAssemblies/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll&quot; Namespace=Microsoft.VisualStudio.TestTools.UnitTesting Type=PrivateType"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9dcab073-204b-4df7-9e80-ef9c81b3771e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d958f02-9c5b-4a76-bfdd-05cbeb82ec48">
+                <propertyInstance
+                  Id="26015b06-db78-4577-a6bf-72e927dd8078"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff0a846b-e94b-42c8-91d9-2fa150e8e7e4">
+                <propertyInstance
+                  Id="4728862d-acee-49eb-9f4f-5fa55582ceb6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec9be931-8579-40b2-a2dd-0f2d18176d84">
+                <propertyInstance
+                  Id="35f3a538-1dbf-431c-ac5a-d9073061ff95"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c6bbb382-a80c-4404-b1c8-da2481d057ed">
+                <propertyInstance
+                  Id="8f1ec1c8-5e58-4fd7-b67b-2b977f4db9fd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd3af8ea-cd39-4dac-94c7-ececf456a2b5">
+                <propertyInstance
+                  Id="93925fb2-8e85-4110-be7f-fdb09389b619"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1db2fde3-f1f0-45e3-a292-6607447ca7b5"
+        name="BaseShadow"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="266529e8-10f4-497d-aacd-62d080bd5815"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/Program Files (x86)/Microsoft Visual Studio 10.0/Common7/IDE/PublicAssemblies/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll&quot; Namespace=Microsoft.VisualStudio.TestTools.UnitTesting Type=BaseShadow"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="22283a38-8ae5-44ef-a7f6-827d2d890401"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e397aee-f9b5-4a32-9143-dd0c51222e6e">
+                <propertyInstance
+                  Id="c1479353-3380-4ff3-8242-e932b1ee4dd4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d435946e-41e1-415d-947e-236c087dd761">
+                <propertyInstance
+                  Id="fd999c7d-afda-4326-8b68-1effa299f023"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="44456676-1454-4ceb-88d6-b0843e7d14f0">
+                <propertyInstance
+                  Id="3c496541-6579-47b3-8bc6-2df98014f049"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7be3f4e2-72a1-46c1-a33f-921df802eb3f">
+                <propertyInstance
+                  Id="dff63260-29f7-4458-8c2a-1f3b8c169a2d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="577bebcb-d2cb-46cd-9aeb-1dd003080ec9">
+                <propertyInstance
+                  Id="229b6031-5275-4f2d-9b06-93967d672b07"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

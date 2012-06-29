@@ -1,0 +1,71 @@
+﻿<UserControl
+			 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:infrastructure="clr-namespace:KinectRCCar.UserControls.Converters"
+			 xmlns:UserControls="clr-namespace:KinectRCCar.UserControls" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" x:Class="KinectRCCar.UserControls.InstrumentsUserControl"
+			 x:Name="userControl" mc:Ignorable="d" 
+			 d:DesignHeight="300" d:DesignWidth="300">
+	<UserControl.Resources>
+		<infrastructure:IntToDegreeIntStringConverter x:Key="IntToDegreeIntStringConverter"/>
+		<infrastructure:BoolToRedBlackColorConverter x:Key="BooltoRedBlackColorConverter"/>
+	</UserControl.Resources>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition />
+			<ColumnDefinition Width="Auto"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition />
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<Grid Grid.ColumnSpan="4">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<Label Content="Kinect View Angle" />
+			<TextBox Grid.Column="1"  HorizontalContentAlignment="Center" VerticalAlignment="Center" IsReadOnly="True" Text="{Binding KinectAngle, Converter={StaticResource IntToDegreeIntStringConverter}, ElementName=userControl}" Foreground="{Binding HasKinectAngleChanged, Converter={StaticResource BooltoRedBlackColorConverter}, ElementName=userControl}"  />
+			<Slider x:Name="AngleSlider" Grid.Row="1" Minimum="{Binding MinimumKinectAngle, ElementName=userControl}" Maximum="{Binding MaximumKinectAngle, ElementName=userControl}" Value="{Binding KinectAngle, ElementName=userControl, Mode=TwoWay}" IsSnapToTickEnabled="True" SmallChange="1" Interval="1" TickPlacement="TopLeft" />
+			<Button Grid.Row="1" Grid.Column="1" Content="Set Angle" MinWidth="80" VerticalAlignment="Center" Margin="0,2.5,2.5,0" HorizontalAlignment="Center" Click="SetAngleButtonClick" >
+				<i:Interaction.Triggers>
+					<i:EventTrigger EventName="Click">
+						<i:InvokeCommandAction Command="{Binding SetAngleCommand, ElementName=userControl}"/>
+					</i:EventTrigger>
+				</i:Interaction.Triggers>
+			</Button>
+		</Grid>
+		<StackPanel Grid.Column="2" Grid.Row="2" VerticalAlignment="Center" >
+			<Label Content="Velocity" HorizontalAlignment="Center"    />
+			<TextBox HorizontalAlignment="Center"  IsReadOnly="True" Text="{Binding Velocity, ElementName=userControl, StringFormat=P}" MinWidth="50" HorizontalContentAlignment="Center"  />
+			<Label Content="Direction" HorizontalAlignment="Center"  />
+			<TextBox HorizontalAlignment="Center" IsReadOnly="True" Text="{Binding Direction, ElementName=userControl, StringFormat=P}" MinWidth="50" HorizontalContentAlignment="Center"    />
+		</StackPanel>
+		<Label Content="F" HorizontalAlignment="Center" Grid.Row="1"/>
+		<UserControls:BidirectionalIndicator Grid.Row="2" Orientation="Vertical"  Width="24" HorizontalAlignment="Center"  Value="{Binding Velocity, ElementName=userControl}" Maximum="1" Minimum="-1"/>
+		<Label Content="R" Grid.Row="3" HorizontalAlignment="Center" />
+		<Label Content="L" Grid.Row="4" Grid.Column="1" />
+		<UserControls:BidirectionalIndicator Grid.Row="4" Grid.Column="2" VerticalAlignment="Center" Height="24" Value="{Binding Direction, ElementName=userControl}" Maximum="1" Minimum="-1" />
+		<Label Content="R" Grid.Row="4" Grid.Column="3" />
+		<Grid Grid.Row="5" Grid.ColumnSpan="4">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition />
+			</Grid.ColumnDefinitions>
+			<Label Content="Control Countdown: " />
+			<TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Text="{Binding CountDown.TotalSeconds, ElementName=userControl}" />
+		</Grid>
+	</Grid>
+</UserControl>

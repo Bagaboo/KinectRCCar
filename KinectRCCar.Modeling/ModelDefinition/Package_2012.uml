@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7588e7ea-3678-4463-b9b1-624ed909509e"
+  name="WpfUI"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5dbfacd7-ebca-4626-bd54-892db9ab7d49"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.WpfUI"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7c4de234-22c9-4753-a865-409991b712e8"
+        LastKnownName="Views"
+        LastKnownLocation="Package1_2012.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="5cd7ea07-db9a-4f2e-9453-6c69737a2908"
+        LastKnownName="ViewModels"
+        LastKnownLocation="Package2_2012.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="da634b83-670f-4d71-90b1-faabd6d30bb7"
+        name="IControlLogic"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="3ca0dd90-9fb5-47bd-b4f5-85e9a351b4e9"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI Type=IControlLogic"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="68bdf494-e370-4eba-a9eb-5e4fa6c96c73"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f22b7a17-1c49-4030-8ddf-1f2864d7d367">
+                <propertyInstance
+                  Id="b43e00fa-5840-4f82-a813-a32cc20a1f65"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7fa1b45f-bfd5-4ce1-b0ed-d5b6e98e74da">
+                <propertyInstance
+                  Id="30a870aa-d9fd-4bfd-baad-35b2e9926642"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d7eb1f75-04a2-46ea-9d6c-1720a39498f3">
+                <propertyInstance
+                  Id="047b9a09-ed5b-4b27-8d73-e7055912d8f6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1499cc4f-63fe-416a-a33f-2ed79afc5e13">
+                <propertyInstance
+                  Id="fb730845-96ea-43bb-9d37-7b1b5e89079a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

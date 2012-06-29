@@ -1,0 +1,62 @@
+﻿<Window x:Class="KinectRCCar.KinectTestApp.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:ViewModels="clr-namespace:KinectRCCar.KinectTestApp.ViewModels"
+		xmlns:UserControls="clr-namespace:KinectRCCar.UserControls;assembly=KinectRCCar.UserControls"
+		Title="MainWindow" Height="350" Width="525" WindowState="Maximized">
+	<Window.Resources>
+		<ViewModels:MainViewModel x:Key="MainViewModelDataContext" />
+	</Window.Resources>
+	
+	<Grid DataContext="{StaticResource MainViewModelDataContext}">
+		<Grid.RowDefinitions>
+			<RowDefinition />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+		
+		<UserControls:SkeletonUserControl Skeletons="{Binding Skeletons}" />
+		
+		<Grid Grid.Column="1">
+			<Grid.RowDefinitions>
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+				<RowDefinition />
+			</Grid.RowDefinitions>
+			
+			<UserControls:SkeletonCoordinatesUserControl Grid.Row="0" Joint="HandLeft" Skeletons="{Binding Skeletons}" />
+			<UserControls:SkeletonCoordinatesUserControl Grid.Row="1" Joint="HandRight" Skeletons="{Binding Skeletons}" />
+			<UserControls:SkeletonCoordinatesUserControl Grid.Row="2" Joint="Spine" Skeletons="{Binding Skeletons}" />
+			<!--<UserControls:SkeletonCoordinatesUserControl Grid.Row="3" JointID="Spine" SkeletonFrame="{Binding SkeletonFrame}" />-->
+			<Grid Grid.Row="3">
+				<Grid.RowDefinitions>
+					<RowDefinition />
+					<RowDefinition />
+					<RowDefinition />
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition />
+					<ColumnDefinition />
+					<ColumnDefinition />
+					<ColumnDefinition />
+				</Grid.ColumnDefinitions>
+
+				<TextBlock x:Name="JointTextBlock" Text="Position" Grid.ColumnSpan="4" FontSize="48"/>
+
+				<Label Content="X" Grid.Row="1" Grid.Column="0" FontSize="48" />
+				<Label Content="Y" Grid.Row="1" Grid.Column="1" FontSize="48" />
+				<Label Content="Z" Grid.Row="1" Grid.Column="2" FontSize="48" />
+
+				<TextBox x:Name="JointX" IsReadOnly="True" Text="{Binding PositionX}" Grid.Row="2" Grid.Column="0" FontSize="48"/>
+				<TextBox x:Name="JointY" IsReadOnly="True" Text="{Binding PositionY}" Grid.Row="2" Grid.Column="1" FontSize="48"/>
+				<TextBox x:Name="JointZ" IsReadOnly="True" Text="{Binding PositionZ}" Grid.Row="2" Grid.Column="2" FontSize="48"/>
+
+			</Grid>
+			<TextBox Grid.Row="4" FontSize="48" Text="{Binding Velocity}" />
+		</Grid>
+	</Grid>
+</Window>

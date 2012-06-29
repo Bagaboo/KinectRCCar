@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6c5384f1-a9b7-45fb-b67b-6e0017b49f70"
+  name="Microsoft"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="09764596-174f-4fbb-a215-1409b763c6c2"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Microsoft"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="72854fe9-9a08-497b-9019-8ac08934ba03"
+        LastKnownName="Kinect"
+        LastKnownLocation="Package8_0013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ab17290b-8f38-4370-b616-84d5e1675f2d"
+        LastKnownName="Practices"
+        LastKnownLocation="Package15_0013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1a22523f-7b78-494f-b38d-f3b808e9e342"
+        LastKnownName="VisualStudio"
+        LastKnownLocation="Package39_0013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="80f2cbf6-0c9c-4338-9f66-ed9b7674a7c8"
+        LastKnownName="Win32"
+        LastKnownLocation="Package54_0013.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

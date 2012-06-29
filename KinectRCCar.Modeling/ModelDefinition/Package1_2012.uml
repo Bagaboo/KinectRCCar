@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="7c4de234-22c9-4753-a865-409991b712e8"
+  name="Views"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f6220260-54a2-4e9b-9116-f0c881d36942"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.WpfUI.Views"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ee1e51c4-0a3b-44f4-a508-0650772641c2"
+        name="MainView"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6c9cae5f-f544-437d-955f-c593419595ad"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="13757b85-489c-48c0-b924-d8eb42d48d99"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="216a5886-6ee1-4392-a2b1-1a8cf96e9425">
+                <propertyInstance
+                  Id="06dfa76e-a1ce-414b-925d-638b2c7fcd1d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86b82c48-ed9b-458c-8b71-6371a067259b">
+                <propertyInstance
+                  Id="30243cf6-1663-4d0c-91b4-4e8007473a27"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e5062fa5-c682-44b7-a88e-0ca2f681f435">
+                <propertyInstance
+                  Id="a3f42066-2a8b-45d2-b99c-789e18c761fa"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd32aa2e-c8c1-469b-a2cf-ebb23f80aa0a">
+                <propertyInstance
+                  Id="dd51a5a0-35d9-4418-8b26-cfa550fa6877"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6751c6d7-4508-4ee9-b362-ef10820dd5b8">
+                <propertyInstance
+                  Id="eb057135-9cb1-4882-9a99-6094a1d44bae"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="77f89a62-cd66-42ae-9ab9-dcc2f3c6f6c1">
+            <interfaceMoniker
+              Id="0f341c96-c0db-4662-ad9e-686803983de2"
+              LastKnownName="IComponentConnector"
+              LastKnownLocation="Package25_0013.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="7ec6bca9-0a5f-4467-ad2a-370b3ea3d58d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="510bee0e-d9fd-47c0-8c51-317663891146"
+              LastKnownName="UserControl"
+              LastKnownLocation="Package24_0013.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="78f996d4-48a5-4714-9013-b45453bcc1fc"
+            name="layoutRoot"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="272fb820-1e81-4f55-996b-9de42b4beaf0"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=layoutRoot"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5bbb6f4e-2224-4973-b635-5cdf90012622"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72a17032-4d26-498d-96b9-a3b7b6eb72ef">
+                    <propertyInstance
+                      Id="c9708c89-ad86-4865-83a6-80a16a872975"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06633e89-9900-4be9-a888-5351ca208879">
+                    <propertyInstance
+                      Id="8e317039-7d15-470c-897f-17b1b3f26b05"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba61c7f6-9fd5-44a8-b364-f6c0d49beb02">
+                    <propertyInstance
+                      Id="a3087a25-a508-41d8-a95d-84191f41a30b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="194b6745-c8fe-4544-be4c-fd8e0ba83be6">
+                    <propertyInstance
+                      Id="bb3a63db-4686-4ec4-b705-ce5c3b3b1629"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1147f0e-cc7a-49df-9abc-f84174c21f5c">
+                    <propertyInstance
+                      Id="4a451c48-a963-452a-b168-5b9f3b11046e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d3b8af04-aefb-4cbe-a220-c970915c085e"
+                LastKnownName="Grid"
+                LastKnownLocation="Package24_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cc948b75-bca3-4462-aeb3-5e4b90be93db"
+            name="_contentLoaded"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c572d7d7-a1d6-48da-b8fd-379d2a5eb25f"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=_contentLoaded"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5985fda8-8b3f-4b24-8e2c-f88bab505d1a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d52dd7cc-ea8a-4cc4-aedd-5668a7d838ec">
+                    <propertyInstance
+                      Id="b9524078-11f2-425d-93a9-c138e5bfcdf2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6a8a545-f8e5-4565-806e-6f5edd4934ff">
+                    <propertyInstance
+                      Id="fc2a964c-68fd-422b-b1c9-e6d0f7c9d4a6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d4f0f52-156d-448a-b8ba-969f9a8f54f8">
+                    <propertyInstance
+                      Id="1395d36b-373b-49ca-aebc-58adb3c53ace"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46ce716c-0267-4572-8937-f7229327b063">
+                    <propertyInstance
+                      Id="a12df6e1-3274-42e5-9c91-dba92237ad05"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4df4b2d-49bc-453d-b40d-2e8d0b5f31ab">
+                    <propertyInstance
+                      Id="2a57ed5f-57b2-4914-bbbd-7f64e160bb81"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="09c3bde1-b025-470f-b7ee-cb0e49a8ac05"
+            name="InitializeComponent"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="38e549b2-42e1-4e62-bd6a-df4cf915fd83"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=InitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e33ed20-c7b2-46ba-a289-0ddf2dbf3bc4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="790a290b-0401-409d-a98d-b0a2364e7580">
+                    <propertyInstance
+                      Id="92f6b5e5-d509-4530-8ea2-e03f5e3efa63"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9868207c-d579-401f-8bb2-bd01079ccb98">
+                    <propertyInstance
+                      Id="add98d8e-3709-4887-81b6-d93b26e495bb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5022a42-ebd4-4f07-a45c-a43eaf96d204">
+                    <propertyInstance
+                      Id="f4480fbd-1e12-4606-8a6a-44f933fe42b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46066dec-de3d-4460-a328-d0d53e0285c2">
+                    <propertyInstance
+                      Id="c0d8f292-858c-4d33-8525-c63325319654"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a8706b7-7df8-4d1c-947b-596a26c9f586">
+                    <propertyInstance
+                      Id="0a85d821-65d4-4d72-98bd-fe6665fb6fe4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="94e06d73-57ad-4820-a71b-f90a25b05c24"
+            name="IComponentConnector.Connect"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fec68cc0-d278-4ae6-9206-3849a3f726ff"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=(Name=Connect ExplicitInterface=(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Xaml.dll&quot; Namespace=System.Windows.Markup Type=IComponentConnector) OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6813fce6-4aec-40a0-b0ed-54d6a41c1571"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e59ae1e-dbf8-49f1-bf86-9d0b361d0b7c">
+                    <propertyInstance
+                      Id="396a031d-4dcb-445b-ba93-370ce1949044"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf4849c5-c4bf-49bf-919a-5c13b6f8b430">
+                    <propertyInstance
+                      Id="ffa85924-1da4-4dc6-b861-74baa5b7aa7d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9201775-6647-490a-a18a-ee6fd34ac64b">
+                    <propertyInstance
+                      Id="dae47ca6-d850-48c9-b81b-ba635bb4f968"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a5cd078-c3e9-4643-9d03-00605f9b14e0">
+                    <propertyInstance
+                      Id="5e7ddfa7-33d9-4f96-a083-168ecb2d1fe1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="424b87ef-d305-4c6d-bfd8-4009f35c86f0">
+                    <propertyInstance
+                      Id="d0a2f778-43b8-48be-ae3d-3f23d376ef6e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b6d6b7d5-fbfd-4b75-9ee2-aca60591e972"
+                  name="connectionId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0232b46c-b336-4ca2-802e-360e6b36839b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=(Name=Connect ExplicitInterface=(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Xaml.dll&quot; Namespace=System.Windows.Markup Type=IComponentConnector) OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object)]) ParameterIdentifier=connectionId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="KinectRCCar.Modeling.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7a9333bb-8c01-4654-8a14-e80d27a9d805"
+                  name="target"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d244970a-df9f-4de4-a09a-2ff91725cdb1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=(Name=Connect ExplicitInterface=(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/System.Xaml.dll&quot; Namespace=System.Windows.Markup Type=IComponentConnector) OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Int32),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object)]) ParameterIdentifier=target"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e44bde14-ef6b-4cfc-9ce3-7cf811aa542d"
+            name="MainView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9f1e0214-287c-4f4e-a56a-71b5ecf27838"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="06fbf379-ba37-428c-8ddb-faf05ef8dbbc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5a1b78b-3e4b-4bd9-9b33-77a9794ac84f">
+                    <propertyInstance
+                      Id="1042ca53-b5e3-4cd9-be4c-eed474f370f9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4b3a315-940f-4e75-a383-74c2286adb42">
+                    <propertyInstance
+                      Id="a97f7a0e-a608-451b-85ba-6fcc90989936"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d0dbf6a-c442-45d3-8ce2-82006eea474b">
+                    <propertyInstance
+                      Id="d623eb13-2b48-4453-82af-45d0c854bd25"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0acadf3f-439e-4dbe-9863-dce99e7f1bdd">
+                    <propertyInstance
+                      Id="6325be98-3814-4cfd-b87a-7eb69097652b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="674bf088-ede2-40a1-9e92-72211b555ae6">
+                    <propertyInstance
+                      Id="3e2ab4df-d07e-4116-824f-eb4036ce64a4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="68ce2d6e-a00e-41e7-9ded-05d2f270c2bb"
+            name="MainView"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9a015228-7d72-4ec5-9ff9-845b02f29f63"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.ViewModels Type=MainViewModel)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2505e250-bc2b-4edf-9557-5079acf728b9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c9903ca-bb65-41c4-b279-146def683688">
+                    <propertyInstance
+                      Id="fe400340-cefd-4a49-8ed7-af4e55a8b7d4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9eff2954-a03d-4ef5-bd43-efccbe8bdd6b">
+                    <propertyInstance
+                      Id="21106e39-1758-47d8-9975-6d480b14983d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e151c2dc-dea3-40f9-8f19-d13dce501dec">
+                    <propertyInstance
+                      Id="d24b4a56-f4b9-4bc9-b1c0-c98f3af9b6a7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f09f7ce-d064-4d0e-a29e-30d4b30fe9eb">
+                    <propertyInstance
+                      Id="f7843d4a-cca8-43ea-91a9-e68316e55c0a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1037e61b-7337-4d31-a61a-bd9d1f2541f6">
+                    <propertyInstance
+                      Id="91b5dc9e-f0aa-4aa6-8049-7d6d829a2a52"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aba4e287-2ca3-4913-9676-2724bdfcfb7b"
+                  name="viewModel"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e7e2d5a6-59c1-4c25-b3a3-d8a5428b6ea0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.Views Type=MainView Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WpfUI/bin/Debug/KinectRCCar.WpfUI.dll&quot; Namespace=KinectRCCar.WpfUI.ViewModels Type=MainViewModel)]) ParameterIdentifier=viewModel"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="62fadbf4-2722-449b-946d-971dd82396b0"
+                      LastKnownName="MainViewModel"
+                      LastKnownLocation="Package2_2012.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

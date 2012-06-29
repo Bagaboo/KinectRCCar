@@ -1,0 +1,1964 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3b06a7d1-54c8-4e1a-b154-de95d034b66d"
+  name="Ports"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4ef85971-2a0b-4e7c-b656-55b91a486c9c"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=System.IO.Ports"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6be2fa85-175d-4c25-aa82-8f85b4072103"
+        name="SerialErrorReceivedEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="201b69fd-9b69-4b13-b659-d64fbd212f17"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/System.dll&quot; Namespace=System.IO.Ports Type=SerialErrorReceivedEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="22fd9c07-209c-48b5-b44c-04d95484b869"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c5cab7d-ce00-4bf0-a35b-ab8d018060aa">
+                <propertyInstance
+                  Id="b34e3ec5-ddf0-4750-a186-0d70229fb7fa"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9d761549-8bec-494b-8a7c-c63604485875">
+                <propertyInstance
+                  Id="359bc4d3-ed12-4d86-b6fa-079ee96f3d0c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d6f06253-22eb-4949-94d2-a4930aa58ddc">
+                <propertyInstance
+                  Id="9390d714-c1c3-481b-ae75-8c307dc3031b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5424923a-f3a0-4c29-9cf3-3c0051678d22">
+                <propertyInstance
+                  Id="398e7314-3083-47bc-b1c0-eec374c3a9ab"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51f43f1c-f3c2-4e9c-a9a4-96cd78069d45">
+                <propertyInstance
+                  Id="23d1bebb-283f-4437-bca8-481923c53798"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="3de2aa87-a8a0-41db-9676-079adcbb3ab0"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1ec11d67-09f3-4859-97ec-9d02cb727df2"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package3_0013.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a12e407e-5b20-4c3e-ac00-8a46d8c68f16"
+        name="SerialPort"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="45e04939-da4c-40eb-b174-0071359110af"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c3e6f2a0-6a9c-4aba-a040-7a551d5447a7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c762b521-e6ee-41c6-a6e7-53d3cd45cd94">
+                <propertyInstance
+                  Id="b9844dfc-172b-4389-a965-9b35d20e1d0f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5327503a-97df-407e-ae7a-0324876c2387">
+                <propertyInstance
+                  Id="4902a0d3-ef2f-48d6-b3cb-e72d521cc9a5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5517afea-c962-4374-a391-9f9d9fccd3cb">
+                <propertyInstance
+                  Id="e0da221a-b13f-4c4e-af93-06c8c71e8dff"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="39bf9e6d-ae03-4ed3-b241-8cb8649eebe5">
+                <propertyInstance
+                  Id="b05073dd-2fbc-4ade-8161-24067d69ab8a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3317f2eb-3749-4c53-9c1a-7f7601dda3c1">
+                <propertyInstance
+                  Id="77c48a0f-3a8b-4584-b6ba-2f137e16e445"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="6c68dd16-e0b8-47ec-bd0d-8f1be77ed95b">
+            <interfaceMoniker
+              Id="682a213c-6eda-4fe5-af79-e9efd135a9e4"
+              LastKnownName="IComponent"
+              LastKnownLocation="Package_1629.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="e5fcd6f5-30cc-4cb0-87d6-5e4452c11580">
+            <interfaceMoniker
+              Id="46e226b8-faff-40d2-9fe5-e2f9ac9677d5"
+              LastKnownName="IDisposable"
+              LastKnownLocation="Package3_0013.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="b11976e5-36f7-4d73-ac4f-44d85073fd50"
+            isSubstitutable="false">
+            <classMoniker
+              Id="a18806b9-e0a8-4064-bf3b-43911d5f0c88"
+              LastKnownName="Component"
+              LastKnownLocation="Package_1629.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="223b1d0d-b9eb-4a5e-94f8-316c5ec59c8e"
+            name="BaseStream"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9065df28-4fc3-4209-ad06-13e0a176704d"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=BaseStream"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="237d43f5-b6eb-4dbb-ba6a-0a06a7f96eaf"
+            name="BaudRate"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a2148588-76ee-4247-828b-3c5f3a68d5ee"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=BaudRate"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="887fa161-15a5-4258-9452-a853308ed0c9"
+            name="BreakState"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8fdb35df-51bb-49af-93d2-ba4820bfc724"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=BreakState"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="25ecbd6b-2aca-4be7-b074-7d33f77f16a1"
+            name="BytesToRead"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5efff6a2-4d1a-45d4-bbe3-85ae652fe61e"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=BytesToRead"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="28ab2833-fb90-4e45-ae84-35c34a280349"
+            name="BytesToWrite"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="51160e00-be90-4ac0-9632-ef7418ed9e38"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=BytesToWrite"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="70a1354f-b890-40b3-93a7-3d4a183e5c87"
+            name="CDHolding"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d6a3dd2c-9563-41af-87ed-ebe1130a26c7"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=CDHolding"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="88252bf2-3e4f-4794-8c5a-78f5ccafd409"
+            name="CachedBytesToRead"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7114edc2-9800-4a0c-825c-0a4af85b83e6"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=CachedBytesToRead"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="58ae93bf-3734-4977-bade-5a45a3ead9c6"
+            name="CtsHolding"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b0c39f41-8a9a-48f6-a2c0-83bc5fd929e1"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=CtsHolding"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="7039e12d-9f3c-4d07-b1a0-3b9a946549bb"
+            name="DataBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7b0ca5ae-0fb0-49c7-b3b0-d8479d09fde8"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=DataBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="4dd685f6-b16b-4836-81a1-81bcf54d617e"
+            name="DiscardNull"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="917258e2-8e52-4040-9196-54d18f766141"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=DiscardNull"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="4aec9533-1e13-4eb3-8453-c76478b77958"
+            name="DsrHolding"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="43fd0123-e4f5-4964-aee4-1d514a7bb116"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=DsrHolding"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="02f78e69-cea5-42ca-8b2c-2b9de4bd1359"
+            name="DtrEnable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d8d652fc-7315-4e65-84f5-9629f723345f"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=DtrEnable"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="2e2b3f0e-88a9-4d88-9259-a3702030e09b"
+            name="Encoding"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a0eca0bb-8f39-4352-8010-103805403600"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=Encoding"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="e55fed15-16f5-4b53-b6a4-5363fcd96cd4"
+            name="Handshake"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8f75674e-d5dd-405f-9ec2-e992a9ca579e"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=Handshake"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f72ff71d-7f24-4617-99fa-aa0b62dc6f69"
+            name="IsOpen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="04df76e9-8b82-4266-b95e-e8cb8741cba1"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=IsOpen"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="66a3cf03-ea36-440c-af42-85b515a7340f"
+            name="NewLine"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c363ef34-4f5f-477a-a983-1800e33f6309"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=NewLine"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="145e8a22-74ed-4cef-a306-a7fbf7e19bb1"
+            name="Parity"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1ac0337c-1093-4f8a-a99e-0c078897d7b9"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=Parity"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="eef91dd3-53df-418c-9a68-b9ce8ba086a1"
+            name="ParityReplace"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="826a2dce-f419-42d4-b427-2b31ed394205"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ParityReplace"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="c2c7e9ff-a30f-491d-bf53-8c06a90b246a"
+            name="PortName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e9a4f07e-d4cb-4e7f-a466-9b63a337785f"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=PortName"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="27011748-0dfd-436f-a250-91b264483fbf"
+            name="ReadBufferSize"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2a089efb-875b-43b0-8acf-cb5c7e68ed54"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ReadBufferSize"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="78d96dc4-b45f-44d8-9205-065c898ebc89"
+            name="ReadTimeout"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="cc6c9480-77ec-4be7-bb97-ac135bcf424a"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ReadTimeout"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="87aec503-5a2a-43ce-830b-34a1dc58016c"
+            name="ReceivedBytesThreshold"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9897ca0c-d9dd-48c3-b275-e610f2bfbfbe"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ReceivedBytesThreshold"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="42c721ed-5af0-419b-9f7e-66fa67e3bb5d"
+            name="RtsEnable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="203f9c53-8910-45a0-9dbe-bd1182cbceb2"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=RtsEnable"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="e08f92c1-12f7-4c1d-8ccd-27812e457c5b"
+            name="StopBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="68683342-78ba-4785-8d2a-d6b8206351bf"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=StopBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="8883fcff-f3e9-4a65-8334-4efd4bdaf01e"
+            name="WriteBufferSize"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a5f1c201-4564-42a8-989b-5ec822ff5436"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=WriteBufferSize"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="835e4b68-2388-4910-beaa-17aa0f101bc0"
+            name="WriteTimeout"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8d9a181e-8691-4b8d-8b51-e45ff833f376"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=WriteTimeout"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="e45c7f2e-1e2b-40c4-b8df-4ef1d92adbba"
+            name="DataReceived"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="863b2661-7ef1-49dc-a4c3-f18d5481d9b4"
+                handle="viewcode://./CodeSchema_Field.CodeSchema_Event?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=DataReceived"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="629810e1-3b85-43ee-b9a3-a42334b0c375"
+            name="ErrorReceived"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a088bac5-8306-499a-b301-c1f18f4efbbf"
+                handle="viewcode://./CodeSchema_Field.CodeSchema_Event?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ErrorReceived"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="0bc92d64-a385-4b7d-b617-156b9efb9379"
+            name="InfiniteTimeout"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1b6d7ab9-a8e4-4a41-a21a-b62866e3eadf"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=InfiniteTimeout"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f470a8da-acd7-46f1-bd98-2fb8f70a372d"
+            name="PinChanged"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6cd580c6-c588-4e78-a957-a8fe7f9a64b4"
+                handle="viewcode://./CodeSchema_Field.CodeSchema_Event?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=PinChanged"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="5d4b9153-a90f-47c2-b5d0-c7d3bfc07ba6"
+            name="SERIAL_NAME"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="86f7a1a2-0693-4992-9eeb-6bd66cb0490d"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=SERIAL_NAME"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="3e3f061b-f295-4c62-8859-51ba3c21bb75"
+            name="baudRate"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="14a6c999-2355-40db-9707-6fc624c73089"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=baudRate"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="00c6be7b-769f-49ac-9838-36939473b7fd"
+            name="dataBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4f6bff7c-30ac-4785-b774-f1b7c0ac7552"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=dataBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="cd830c6d-6460-48a1-a9da-56bc66482341"
+            name="decoder"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9c511847-6095-481a-a6ce-f26100e792a6"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=decoder"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="19ed1357-83d8-4b80-9e5c-03e3a435148a"
+            name="defaultBaudRate"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="dbca4aee-2e8e-4251-bbde-74140c0efe6a"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultBaudRate"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="38021d55-62d6-4636-bf2d-58421b17846b"
+            name="defaultBufferSize"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c20b7814-4727-4b0a-8c5d-0a477edbb7a2"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultBufferSize"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="7eb49bc4-a39b-4a9d-8d92-54a3dd0b36cc"
+            name="defaultDataBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="56e5cc5e-d25c-4da6-a4c0-4f2d92006a8d"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultDataBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="7366987a-95f9-4f4a-b223-5cb93a1c46a0"
+            name="defaultDiscardNull"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="db806462-994b-4d6c-8cc7-6912e5fe8d1b"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultDiscardNull"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="ddc83bc4-9652-44a9-935e-916d3620b791"
+            name="defaultDtrEnable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a15b8d60-d637-4c5f-aac4-967cb77f774d"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultDtrEnable"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="442a3600-dcaa-4921-bf21-b8cb63a84d86"
+            name="defaultHandshake"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5b5fcbcf-b16f-4527-b0a1-b26aeade537a"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultHandshake"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="a81b77d5-438d-44de-9397-5ef7fb64cc92"
+            name="defaultNewLine"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6e9fc2f6-0c70-4bb3-988b-d01370ad155b"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultNewLine"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f19226b0-765e-4534-a11d-40a1f11fcaea"
+            name="defaultParity"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e82f5a61-08c8-401e-9b40-0a9047cac86e"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultParity"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="37a8cad8-30dd-4d98-9012-8f0ca1704ffd"
+            name="defaultParityReplace"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="be3b5451-7e0f-4729-a397-b43343fb70e4"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultParityReplace"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="c04bf8d5-9a58-4c3f-86cf-797c7aff523d"
+            name="defaultPortName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="16bc855c-259d-46ce-8a6b-48e9d7888b23"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultPortName"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="27623672-6c64-475b-8089-a346a40eb321"
+            name="defaultReadBufferSize"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7f26cffd-6116-4c83-a282-4282c10fabb2"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultReadBufferSize"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="b42fddbf-11a7-40ab-bc63-c7634ea8116a"
+            name="defaultReadTimeout"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="aedb2265-b35c-4b86-9876-bde7df9b31f8"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultReadTimeout"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="6045c9a5-0612-4ace-94e7-68dec62ec945"
+            name="defaultReceivedBytesThreshold"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9572e9be-1e00-4d70-aeb2-745449c3c542"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultReceivedBytesThreshold"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="8436b4b0-2916-42b1-947f-786838516d47"
+            name="defaultRtsEnable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b845d9e7-302e-4e2a-906f-6ed95b06e879"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultRtsEnable"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="e3cbd57d-a9e0-40a3-8324-667ef9d261f7"
+            name="defaultStopBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="416b3fe6-c265-4bad-9d7f-e83182e1de94"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultStopBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f548edbf-432d-41d9-9abe-137ea24166f7"
+            name="defaultWriteBufferSize"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ddaf006f-2f0c-4aa9-9ac7-c074a3c9debf"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultWriteBufferSize"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="ec8bbff6-fe18-461f-871a-1c5cca9eec89"
+            name="defaultWriteTimeout"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1c86b1a6-2ca1-4bcf-aecb-501d6cfab6a9"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=defaultWriteTimeout"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f7a15adc-a7bf-4f85-93f2-aefa7013d0ef"
+            name="discardNull"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e0cad1b8-cde0-481b-a27a-8f74bb313dd0"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=discardNull"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="a6563065-8306-4d16-9ec7-8e78687bef85"
+            name="dtrEnable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5319271e-1921-4edb-8b5f-5ffdcd0e57db"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=dtrEnable"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f5da5c63-531c-4406-9882-2ab26eb6dbd6"
+            name="encoding"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="432d51c2-33c7-41ea-a190-dfb7390c2e7a"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=encoding"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="569ae594-6f8d-4117-91c5-d4b44fe2f223"
+            name="handshake"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="def6a7a3-453c-4cbd-85a1-fe5182715a6e"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=handshake"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="c1ee4089-9172-4596-ab6f-6bea58ce06c6"
+            name="inBuffer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fd425b59-9395-4585-a50a-6c8e52e50edf"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=inBuffer"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="ec14e3e3-55be-4fc2-94d1-498e88a7befe"
+            name="internalSerialStream"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="88367492-53c4-4e7d-9197-f5d4a2d478f7"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=internalSerialStream"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="494b0544-d0a7-49aa-bcd7-5f1241ac52c8"
+            name="maxByteCountForSingleChar"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d87e6b4a-0e88-408d-98ed-3ddf4084e71d"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=maxByteCountForSingleChar"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="e2834f8e-5a7e-443b-802f-d521f7cbd4a6"
+            name="maxDataBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="da20a729-ef15-47da-9575-9e0a2a780407"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=maxDataBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="a835c120-64ac-4fe9-b892-d5cea58d99fa"
+            name="minDataBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b780023c-2e41-4d46-93a4-dd8ba7d6c62d"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=minDataBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="9d81a3c9-318d-4e80-89b9-67d27caefd4a"
+            name="newLine"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="12253f33-efe8-4f57-92c6-41b5f5fc18de"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=newLine"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="0a3dc393-b762-4e74-bdad-f54d7e673036"
+            name="oneChar"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bb5cd75d-6413-4e2e-a5df-610ab2a7cf3f"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=oneChar"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="696caf80-03b9-4bbb-8332-0817e9b85d97"
+            name="parity"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0e44f4b0-0f8a-4f76-a4fd-5961da744693"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=parity"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="ac831c11-e399-4f0d-89d0-9244e2b99b60"
+            name="parityReplace"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5a778e80-7652-4652-9642-29617da9e58f"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=parityReplace"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="6bf31b28-c745-4730-b0eb-79aad3baaa7e"
+            name="portName"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7c605090-f2a3-4f79-972e-3de1f73a60fe"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=portName"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f81c8043-5e5a-4c51-9eff-997b57152748"
+            name="readBufferSize"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7d9130b1-821a-4aea-b82a-a331feb8aa08"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=readBufferSize"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="56ab7711-843c-423b-8a90-2819f860cdf3"
+            name="readLen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3321e628-13a7-4590-9885-fd3e83a6d649"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=readLen"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="839ecc00-d560-4d87-bf96-e4b4822ccb73"
+            name="readPos"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e2021f80-753d-4a2c-8c27-f8eb390ece93"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=readPos"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="f811d3de-dc82-4bcb-9f27-9d89a3dab7da"
+            name="readTimeout"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e954819d-26ad-4b9f-9897-54aeabadb5bb"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=readTimeout"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="69d7adfd-9abb-4ac6-a203-efa2cd5d7b14"
+            name="receivedBytesThreshold"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="041db613-0a5d-4024-8d6b-2876010d3814"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=receivedBytesThreshold"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="20d13e47-4168-4b95-b2af-78412f684111"
+            name="rtsEnable"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="914393aa-4d9b-44d2-aa16-a71bf8773f84"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=rtsEnable"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="e92536a2-6883-4798-b2e7-913dadaa0728"
+            name="singleCharBuffer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e20e9253-7bbf-4b4a-9ce9-d7839f99ed7c"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=singleCharBuffer"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="a2242565-90a5-4c1f-a250-4f9c6277838d"
+            name="stopBits"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4c9b8caa-50ff-4f3f-8ec1-9fa097ea72db"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=stopBits"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="fe71a1f4-dbc4-415c-80ab-795770c7b78e"
+            name="writeBufferSize"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bef1f671-9ecc-4f92-aa43-69e8a173d8bd"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=writeBufferSize"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+          <property
+            Id="746c5c4e-7cd6-4665-955f-b035e750bdbc"
+            name="writeTimeout"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="32511bcc-2207-45ee-8552-36768c2ac5d3"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=writeTimeout"
+                tag="ViewCode" />
+            </referencesInternal>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a975d4fc-c4d2-42b0-a1a3-21a8b6f4d618"
+            name="Close"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6b441564-edc3-4830-bb78-9e65a9a459b9"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=Close"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="bbcc10c5-09ef-489d-b40d-9147f612b069"
+            name="CompactBuffer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fc8fbc1a-5cf8-4fa5-87dd-8f62b17cee54"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=CompactBuffer"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="ec106243-fdc0-4367-a9d9-f1c8aebfeab2"
+            name="DiscardInBuffer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7702bc47-6385-4cc5-b064-5d5f6980e255"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=DiscardInBuffer"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="2796b9ee-a88f-43fb-a4dc-df5e3381c7e3"
+            name="DiscardOutBuffer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d80969eb-6cc6-473c-83a6-644a6b4797e8"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=DiscardOutBuffer"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="d8fc58a8-4f23-4437-b05f-d51ce7bff0f9"
+            name="GetPortNames"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="428ec081-fbb1-40c7-9f9b-57cea4cabc0b"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=GetPortNames"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="8f30f224-4bd3-42d9-b11b-bd10557af07e"
+            name="Open"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d9461796-909a-4265-8337-4e4a9676a386"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=Open"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="bacdf603-bc17-4139-82d3-38c944b42fc9"
+            name="ReadByte"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8474544b-b4b7-45ed-bd0b-61845ef8e9fc"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ReadByte"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="875bde70-84a1-471e-a73d-a95bf0c273d8"
+            name="ReadChar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="074de0c5-f015-4f26-b2e3-caea8de8fdee"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ReadChar"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="72f63778-e903-4ce6-be8a-73df27eb4cc2"
+            name="ReadExisting"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="135a6da4-4a86-4f45-9a2f-83a754a2db4d"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ReadExisting"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="87f1fa5a-3266-4faf-9150-9914c07c076b"
+            name="ReadLine"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ea564e67-7116-4e63-acdd-0e6645f1cdd6"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=ReadLine"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="11b529d4-045b-47d7-b22c-ca534aa519b7"
+            name="CatchErrorEvents"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d00e6317-37bb-4633-b845-da26af93978b"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=CatchErrorEvents OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Object),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialErrorReceivedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="e6eaa1da-b385-42aa-bfef-0ec971d69bee"
+            name="CatchPinChangedEvents"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="406fcb48-e214-44e6-b08b-5c8fe0e8db01"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=CatchPinChangedEvents OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Object),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPinChangedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="d8787be2-941e-473d-bbc3-b4aff8037571"
+            name="CatchReceivedEvents"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6fce9b74-1970-4c97-a6cd-8591a4464c72"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=CatchReceivedEvents OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Object),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialDataReceivedEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="f9185e8f-38b5-4822-b002-2cfebd833b63"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="329a7b0b-ea39-41ec-a02b-52317f8d65b5"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=Dispose OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Boolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="bc954655-a48a-49f1-8690-6e2e4dd60525"
+            name="GetElapsedTime"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7c566bea-196d-4ee3-97ce-71d6a20512d8"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=GetElapsedTime OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="8ee488ce-c6ce-4629-94cb-4acb7f3c228b"
+            name="InternalRead"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aad9043d-b77b-4040-944c-c65d4e512e41"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=InternalRead OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=(Name=Char ArrayRank=1 ParentType=Char)),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Boolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="ca704455-54f8-4fcc-9684-b23c2d910eda"
+            name="MaybeResizeBuffer"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5f8dc103-f167-4a4d-bc14-0160ab27f44e"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=MaybeResizeBuffer OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="7433851c-be19-4a92-8868-f67da853c31a"
+            name="Read"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="50d0e6a2-4916-4e64-81f0-4d1683a37ab2"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=Read OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=(Name=Byte ArrayRank=1 ParentType=Byte)),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="043e2b38-c62f-401d-88f5-070587d410b3"
+            name="Read"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bf4049b6-9f33-4091-afe5-e319199c1f96"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=Read OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=(Name=Char ArrayRank=1 ParentType=Char)),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="fd3b4116-2e48-4e68-ae39-7d57faf42e9b"
+            name="ReadBufferIntoChars"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="733485c0-088a-49d0-90e8-ae5191b8e1a0"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=ReadBufferIntoChars OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=(Name=Char ArrayRank=1 ParentType=Char)),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Boolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="7c6a51ea-576c-4af1-8a10-84b69420b16a"
+            name="ReadOneChar"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="527e1b0c-5c43-448b-bd2a-330eb73cc939"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=ReadOneChar OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="774a5e1a-3422-4be6-9982-e762eb7c96a5"
+            name="ReadTo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d9d34ccc-27db-416f-bd27-f75a1d65a677"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=ReadTo OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="331672f8-f31b-415b-b3a9-c67c854da68c"
+            name="Write"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8057bf6d-cc24-46d9-8d52-eb2670f25372"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=Write OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="8064dacd-7deb-4218-8169-ddf767345dcd"
+            name="Write"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="75a7e0bd-e1c0-42ca-a983-74bbc5978620"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=Write OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=(Name=Byte ArrayRank=1 ParentType=Byte)),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="a5f521b3-8040-4d67-ac54-0edfad5be6ee"
+            name="Write"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="042bfefe-d400-4ffe-9bbd-74a68c6e4c46"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=Write OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=(Name=Char ArrayRank=1 ParentType=Char)),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32),(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=Int32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+          <operation
+            Id="80e8d2c4-d551-4cfc-b66c-2e6d981510fb"
+            name="WriteLine"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5e926315-0321-45da-9238-0445e5b8fe31"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/System.dll Namespace=System.IO.Ports Type=SerialPort Member=(Name=WriteLine OverloadingParameters=[(Assembly=file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a57a2a03-b5df-4182-8518-4e4823abab8d"
+        name="SerialErrorReceivedEventHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d00fb9a7-1671-45f7-82a2-9ebfcf48a236"
+            handle="viewcode://./CodeSchema_Delegate?Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/System.dll&quot; Namespace=System.IO.Ports Type=SerialErrorReceivedEventHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ab60f6ae-72cb-46ee-bc5b-8050d719c7ca"
+            name="delegate"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0025496a-8e1f-429f-b954-f57bbe6491db">
+                <propertyInstance
+                  Id="56d31532-b38c-4df8-81bb-6558029c88cb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="346f00ff-24a8-44ed-a65f-a24a7bf2d868">
+                <propertyInstance
+                  Id="83aadaf5-0765-48bf-9e78-f67e15e617c0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ea81bcf-2dad-423e-8569-6052fbb926b4">
+                <propertyInstance
+                  Id="d1c40eb9-7b7a-4cbe-bcce-c24b002bf0d3"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

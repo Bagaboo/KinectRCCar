@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.WpfUI", "KinectRCCar.WpfUI\KinectRCCar.WpfUI.csproj", "{95ADC139-E0D0-40BB-9D91-F9ED0973577E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.CarController", "KinectRCCar.CarController\KinectRCCar.CarController.csproj", "{A4A2C7AB-EFF4-4681-B618-71564B7AC67E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.Kinect", "KinectRCCar.Kinect\KinectRCCar.Kinect.csproj", "{F369CAA5-6B9D-488D-A203-7A86CE325CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar", "KinectRCCar\KinectRCCar.csproj", "{6F5C6F5C-2430-4711-973B-E13B43161B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.MjpegProcessor", "KinectRCCar.MjpegProcessor\KinectRCCar.MjpegProcessor.csproj", "{ADA966D2-1526-49E1-AAB9-54FBA3485544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.WpfUI.Test", "KinectRCCar.WpfUI.Test\KinectRCCar.WpfUI.Test.csproj", "{503C1BE9-BB50-4B50-B59B-D37A8E181FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.Infrastructure", "KinectRCCar.Infrastructure\KinectRCCar.Infrastructure.csproj", "{5EDE6164-43AB-4EB0-A342-01B927A31092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.CarCamera", "KinectRCCar.CarCamera\KinectRCCar.CarCamera.csproj", "{49370559-D13C-46AC-B35F-685F3A17C5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.UserControls", "KinectRCCar.UserControls\KinectRCCar.UserControls.csproj", "{D99CD2DF-E378-4590-AEB2-B8A61E7B2AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.CarController.Tests", "KinectRCCar.CarController.Tests\KinectRCCar.CarController.Tests.csproj", "{69C89194-FDE5-434B-A045-F59076C4DB37}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "KinectRCCar.Modeling", "KinectRCCar.Modeling\KinectRCCar.Modeling.modelproj", "{D75615E4-9345-4587-BA89-764B63F1A4FA}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95ADC139-E0D0-40BB-9D91-F9ED0973577E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{95ADC139-E0D0-40BB-9D91-F9ED0973577E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{95ADC139-E0D0-40BB-9D91-F9ED0973577E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A4A2C7AB-EFF4-4681-B618-71564B7AC67E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A4A2C7AB-EFF4-4681-B618-71564B7AC67E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A4A2C7AB-EFF4-4681-B618-71564B7AC67E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A4A2C7AB-EFF4-4681-B618-71564B7AC67E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F369CAA5-6B9D-488D-A203-7A86CE325CD8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F369CAA5-6B9D-488D-A203-7A86CE325CD8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F369CAA5-6B9D-488D-A203-7A86CE325CD8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F369CAA5-6B9D-488D-A203-7A86CE325CD8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6F5C6F5C-2430-4711-973B-E13B43161B5B}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{6F5C6F5C-2430-4711-973B-E13B43161B5B}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6F5C6F5C-2430-4711-973B-E13B43161B5B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6F5C6F5C-2430-4711-973B-E13B43161B5B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{ADA966D2-1526-49E1-AAB9-54FBA3485544}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ADA966D2-1526-49E1-AAB9-54FBA3485544}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ADA966D2-1526-49E1-AAB9-54FBA3485544}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ADA966D2-1526-49E1-AAB9-54FBA3485544}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{503C1BE9-BB50-4B50-B59B-D37A8E181FD0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{503C1BE9-BB50-4B50-B59B-D37A8E181FD0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{503C1BE9-BB50-4B50-B59B-D37A8E181FD0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5EDE6164-43AB-4EB0-A342-01B927A31092}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5EDE6164-43AB-4EB0-A342-01B927A31092}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5EDE6164-43AB-4EB0-A342-01B927A31092}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5EDE6164-43AB-4EB0-A342-01B927A31092}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{49370559-D13C-46AC-B35F-685F3A17C5B8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{49370559-D13C-46AC-B35F-685F3A17C5B8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{49370559-D13C-46AC-B35F-685F3A17C5B8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{49370559-D13C-46AC-B35F-685F3A17C5B8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D99CD2DF-E378-4590-AEB2-B8A61E7B2AC5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D99CD2DF-E378-4590-AEB2-B8A61E7B2AC5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D99CD2DF-E378-4590-AEB2-B8A61E7B2AC5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D99CD2DF-E378-4590-AEB2-B8A61E7B2AC5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{69C89194-FDE5-434B-A045-F59076C4DB37}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{69C89194-FDE5-434B-A045-F59076C4DB37}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{69C89194-FDE5-434B-A045-F59076C4DB37}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{69C89194-FDE5-434B-A045-F59076C4DB37}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D75615E4-9345-4587-BA89-764B63F1A4FA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D75615E4-9345-4587-BA89-764B63F1A4FA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D75615E4-9345-4587-BA89-764B63F1A4FA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D75615E4-9345-4587-BA89-764B63F1A4FA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal

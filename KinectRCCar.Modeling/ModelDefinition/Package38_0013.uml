@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="16c09b2f-1fa1-4049-a6ab-8d484e4746f7"
+  name="Test"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="156c32f3-1835-48b9-9165-e796ea07a14c"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.WPFUI.Test"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f2cbd187-8472-4194-ad13-65075f0aeed1"
+        name="CountDownTimerTest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="24d53be3-9358-4cb5-90b5-6df6856c017d"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6069c2e8-2b68-4242-b3b9-538d068364e9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="894ca274-ce41-4203-bb2c-e37527a9a0c8">
+                <propertyInstance
+                  Id="3368c1b9-97a1-4bf8-b88c-a7a6d694b1ab"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9cbd0a5-f054-40cc-b046-6d1faf1f04c2">
+                <propertyInstance
+                  Id="f3b896da-10c9-442c-b32c-f554a2eede91"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96ee0909-b5d9-4ffd-8c60-e5387b68fd17">
+                <propertyInstance
+                  Id="3b593d06-97fb-4911-9b79-3ffd597e3ab2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25272317-f084-4843-afc7-1a57c5b827a5">
+                <propertyInstance
+                  Id="44c33be7-b214-4daf-961a-6593c406d074"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9eee93c-84fb-4dce-9793-817bd356b8ac">
+                <propertyInstance
+                  Id="6b010177-aadf-43a3-88e2-2d1723556b24"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="fa6e3682-d1bf-4b56-a991-d29524cd9acd"
+            isDerived="false"
+            sourceEndRoleName="CountDownTimerTest"
+            targetEndRoleName="TestContext"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e12117df-963e-491c-87e1-a8e2c80be640"
+              LastKnownName="TestContext"
+              LastKnownLocation="Package41_0013.uml" />
+            <description>Property TestContext references type TestContext.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b125c590-f1a6-400d-9d65-81b2e847a6fb"
+                  name="CountDownTimerTest"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ba735051-317b-4624-9a05-41c2743dfc2d"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="49010950-a669-4220-89a3-64aa413818bd"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2321ee25-cfb9-40ab-a1b6-9d1acca733e3"
+                  name="TestContext"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b6c16275-1c08-403b-a524-52b669d277ec"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ae186faa-a419-4431-86d2-cff28c6c2b4f"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="32f136aa-2a26-4f42-84c7-54d8e60776da"
+            name="TestContext"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="712a0098-1d96-4b93-866a-42ef9c5c93d1"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest Member=TestContext"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0c9ef7a-cff1-44b4-a17a-af05afc9b56f"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1312ab5c-d5c9-4e5d-bf41-9f30b240dabc">
+                    <propertyInstance
+                      Id="adcfeedc-f9ba-467c-b4e0-d4b91ad871c9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33fb626a-5735-4a63-ba47-1d6ff206def7">
+                    <propertyInstance
+                      Id="0cd74c5e-c4a1-4dfd-b322-e2a9eb73d3d5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5925f339-2ed0-47c4-a54b-d6dd19d4c36a">
+                    <propertyInstance
+                      Id="aa47061c-4904-4413-9b40-91428a45a16b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9df063ac-c3ae-4f5c-a004-8c075b35e44c">
+                    <propertyInstance
+                      Id="c1e5df06-cde0-49da-bf6a-7303106e4043"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02c77b69-619b-4ea6-870b-816f664c96a1">
+                    <propertyInstance
+                      Id="df91ba9e-e9ad-402d-b02a-eb82a34e9bee"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9f8dd6c-3c33-4a5f-9928-ba4304bd2a5c">
+                    <propertyInstance
+                      Id="f04aca4f-23bb-485d-9ca7-581ec3afd25d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e12117df-963e-491c-87e1-a8e2c80be640"
+                LastKnownName="TestContext"
+                LastKnownLocation="Package41_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="eddffe53-7a15-4a4b-b41f-9c6d0d7a47cb"
+            name="testContextInstance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="95f0ea29-9e2d-4455-94bf-f7ed3e6aea8e"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest Member=testContextInstance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b7e8b538-f398-4475-9682-3170219a1145"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca1cd771-61ce-455c-8e56-e904ed0e6b06">
+                    <propertyInstance
+                      Id="9780a5b8-e7d1-49fe-a0aa-69bdb7edad8d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4dc8e079-1539-4eeb-8edc-7fb08143605c">
+                    <propertyInstance
+                      Id="4b86a0b0-11da-43fc-867d-4ca5dc27fc4e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2aea08d-2b28-470b-be47-e84c4c3af3ef">
+                    <propertyInstance
+                      Id="872e2948-89a1-49f2-a286-fd323a1d42b9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56e684b3-4897-4a25-9026-f60dcc0ca24d">
+                    <propertyInstance
+                      Id="e71db978-73b5-4706-b887-b276f01b472d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a6585e0-1b67-45b1-a43d-97909e84da34">
+                    <propertyInstance
+                      Id="5e598dae-b0ae-47db-9de3-33605f03d030"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e12117df-963e-491c-87e1-a8e2c80be640"
+                LastKnownName="TestContext"
+                LastKnownLocation="Package41_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="61d648f4-5ebb-4d23-98f1-bb5e4c47faaa"
+            name="MyTestInitialize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e68de4a2-344a-45fb-9e4f-d40a64e1dbf3"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest Member=MyTestInitialize"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8ae512ac-a4a3-4a81-89ab-e0240ba12e08"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="623729e4-fdb4-47f3-8060-fcba53e2db6c">
+                    <propertyInstance
+                      Id="ea487730-4f81-45af-b206-54fafbe11bd9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7942aea1-698e-4971-89c8-43324ccce8ad">
+                    <propertyInstance
+                      Id="6543b2ec-588a-48a8-a37e-ff06325593ee"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b590d3d-b3b3-4ef3-8421-4b8341c071d1">
+                    <propertyInstance
+                      Id="38f8cf00-e718-43c8-926f-9e65f12ad7b8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbb22177-4e44-4dba-b1d5-67ea4333c495">
+                    <propertyInstance
+                      Id="07b9676c-8793-4705-bcf3-94fd38d28d52"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc22e031-7cf4-4290-b9c1-1109e67990d7">
+                    <propertyInstance
+                      Id="39ca6479-96bd-4f51-a1a7-5259dc6ab36e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="6a981706-d186-4b0f-8957-6f8f20a900e0"
+            name="CountDownTimerConstructorTest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="88a5d97a-63ba-43d5-bfab-da9e20b97067"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest Member=CountDownTimerConstructorTest"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf8fc674-fd35-4706-a3a0-7dbd953c2a74"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86dadf6e-7c97-4cf0-94bf-0da6cc2869dc">
+                    <propertyInstance
+                      Id="2f2af2c6-27e6-418a-8ec9-ed3b78d8cf4e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a84574a-8dde-4d9c-aef4-d3e95d31fc15">
+                    <propertyInstance
+                      Id="4b08dd86-1dba-492c-8f00-ae8659db88a6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1083e4b-9a14-4838-b7de-8ca041b768d4">
+                    <propertyInstance
+                      Id="776aeaad-70ac-4f3d-939f-7088475fcc14"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7da18fc4-793e-48c2-9ceb-d2aa94214ddc">
+                    <propertyInstance
+                      Id="2df10967-a46a-4bfd-a8d1-d653f8fce187"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="235a3bbf-1422-4575-b952-bf59dcf246fc">
+                    <propertyInstance
+                      Id="28ae4d30-1bc1-418c-bd24-5bd492cd5b72"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="30346bf4-b344-4b5c-9ebe-be0bd0c40ad8"
+            name="DispatcherTimerOnTickTest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="55ba6b5f-8d4f-4844-ab50-8ab25499c84e"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest Member=DispatcherTimerOnTickTest"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5b3831bf-bad4-4216-bf02-ed3f9f3a9c21"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68bd3433-85f2-4100-9a9b-1bae427684ca">
+                    <propertyInstance
+                      Id="de6f8f3f-6369-4e10-99c2-5d42f0c1d1b3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="395cb7c3-693c-4d4c-8a4f-edb6c7c56b8d">
+                    <propertyInstance
+                      Id="ef65673b-0d80-4dd7-bce1-1944963e52cc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad2b105a-18d3-4ec8-8716-8e93669e8d04">
+                    <propertyInstance
+                      Id="b2f11a27-0bf7-4e6f-87c4-3372da07ec52"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d09e6ded-adc3-4622-8934-84e53053d6dc">
+                    <propertyInstance
+                      Id="efb06959-1fa7-4eb7-8669-e61bd1d699d3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7107f494-a573-4f3a-ad9d-5e4e111ffd18">
+                    <propertyInstance
+                      Id="5de100b9-9a62-469b-8b6c-77610a852f8f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="e7677feb-548a-4124-b98c-03f713cc0b9e"
+            name="DispatcherTimerTest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8ba239db-9410-4583-8dd4-eb390bdd96b7"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest Member=DispatcherTimerTest"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="44256aed-5066-4289-b398-7a9ee5bd46c3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7da6094e-68e1-408f-8761-db2977608ed5">
+                    <propertyInstance
+                      Id="1613a09a-fc02-4031-a117-816ac4bf50f7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b7a5a69-6044-4a07-9651-fb50535c5106">
+                    <propertyInstance
+                      Id="87e67d33-8c8e-4912-b7c8-612d2920fce8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7625076-3250-40fa-86ca-11e6e2015cf0">
+                    <propertyInstance
+                      Id="b39f4469-2df4-4134-85fa-0096a275447a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a3dcdfa-4cc6-4c4c-9b4e-984abd824bc7">
+                    <propertyInstance
+                      Id="61b6669e-65d9-40c7-942f-4a3e309a29b4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fc9919e-d3ca-496c-b9b9-eb525f044b7d">
+                    <propertyInstance
+                      Id="f2095513-45e4-4650-8a67-478285411e72"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f99782f6-3309-419e-912b-937d80aa29c4"
+            name="CountDownTimerTest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="af204e66-1976-46eb-87c8-755036b775e6"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI.Test/bin/Debug/KinectRCCar.WPFUI.Test.dll&quot; Namespace=KinectRCCar.WPFUI.Test Type=CountDownTimerTest Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2caacae2-b56f-47b5-8505-8e70dad76920"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d29644e-0722-4ea2-a00b-25b2f7299f8b">
+                    <propertyInstance
+                      Id="843177c3-1bfd-4049-9e2f-d796de93c010"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db5ed51a-3e83-4668-8adf-f159269f50b1">
+                    <propertyInstance
+                      Id="08ba7c3c-30f3-4911-8703-292366567275"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb0f2827-1d9a-4fa8-b233-20f98ac791c9">
+                    <propertyInstance
+                      Id="19c4807e-db9c-4899-aa83-57cc562ad615"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc335696-fbee-4b14-bcb8-bbd75459939f">
+                    <propertyInstance
+                      Id="c5c25b7d-cc7c-469b-bef4-ae1c27766ec0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9190f74b-a98d-4452-af42-ba234cf02b3e">
+                    <propertyInstance
+                      Id="7575cc97-cf0b-42a5-8bbf-59c18fcb8d72"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

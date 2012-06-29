@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1bdeefd2-5e12-4ac5-8339-6a1d36585422"
+  name="Moq"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e68dd2e6-e303-4851-89bf-8f4a28f3014c"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Moq"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="351ea7cb-ef28-4eb4-8c0f-99021513a9b2">
+      <profileInstance
+        Id="686bc0c3-96c9-4f7a-a40e-4016a1937bde"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1552e724-e652-45cf-b3eb-3f2e8b1ebcb0"
+        name="Mock&lt;MockMbedService&gt;"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a7ce1e86-6c0f-4b90-9e99-93a5c3ad05a5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="313cf7c9-edae-40ea-96c9-8f3eafbd946c">
+                <propertyInstance
+                  Id="2c0f8465-3e4a-4e72-9c88-c4ecd7c56598"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1b4794de-b747-4f04-a54a-a53221cbb0b6">
+                <propertyInstance
+                  Id="87a54726-dc0b-4ad5-afdd-c05e7f8a3ab3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="debf87d3-a023-42e4-8c46-0b48d79682b5">
+                <propertyInstance
+                  Id="f9aef02c-0df7-447c-b601-10c509359b54"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7511e82d-f366-497f-bc3c-d359f35a5fba">
+                <propertyInstance
+                  Id="15555c58-c7b5-4650-900c-246e20406c74"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50470516-5a53-404b-9093-344b806b16c7">
+                <propertyInstance
+                  Id="f87ac85f-b00b-48b2-affa-530164dbd1ed"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <signatures>
+          <templateBinding
+            Id="fc049368-c510-457b-961f-df4be0e87118">
+            <redefinableTemplateSignatureMoniker
+              Id="57eb8311-8380-4f95-8d74-9880bbdf82d1"
+              LastKnownLocation="Package58_0013.uml" />
+            <relationshipOwnedElementsInternal>
+              <templateBindingHasTemplateParameterSubstitution>
+                <templateParameterSubstitution
+                  Id="a2b2a5e9-f353-44aa-b3f1-389d82c324e7">
+                  <actuals>
+                    <classMoniker
+                      Id="7fd343da-d202-4fcd-93e1-911d07377b14"
+                      LastKnownName="MockMbedService"
+                      LastKnownLocation="Package57_0013.uml" />
+                  </actuals>
+                  <formal>
+                    <classifierTemplateParameterMoniker
+                      Id="71b11296-ed4d-49c6-a0f2-9b044d9ce603"
+                      LastKnownLocation="Package58_0013.uml" />
+                  </formal>
+                </templateParameterSubstitution>
+              </templateBindingHasTemplateParameterSubstitution>
+            </relationshipOwnedElementsInternal>
+          </templateBinding>
+        </signatures>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f4965308-0951-4d97-b0eb-47766e957378"
+        name="Mock"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="013f0c7a-536c-449a-a762-7654a3f8397a"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Moq.4.0.10827/lib/NET40/Moq.dll&quot; Namespace=Moq Type=(Name=Mock GenericParameterCount=1)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b158495f-554c-4b70-8425-93b47b11a1c4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dca0e547-3b03-4496-b7f6-1003142cc648">
+                <propertyInstance
+                  Id="6ec01d89-1928-4223-aadc-32d84395e109"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea43945a-a408-48f3-965b-d44d8884fc8f">
+                <propertyInstance
+                  Id="f1b296ae-9e07-4d08-8e9c-7a0087a8e7cb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4462d7b-db91-43fd-8435-5638a744dffa">
+                <propertyInstance
+                  Id="b5512811-2bcc-4299-8847-6a4bf961f37f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fcdf869e-9646-48bf-aa61-96deb7ce5e2c">
+                <propertyInstance
+                  Id="ba9f466c-b697-4721-a740-0f7e5b35024f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9647df0c-51da-4957-a73e-904b04cc0ffb">
+                <propertyInstance
+                  Id="2f71fa53-7dda-48e4-a5b1-e5eba03e8b1f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedRedefinableTemplateSignatureInternal>
+          <redefinableTemplateSignature
+            Id="57eb8311-8380-4f95-8d74-9880bbdf82d1"
+            parameters=""
+            name="RedefinableTemplateSignature1"
+            isLeaf="false">
+            <ownedParameters>
+              <classifierTemplateParameter
+                Id="71b11296-ed4d-49c6-a0f2-9b044d9ce603">
+                <referencesInternal>
+                  <reference
+                    Id="ef2f5de3-f21c-48f1-bafe-4d5850b49d01"
+                    handle="viewcode://./CodeSchema_GenericParameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Moq.4.0.10827/lib/NET40/Moq.dll&quot; Namespace=Moq Type=(Name=Mock GenericParameterCount=1) ParameterIdentifier=0"
+                    tag="ViewCode" />
+                </referencesInternal>
+                <ownedParameterableElement>
+                  <class
+                    Id="9b2530b0-e27d-49c7-aa91-71f08cffee7d"
+                    name="T"
+                    isAbstract="false"
+                    isLeaf="false"
+                    isActiveClass="false" />
+                </ownedParameterableElement>
+              </classifierTemplateParameter>
+            </ownedParameters>
+          </redefinableTemplateSignature>
+        </ownedRedefinableTemplateSignatureInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

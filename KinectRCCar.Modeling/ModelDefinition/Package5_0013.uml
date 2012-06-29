@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b31628a8-9544-4523-8046-13a483d1e945"
+  name="Media"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="5d3d28a0-309b-42b8-8f18-c215a5498b95"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=System.Windows.Media"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0c8b9517-f953-4d18-8ba3-287dfe980f80"
+        LastKnownName="Imaging"
+        LastKnownLocation="Package6_0013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c77f8eae-e3bc-4573-b86b-b490c5d93dfd"
+        name="Brush"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="aa0717c0-aa12-4cbb-a4f2-9241ccc73c90"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/PresentationCore.dll&quot; Namespace=System.Windows.Media Type=Brush"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="83637ac2-c366-434f-8f25-11c6a70b4d89"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cf54dd90-10f3-4906-b0ca-8cae57130823">
+                <propertyInstance
+                  Id="8835942c-d438-40c2-8658-ca0fbae17cde"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d566977-ab26-4af2-b94d-23eef8288a78">
+                <propertyInstance
+                  Id="99496d32-4c41-4dc1-a3de-8a0e8e5f7ff5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a02170e1-51cd-44b3-9aaf-bfa4932df4c7">
+                <propertyInstance
+                  Id="378cc476-30eb-4803-a1cd-e7b15ae68d78"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="30ef9258-c69d-42ee-96e7-171d13bb6f50">
+                <propertyInstance
+                  Id="402975ff-402b-4d68-b6c3-93e15250c3ca"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8b38c7e-c7e7-4963-acde-64b3ff52fc7c">
+                <propertyInstance
+                  Id="baf35a7e-c06f-471f-be98-575c93a185d0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="be649b06-7771-4178-87d1-e03fc9583f18"
+        LastKnownName="Media3D"
+        LastKnownLocation="Package44_0013.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

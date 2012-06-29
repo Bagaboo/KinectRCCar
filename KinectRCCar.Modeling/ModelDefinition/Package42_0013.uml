@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b249a809-a79b-422e-a0a9-367d31c3026d"
+  name="UnityExtensions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="add36eb4-c4c3-49b4-a942-6efe72ff9449"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Microsoft.Practices.Prism.UnityExtensions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="7feb9801-8c97-4f7f-b86f-f70fd610806a">
+      <profileInstance
+        Id="5ce35b3d-669c-4fca-88a6-d659fd4b6df2"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="99624dc3-0aad-4224-ad9c-3e7b3939b28c"
+        name="UnityBootstrapper"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a694f95e-4369-4a3b-9ed2-75ac25dc2d1b"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Prism.UnityExtensions.4.1.0.0/lib/NET40/Microsoft.Practices.Prism.UnityExtensions.dll&quot; Namespace=Microsoft.Practices.Prism.UnityExtensions Type=UnityBootstrapper"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5445e75d-a8ad-475c-82f2-7f2beb83f92c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51ec7a7e-1003-4219-a181-de0ea381a4e8">
+                <propertyInstance
+                  Id="b41daf4e-11a5-48e7-9ab2-c0b910aea16a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7da0207e-5c6c-4b75-9a1b-6a2479b8628f">
+                <propertyInstance
+                  Id="c1ab0180-54eb-403e-8e04-ce9471a78245"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="59e258a6-194e-436c-bb7e-e75288a0ed91">
+                <propertyInstance
+                  Id="40860dd6-8486-47ea-89d8-e1b77ca94810"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="378705cd-e0b6-41fd-a2f3-f90e102d1723">
+                <propertyInstance
+                  Id="4b3bc6b2-6414-464e-96ed-b776c9e3a135"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f41e39da-ad82-4047-a7cf-62a6d5bbb825">
+                <propertyInstance
+                  Id="9ee532b5-e758-4508-b4a7-1ef96a07d739"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,1738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="126d0e38-f9cd-41e0-bb51-f9005b15af2e"
+  name="Properties"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="01d390cb-6031-4129-91b0-4fc5ffc41ccd"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.WPFUI.Properties"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="c1a6b797-bcbe-4777-9af3-3ee393d9b1bb"
+        name="Resources"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6120bb0a-a657-4861-b240-bb890924be88"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Resources"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="336e7f14-709e-4106-8e5b-54a123ff6c12"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7091b992-3eb7-4c52-9b5d-217e06e8e3e6">
+                <propertyInstance
+                  Id="d5dedbd7-c028-4657-a31d-4a745aa9a644"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e28066e-bc0f-498f-a04c-426c198057c4">
+                <propertyInstance
+                  Id="9bc9f135-6843-4583-8515-8323bebf60f5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c6a0713c-9548-4a3b-bca8-10a69fb5dc9e">
+                <propertyInstance
+                  Id="350cbc9f-84e6-4929-8fa2-ad8459e82f59"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5dde4adf-a9d8-48fe-b6b1-d88b8297b7b6">
+                <propertyInstance
+                  Id="49312706-082e-49ff-83b4-a8ae6477fda5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cb084c3c-4ce5-4078-8af3-55f77d982345">
+                <propertyInstance
+                  Id="56e9e67b-0857-468f-8e0a-a37ee509407c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="efe2610d-30aa-494b-8c4d-d85ba2282c9a"
+            name="ResourceManager"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="020ff479-fc18-49eb-a78d-f3fe11b995b1"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Resources Member=ResourceManager"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="68a094d1-74d3-4576-8dd5-94137df1ded2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d6d5364-3210-4a6c-b43a-d37b33b1b107">
+                    <propertyInstance
+                      Id="b8298733-fa8c-4e46-8b05-8debe1b6de5c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="264fe673-8276-4aa3-ae7e-40f4ee60d3d5">
+                    <propertyInstance
+                      Id="d3b1bc62-023f-44b8-be11-efbd417c02eb"
+                      name="Get"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6042a8d4-0a26-4631-87ac-2e120a4d96ea">
+                    <propertyInstance
+                      Id="0fc53f4f-a678-473e-831b-48a4e2dfaeb6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="284e3d98-a4c0-4f57-aeab-233c50037d0b">
+                    <propertyInstance
+                      Id="801535c4-adab-4c93-bf64-d4e8b6b4e346"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fe5b4ca-0797-4de9-97c3-dcbee17be8f7">
+                    <propertyInstance
+                      Id="24a359ca-ff8c-4012-8c7b-968cad8bf0b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5c1f147-c7c9-403c-9534-a34510149731">
+                    <propertyInstance
+                      Id="4a1df056-5a5e-46e8-9c85-3d2617f1d71f"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="08fd9d5d-173b-4f45-93ee-7d55b1dbcfb8"
+                LastKnownName="ResourceManager"
+                LastKnownLocation="Package11_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a43d7ba5-ca4e-43e0-8638-e168c0de656a"
+            name="Culture"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b935b949-9e26-4cdd-bcc0-b669d6cd1bd5"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Resources Member=Culture"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="415c8259-77d5-4620-8bd5-6c117ecf35a0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82c82862-f13c-408c-a42c-77ba7a42fec4">
+                    <propertyInstance
+                      Id="be074209-d3a2-4f66-9021-06141f11383c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9911150e-ea8b-44e5-8c91-b9cd74c9449f">
+                    <propertyInstance
+                      Id="40af9104-960a-4278-9681-f8600b66906e"
+                      name="Get"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="815a9c4f-c796-40a1-84a1-aec1c5033923">
+                    <propertyInstance
+                      Id="c43d89a8-74fa-4c41-8ec6-c2bfc4ab8a4b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d72d9c31-13bf-4f56-b63c-05ca7e78313f">
+                    <propertyInstance
+                      Id="9f3fdff0-9302-4572-999f-d9f87d5af875"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e16391fa-e019-43c3-8b46-b69b91991408">
+                    <propertyInstance
+                      Id="2c07a6b3-25b3-4ca5-b50c-aa19357871f6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60a82f75-f0b7-4639-a423-1a06bb3039ac">
+                    <propertyInstance
+                      Id="7e3f7faa-eb45-42fa-83c9-9d271c14b145"
+                      name="Set"
+                      value="package" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="92262950-3c82-4664-adf0-90c8ca871d05"
+                LastKnownName="CultureInfo"
+                LastKnownLocation="Package12_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5dc874d4-e785-4afa-a1d7-bed073c8e586"
+            name="resourceMan"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="040b90c0-be25-475c-97e9-2496324da08b"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Resources Member=resourceMan"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="48299249-f48f-44eb-8e3e-8395067c438c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56b24afc-79f5-429f-847c-27e850c0d859">
+                    <propertyInstance
+                      Id="6e394e8f-b2c2-47eb-9312-5a37d0be6c4e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="045d133e-4b2d-4458-b821-800fd2c4421a">
+                    <propertyInstance
+                      Id="3c1e47fe-6211-4834-8e46-74db1d6e55c6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6590544-413a-44b1-909e-325a64757f25">
+                    <propertyInstance
+                      Id="a8dac838-7268-44d7-8e40-f5969fb10f0c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ac65d35-d618-4238-a7ea-52845967c4ef">
+                    <propertyInstance
+                      Id="1d7002ea-740e-43e8-b4dd-02153a472f7f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85e701c8-1ed4-40a2-a9bb-8cb14876c8dd">
+                    <propertyInstance
+                      Id="654a4258-abd1-48bd-835e-995a7c1e5713"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="08fd9d5d-173b-4f45-93ee-7d55b1dbcfb8"
+                LastKnownName="ResourceManager"
+                LastKnownLocation="Package11_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="aa579517-9604-4709-8542-7b2ffd44ba40"
+            name="resourceCulture"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f32bffa9-427b-49a1-9fa1-ebead3b0eb3b"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Resources Member=resourceCulture"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="85f82fa6-7a3d-4f05-aafd-b193bb043918"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="836f1b6d-3728-4f2f-b686-1f173149eed0">
+                    <propertyInstance
+                      Id="83bd7662-84c6-4d07-8ff9-6115ed81b669"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1725787-706f-45fc-af3c-93348ab0af93">
+                    <propertyInstance
+                      Id="ff2aaeb8-2815-4afd-8358-8f595d107fc4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5078f187-57b9-4a4d-8aa1-d6b9163576db">
+                    <propertyInstance
+                      Id="5d32d103-a993-4719-a000-71099e2b8709"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b7aea6e-99c2-4e01-b20f-fe5610ce9bc4">
+                    <propertyInstance
+                      Id="008c7b89-8d0d-4c37-bddf-239ea3e6296a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41bd6739-83c1-469e-aa98-37dafbacc98f">
+                    <propertyInstance
+                      Id="7777173d-f9c8-49c5-86bf-0347572a3d43"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="92262950-3c82-4664-adf0-90c8ca871d05"
+                LastKnownName="CultureInfo"
+                LastKnownLocation="Package12_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1cb27a44-298d-4b1f-962e-f596b3d097c8"
+            name="Resources"
+            visibility="Package"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3265668c-3b30-4f54-a5d1-728984370097"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Resources Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="51d7dc3d-84d4-4fba-a90c-451cb16a07d1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50c09243-9027-419d-b2b0-eb85c0610530">
+                    <propertyInstance
+                      Id="c70b70bb-b751-4bfe-bf9d-771c738591b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ef1d85e-df94-4da4-b1aa-9569728f9f2d">
+                    <propertyInstance
+                      Id="6796bce2-0b01-498f-b14b-a1897e9ce95b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce4b801a-bfbd-4030-94d1-1c97c23098cc">
+                    <propertyInstance
+                      Id="5bb99841-ac09-4755-b536-42fe14b543e1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09723d63-9870-483b-bcdb-4248f35da729">
+                    <propertyInstance
+                      Id="59d844c7-d53a-4994-b2df-f51b2d01754a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="213f53c4-acc2-4047-b841-4efb58136342">
+                    <propertyInstance
+                      Id="3125c2bb-17e5-4b51-979d-b38b231a6274"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6798aaec-88d0-4f6b-a81e-bd240fef0883"
+        name="Settings"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b0093928-d508-4e27-9157-b69fc35307c4"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c0bd7749-28e1-463e-bbdc-70567a139be8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="84ebc9b7-1c89-4856-a30c-1c7b86b7669d">
+                <propertyInstance
+                  Id="3dd0f24a-c5ff-4cc0-9799-f9e69065fede"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aef60d60-c963-4425-a159-b535c2f08039">
+                <propertyInstance
+                  Id="472f3d4f-2ae5-4fbc-b203-eca1d2f994fa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4fd2187f-feaf-4c5d-8e55-3197576dc0ba">
+                <propertyInstance
+                  Id="c258fd10-353d-4c50-85f7-0d072133327e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="11be1a76-f2a5-4d0d-bffa-6dac1b87de30">
+                <propertyInstance
+                  Id="bb33d8e8-6513-4042-8cc3-ac40287da545"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0a0b7c48-0b4e-4a06-9439-0f52bc02e5f4">
+                <propertyInstance
+                  Id="09ed487e-fe81-494d-910a-7f102b154ee9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="d2ff4df0-a1d5-414a-bedc-a0c1fbf3000f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="fe85ecba-3c68-4c16-a401-ece7a148c3ef"
+              LastKnownName="ApplicationSettingsBase"
+              LastKnownLocation="Package13_0013.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="531ee188-269d-4d6e-b37c-6e3ea310ca4a"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="Default"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6798aaec-88d0-4f6b-a81e-bd240fef0883"
+              LastKnownName="Settings"
+              LastKnownLocation="Package37_0013.uml" />
+            <description>Property Default references type Settings.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d2bbcf20-ee57-4db7-ad66-0c75743f38b4"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fe01cab8-1bcd-4019-a072-d75c13ee54d8"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="e63580ae-babb-4ac2-b666-87d452479b26"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0d7de503-da05-4102-9c6b-77b960c05e61"
+                  name="Default"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="40790a33-053b-4164-b18e-6908377fbdcc"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3c9ac2ea-fe2f-4cd6-8c7c-ce43580b55fb"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bc1ac8a3-1a2a-4308-96ff-94f5551b56be"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="MaxVelocityRange"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="970843f6-934a-410e-b546-3e538396ff17"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_0013.uml" />
+            <description>Property MaxVelocityRange references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="43d70338-b2f8-4949-944c-a10701cb560a"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="385a345e-a6aa-4321-b670-e1fe8cde04c0"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7ff403af-9ab5-4004-b245-7443736af51e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d074c2d3-d8c5-4d89-87fe-074549d11120"
+                  name="MaxVelocityRange"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="cad56fbb-c1bb-4291-943a-2c38907e6815"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5cc18adc-7160-4250-bf96-9ca6a9373c34"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cea585ce-6403-41d8-9c42-979bdb5fa1aa"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="MinVelocityRange"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="970843f6-934a-410e-b546-3e538396ff17"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_0013.uml" />
+            <description>Property MinVelocityRange references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="672f2c20-edce-45ef-92c5-4b6a39b04d8b"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3320ae10-b585-401d-ab26-9ca6cb6618c2"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a1d717d0-7525-4a63-834f-e603a92c7bb1"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88894730-cbc0-4f7b-bbb1-224852456421"
+                  name="MinVelocityRange"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f1c4814e-ad6c-474d-b9d6-53363771f37a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="971000a4-5cfa-421d-9f47-b3a07aa96235"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9a33e05c-ac6c-43cc-81e4-13cd7437986c"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="HorizontalHandThreshold"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="970843f6-934a-410e-b546-3e538396ff17"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_0013.uml" />
+            <description>Property HorizontalHandThreshold references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="239b5ea3-e031-4ce5-b25f-66425fd1568e"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="513af6bc-ba8e-4ecf-a4fe-1857dd652485"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2a6a18e2-75a7-4aa4-85ae-b58b90788add"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="594999cc-9944-4abe-b469-2d2587f58acf"
+                  name="HorizontalHandThreshold"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="9727f30c-d758-40ab-b2c1-363548509023"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="28445c9b-2d48-41a4-b204-4bff322be4f0"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8079e217-c1d2-43a5-8c9f-f84d8ac8f3f0"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="ZHandThreshold"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="970843f6-934a-410e-b546-3e538396ff17"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_0013.uml" />
+            <description>Property ZHandThreshold references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="136aa34c-98a9-405b-bd67-0e46d632d71f"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e7a82837-f831-4670-a511-306357eb7258"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c0cfff51-16f4-4142-a643-d724f6e6790e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="98a2a581-3421-4a5c-900c-aa5183d4b8ab"
+                  name="ZHandThreshold"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3471fd1b-0698-4f7d-bf1f-57d2ba63e482"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="651e4eaf-cef3-4057-ba64-15420ad4d770"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b6a4df6c-0461-465e-9c0c-6da186f6ca7a"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="DirectionDeltaTolerance"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="970843f6-934a-410e-b546-3e538396ff17"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_0013.uml" />
+            <description>Property DirectionDeltaTolerance references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="411267f9-cba2-4fe1-b7f2-5f36a77d44bc"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a69224b6-da77-48fb-aaf0-559b3dfc5c9a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0db62797-2ea3-4345-baa5-74f404539ca0"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3c9dc723-a492-47f5-a368-62f318e0946b"
+                  name="DirectionDeltaTolerance"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1fe64ec0-993d-4375-ae29-350084f4e384"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d1066647-29a7-4cb5-9cdf-cba9ed389276"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1f5055a5-5711-4185-89d6-6dc8729fd7cf"
+            isDerived="false"
+            sourceEndRoleName="Settings"
+            targetEndRoleName="VelocityDeltaTolerance"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="970843f6-934a-410e-b546-3e538396ff17"
+              LastKnownName="Double"
+              LastKnownLocation="Package3_0013.uml" />
+            <description>Property VelocityDeltaTolerance references type Double.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="beac25d4-42f0-4c68-b102-e5ca8c2e0627"
+                  name="Settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3b4cdc42-a587-4e9b-86ae-45850c069cba"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d04d2bbb-e0f9-4425-a54b-f57a9017fbf3"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="455bd22c-3fd3-4373-a4f5-ddb30ad33395"
+                  name="VelocityDeltaTolerance"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="34a85222-659f-4ec5-8c53-b1ab38cf3919"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bba932fb-3539-4a54-a72f-1faf09f500a6"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="a462e849-0033-4340-9274-595b7056420d"
+            name="Default"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="acd099e5-e6d1-4193-ab1a-8ef84cafbbd6"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=Default"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="61873e09-ca3b-4ebf-b0ce-ac069025b762"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d15801a1-5408-41d2-9bb5-342b9152b9f4">
+                    <propertyInstance
+                      Id="91231472-1ce6-42c7-b52e-8fd86d9f3761"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31161a12-89e4-4913-b5bb-86c195c3fed3">
+                    <propertyInstance
+                      Id="bf8e7c43-a6f3-4884-83fe-d3cc68dcfaae"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ae7687b-8de2-4d71-9f1e-68bcff37a4d8">
+                    <propertyInstance
+                      Id="d114675b-3acd-4f15-b73b-ff8a86ecee05"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed4d4ecb-2aae-451f-ad52-28dbe2688c50">
+                    <propertyInstance
+                      Id="95f9457b-8f0a-499e-95bc-c456210662c5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1730513a-54d4-46ae-80b8-61e5cb5203de">
+                    <propertyInstance
+                      Id="5c6f0f91-2881-4bb5-987a-c3af0dfdfda8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bf692c9-3dc3-4e12-b22d-2cb44f6e48f3">
+                    <propertyInstance
+                      Id="b8d936d3-35e8-41c7-bdd7-3bd3bfbb684b"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6798aaec-88d0-4f6b-a81e-bd240fef0883"
+                LastKnownName="Settings"
+                LastKnownLocation="Package37_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6ac8189f-56cb-48bc-88b2-adda16fe7711"
+            name="MaxDegrees"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="209b0c5e-edec-4684-a029-ce98bc8c8e81"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=MaxDegrees"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9db9f895-26b0-4e73-9bfc-ec299429681d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a15eedc5-f045-4541-a924-dd1d84d31b64">
+                    <propertyInstance
+                      Id="701829ba-e3a4-404c-94ef-2816e659f97e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29169965-93b5-4563-ac3e-43671f5d738c">
+                    <propertyInstance
+                      Id="94ee0f4a-2552-459c-834e-6c9f4ccb8a8e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d28812f9-5901-4a37-9712-9719586116b7">
+                    <propertyInstance
+                      Id="6aa2b9c1-d805-4e08-a408-29542ce6db9e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f5c7d0c-2017-475a-b59d-c947b868c8fe">
+                    <propertyInstance
+                      Id="710c1882-f9ac-457d-a1f2-7260fbdafc61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="824cfee1-2f47-4963-857c-82836b813125">
+                    <propertyInstance
+                      Id="6a1f3368-626b-423c-88f7-f36446ecce5c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed04bd30-e592-49c0-b4c8-6c216e98e930">
+                    <propertyInstance
+                      Id="545a3ca6-0bbe-49e7-b1e3-f21b9e5a3553"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="df92b0ef-814a-4700-a403-fd5fc6ba0618"
+            name="MinDegrees"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6f3ad7d8-17e1-4d49-9638-6827f34785da"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=MinDegrees"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4ea9b7a-14d3-4e69-93ac-f2bcaafbd1e3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33cee7bc-eaf9-4983-8a9a-56dc29373adf">
+                    <propertyInstance
+                      Id="a7515d2a-671c-48cc-a2b8-9d1c2ada4d08"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7328f69-9e88-4d19-9fe9-90e6484b35c6">
+                    <propertyInstance
+                      Id="33db2075-c10f-4369-af0f-89fda6e8ba96"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65c7e072-19d3-4653-ba10-4af4b34c2318">
+                    <propertyInstance
+                      Id="b6a575bb-dcff-43aa-9780-1fa0b527c0c5"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ef3dbbd-b405-4b79-aad4-1dcf5a73eac9">
+                    <propertyInstance
+                      Id="3e8eb493-51ab-4efc-b164-4a5da5aa4f43"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc0e3978-c353-491b-858d-7df5e453b2f4">
+                    <propertyInstance
+                      Id="c726bb8e-023f-4fad-974d-c6036685cc16"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db962f68-ace8-4b47-a0b3-fe796c2cca44">
+                    <propertyInstance
+                      Id="5296f3b1-dee3-4ca7-9d24-1d947688d5f0"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e64ca313-dc5d-4cc2-88c8-83814c072829"
+            name="MaxVelocityRange"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fcddfbb2-6bb5-4b5f-afd9-10006bd95df6"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=MaxVelocityRange"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2620294f-964e-48cd-aa36-141c4fc9bc38"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45f98709-3903-47ed-8ada-6b74280f6d01">
+                    <propertyInstance
+                      Id="9c31e0ab-ed1a-43cf-930b-fd5a94a6656a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1c8a102-b87a-4841-9309-77f5432a1bab">
+                    <propertyInstance
+                      Id="400a8021-42e8-4774-8a5a-84916171d007"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a214405b-b246-46ba-a28d-036f20245ffa">
+                    <propertyInstance
+                      Id="7fce3331-eb21-4d12-9478-aacaeba9c62f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d99449fe-4425-4a4f-a873-6181eb324d50">
+                    <propertyInstance
+                      Id="fdbfb6b7-85e5-4f61-b0f7-8fe3f8322394"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="452aa777-b9f6-45ed-9c5c-d5db3b699677">
+                    <propertyInstance
+                      Id="fdda2978-866f-4e80-8fd8-79d00385e61a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc96e15b-8519-4200-bab7-c6e534224e9b">
+                    <propertyInstance
+                      Id="8efbc5ee-08dd-4e48-976a-cb48382ff486"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="970843f6-934a-410e-b546-3e538396ff17"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="322d9ad7-ece3-4c96-a5f6-9033d6c880c7"
+            name="MinVelocityRange"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="27c1cb41-1240-4c54-a2ed-4f13f2ab2bc2"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=MinVelocityRange"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="22987360-2f10-4eb5-93de-280eb7f3ef55"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f330118-788a-4aa5-a6e8-9133f8828941">
+                    <propertyInstance
+                      Id="8c69deb1-7e85-439d-bc70-b9924b546879"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56c96cbe-b913-4641-a0bc-0ab9f28f309d">
+                    <propertyInstance
+                      Id="066218e9-f572-4320-ac99-a89155f8fd34"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf5f5dfd-e943-4909-a3ac-fe6729c7b7ff">
+                    <propertyInstance
+                      Id="6fa8b513-9adb-46b3-9f28-d871b46765f8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30c18cea-887b-4d3b-8cc0-f79ee7601ce4">
+                    <propertyInstance
+                      Id="e29d45cd-019f-4326-8b8e-cf354c1c0e25"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1de934aa-692d-4ab3-9bda-2b3acd8e0364">
+                    <propertyInstance
+                      Id="d83838ab-88d2-4801-8404-f4edb96d198d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6133f1db-25bb-4355-9e41-6f82831a83d1">
+                    <propertyInstance
+                      Id="fcfc6eb4-c621-41e9-a80f-2a4900c5a60e"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="970843f6-934a-410e-b546-3e538396ff17"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="106899b1-a55f-4d91-a8a8-0a0e67d8255c"
+            name="defaultInstance"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9672e28b-25c2-4a15-8b11-7a82377a2844"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=defaultInstance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d98ee53a-7676-4960-8a35-2398e84fa0c5"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4d4caa3-8a21-4d63-83c2-0ee8f092dce4">
+                    <propertyInstance
+                      Id="a9fbc287-cb1e-4674-95dd-700ed703f529"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49922679-2c52-4fb8-b965-c626f496672f">
+                    <propertyInstance
+                      Id="52acd38b-6f37-4808-b6ca-c44a6d258b5a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e6aa041-64fa-43eb-adcd-5ecf0eb27c11">
+                    <propertyInstance
+                      Id="9d77a3d1-fe71-4043-b139-75e6647b74c4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b528c97e-daa6-4035-b95a-d23700460e56">
+                    <propertyInstance
+                      Id="dce14a6c-6577-4e6a-858c-5c1487c3988f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24adc945-ac2a-4b6d-a539-4553a32cf3a2">
+                    <propertyInstance
+                      Id="0355d29b-00d4-4caa-be4a-33ce3d6ff944"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="6798aaec-88d0-4f6b-a81e-bd240fef0883"
+                LastKnownName="Settings"
+                LastKnownLocation="Package37_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d03c3bbf-1e5a-4faa-9834-ac0936df6859"
+            name="HorizontalHandThreshold"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="104612f8-d0ab-4a13-84ff-36ba4330dc34"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=HorizontalHandThreshold"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="51181fae-1400-479c-9edc-87fa6800d8f7"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1e2beb4-ee2c-4df0-92b9-425c1fb8d085">
+                    <propertyInstance
+                      Id="34a8170d-2453-400e-ba43-992bd05ac190"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c643084-a6a0-4d2c-ae74-1b11c9945652">
+                    <propertyInstance
+                      Id="7d578a0e-b074-41bd-a952-f38408e0917a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4789de79-7383-4e17-a243-7f6f18669a0a">
+                    <propertyInstance
+                      Id="c7be114d-354c-49d9-9d3d-e68424ed3905"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="05d215fd-1d59-4d7d-b237-a4b2ddd62532">
+                    <propertyInstance
+                      Id="8bf7212c-b2c9-4a37-bbd4-27821510e4c5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc4c095b-ee7c-4dfc-9ce2-e56634241480">
+                    <propertyInstance
+                      Id="9962adc3-d3a4-4771-9325-758844a188f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5941311f-72a4-4b1a-aba6-91b71a2b0235">
+                    <propertyInstance
+                      Id="b10443a5-8dc6-4494-b7ab-096c12c53620"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="970843f6-934a-410e-b546-3e538396ff17"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cb8a3ff9-b5f8-4b92-a95a-bff7d3b927a2"
+            name="ZHandThreshold"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a4cbd04e-92ca-4438-a268-7615b05b06fe"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=ZHandThreshold"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="27586fa0-77e7-48ad-bdad-581f663f18d4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2df36990-0cec-4c2b-848a-e5f1a4018ccb">
+                    <propertyInstance
+                      Id="4fab6a5d-0dd7-4820-9884-ff2b8822b7f6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81418be0-beaf-4823-b39b-52a013035aaf">
+                    <propertyInstance
+                      Id="07ece2ac-d2f6-4b2f-8ecd-43e64faa8cf2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04f7d7d9-2916-45c5-8c0b-74013068bd9c">
+                    <propertyInstance
+                      Id="c69977b0-b939-4b0f-8c4f-50dc3f85971b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a99fabe6-0d8d-407c-bc85-45fb10a1b9b9">
+                    <propertyInstance
+                      Id="e94e575e-7d36-4437-82cf-5c95e2914dcb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72ca61af-c665-482e-9d1d-db9e15c30d22">
+                    <propertyInstance
+                      Id="874bc7a5-166d-4d3e-a5f1-8feaf50004b4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf1c43f3-8c7c-49a8-9765-13f76cd8bf72">
+                    <propertyInstance
+                      Id="474edf8c-f3d8-4a2f-a725-fe5303705b09"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="970843f6-934a-410e-b546-3e538396ff17"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3dc81ab8-12ed-4933-ac49-56ad5ef31b7e"
+            name="DirectionDeltaTolerance"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="32eae510-1edb-4da1-a1d0-5f1c58648445"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=DirectionDeltaTolerance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b26ffdcb-807c-4dd0-88af-398209698f4b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce34818d-418f-47c2-8443-2a1466b8e306">
+                    <propertyInstance
+                      Id="1e311918-2006-4764-a7ee-60e7bc5147d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a53be0b6-fb5b-429c-8827-8779963986dd">
+                    <propertyInstance
+                      Id="d3388fe0-0447-4341-afb7-6bb9822c9a36"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0afa6533-6a96-40c2-851e-d688a3d06af7">
+                    <propertyInstance
+                      Id="0a104f2c-8fdc-4077-853b-a98f32d6db51"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c8a5840-dc2b-4b9f-84b5-f88a3a2a5cf9">
+                    <propertyInstance
+                      Id="75301e91-fbd0-4f65-a5e9-9a705e34bae0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98b8a9c7-4d8c-429b-99a0-2171d764b3cc">
+                    <propertyInstance
+                      Id="3309215d-1b4f-49d6-a531-c45233d5cfe9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffd27246-df5a-4917-9ab7-6f117cad8eef">
+                    <propertyInstance
+                      Id="950f1a8e-067a-4c90-bcb7-1193394fed45"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="970843f6-934a-410e-b546-3e538396ff17"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="05d63037-c172-4589-bda0-99d36fe76203"
+            name="VelocityDeltaTolerance"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="21104d69-971b-4e07-a1c2-50a9e399cb88"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=VelocityDeltaTolerance"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5847a76d-5cce-4884-88b0-38d427394ddb"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f742e9d-18f2-4ead-829d-4bda2520787d">
+                    <propertyInstance
+                      Id="d37723fa-3438-4a7a-83ab-6cec1ddc8f16"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbdc135e-77e9-49f7-8833-df0c346cd763">
+                    <propertyInstance
+                      Id="6ca49a1e-afda-40ac-b8f3-9c2eadce1c42"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0960681-1d4b-4a2d-acfc-9b268281e5f6">
+                    <propertyInstance
+                      Id="68dbac6d-5c9a-4d54-add5-31ea98678f90"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3867efd2-09ce-438e-9019-18892a274dc9">
+                    <propertyInstance
+                      Id="32f5ed78-f637-4e0d-a8e6-21999bdc3166"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ad97832-43a6-46af-b406-1da41f7e606b">
+                    <propertyInstance
+                      Id="0579ec3a-9a93-412d-8abe-3694ae9c9529"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96318924-8d59-4083-9136-92084e162264">
+                    <propertyInstance
+                      Id="ea369444-324f-4b93-ba16-9ef3804ae7ea"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="970843f6-934a-410e-b546-3e538396ff17"
+                LastKnownName="Double"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="62daf0ca-fa13-44ca-9d6d-ee401798bc66"
+            name="Settings"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cb67e6c7-c71d-4268-a75e-d6ff30db8391"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Properties Type=Settings Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3d208216-808a-4bfd-a10e-70d31b3fdc6a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1db82dca-b7e0-4802-a429-ca74c3876fd2">
+                    <propertyInstance
+                      Id="45e65e26-e85b-415a-80df-d84c97d36033"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e31c043-8e3f-4113-b2ca-520a2ae1be03">
+                    <propertyInstance
+                      Id="adc6dc50-4086-4850-a2e8-c1a680af2248"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35d04452-eeca-4f50-be33-8870682fe8eb">
+                    <propertyInstance
+                      Id="a497270a-fc5a-406d-8501-ac34429678eb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ed423fa-72be-4efc-a3e1-23ef8a780eeb">
+                    <propertyInstance
+                      Id="546cb823-0216-4ea8-88eb-bea7b6dc00d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3453aca2-15dc-4226-b0ab-aad37538dd8e">
+                    <propertyInstance
+                      Id="e7e83081-365b-421a-b6fe-eb292db1aa52"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

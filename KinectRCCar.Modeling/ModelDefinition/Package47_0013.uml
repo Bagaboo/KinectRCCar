@@ -1,0 +1,2041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="db6e35e8-73ea-4926-ae10-825d4290d7cc"
+  name="CarCamera"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="621bca06-424c-4dbe-b0af-374d93dd3e97"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.CarCamera"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="4f2685df-e0b0-4ee8-b9f4-4d41d7832916"
+        name="CarCameraModule"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9a4f6ed4-f0d9-4d02-bce9-7f701a36b067"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraModule"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="00c5c715-ae6f-4d19-822d-fc8803318ba4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e67d3d2c-f926-4f4a-86c2-a4bde1c5c314">
+                <propertyInstance
+                  Id="9b6303ad-2da9-4f2b-a9e9-aa2b46a74829"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b188788-ebe9-4a10-b4eb-0394c365893f">
+                <propertyInstance
+                  Id="049f2f46-2eb4-44ef-a7a7-81bf0982e39c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1df3cd5-9e08-4ee3-8b6b-b0ab7183f400">
+                <propertyInstance
+                  Id="7defee6b-049f-4b09-840c-7bbf8657f72a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4b785c1e-abf5-4366-acc0-c34ffdb806cf">
+                <propertyInstance
+                  Id="6bf7f5d9-e638-4165-b647-8b4114975d8b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c208299-a480-4c08-b4f0-9b7c1ab667b9">
+                <propertyInstance
+                  Id="55b6bc21-8ea6-4f33-ba1f-e216062873b7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="cf30b1d7-a843-4d4d-b0fd-16fd8661841d">
+            <interfaceMoniker
+              Id="2a953d44-afc6-434e-9e89-3ea7053b4fd7"
+              LastKnownName="IModule"
+              LastKnownLocation="Package18_0013.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="3f2f020d-2935-47eb-9e67-fd509e1c80d7"
+            name="_container"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7daada48-2bb5-4658-ad56-c7b0b3526632"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraModule Member=_container"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="390444e2-49d8-4a6b-85cd-7a790faf5e7e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d14620de-956d-4444-bca9-984852a6310a">
+                    <propertyInstance
+                      Id="4d396abb-ddc6-45cf-bfb3-b9d65aebc95d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b51677d-d599-4803-a4d8-c5c86c776e91">
+                    <propertyInstance
+                      Id="483f3148-6576-4551-bcb2-526078d9dc09"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6e12b89-0a27-4a9a-a82c-8bdc3e0a7305">
+                    <propertyInstance
+                      Id="9a18ce0a-6832-4593-be5e-9ce6888f99c4"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce2f848e-0325-4f30-99c0-c4d13d0f3176">
+                    <propertyInstance
+                      Id="7d63537e-0568-4f00-89e0-1711a219f00b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fc2c4b3-3b49-4649-8d06-ef7f3632e882">
+                    <propertyInstance
+                      Id="13a65475-45da-4c98-8a92-eb9ddcac4d5a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="5a7a100a-aff5-4534-beb6-a31daef1ee9e"
+                LastKnownName="IUnityContainer"
+                LastKnownLocation="Package16_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="80ee59a9-2b25-4497-b5ec-67e100155cff"
+            name="CarCameraModule"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="be6a34ca-c1fe-4724-94b5-e12f2bc1b7b8"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraModule Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Unity.2.1.505.0/lib/NET35/Microsoft.Practices.Unity.dll&quot; Namespace=Microsoft.Practices.Unity Type=IUnityContainer)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="26e03659-4b88-415c-80d4-bd2518444f33"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0d2f3f5-d898-4931-803b-864c0e0a1a20">
+                    <propertyInstance
+                      Id="2e9f2aef-cd6a-4e87-9e83-ec7d5b13745f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08ea71fa-bfe4-4f17-8f78-5c48d4055916">
+                    <propertyInstance
+                      Id="56e8e0e1-8106-4712-8f12-3abc991e51b4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11056860-2b06-49b6-9b71-23eee29ab339">
+                    <propertyInstance
+                      Id="8a58d026-955a-47e4-a34f-d5f0816774f9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8fb2d96-e7fb-48c5-b5b6-bba3a0192950">
+                    <propertyInstance
+                      Id="baf46a76-7b65-49b5-b152-c4f66cb11c37"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21d1bd17-05ce-4a33-bc5c-3983f4841228">
+                    <propertyInstance
+                      Id="beedbbb7-4fd4-4932-8212-3d3a795f3a0e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cca9bc40-cac6-4bd6-9a0c-54d83b2a7909"
+                  name="container"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c92b0931-bb34-43a6-af1e-dc4d098eda41"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraModule Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Unity.2.1.505.0/lib/NET35/Microsoft.Practices.Unity.dll&quot; Namespace=Microsoft.Practices.Unity Type=IUnityContainer)]) ParameterIdentifier=container"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="5a7a100a-aff5-4534-beb6-a31daef1ee9e"
+                      LastKnownName="IUnityContainer"
+                      LastKnownLocation="Package16_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="66a4d2f0-8e77-4183-be93-411a1745997e"
+            name="Initialize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3a67ef1f-0636-4aca-b16c-62cd8cc6bf6b"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraModule Member=Initialize"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5694be9e-f5b5-4e1c-8005-7be78f1840a0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="028995ce-d939-48ee-8990-476f9ef58d3c">
+                    <propertyInstance
+                      Id="4b82938c-bb01-421d-ace1-fd36992a2c23"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db251066-efff-4fe5-865b-bf1552d2f420">
+                    <propertyInstance
+                      Id="da87d1b3-7550-4868-99a6-9355c2a1c532"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ee1aaeb-bfc2-4e43-b709-5b101a5ac6c7">
+                    <propertyInstance
+                      Id="690a7479-bfe1-4f87-9d6a-f169487fc602"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2df5a59-b8ef-4aa1-aba4-e0737d2bff86">
+                    <propertyInstance
+                      Id="a8cdaa42-1729-4826-9fd9-dc80702d02c3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8538906f-7f38-4ee8-9a6f-d59917ed532f">
+                    <propertyInstance
+                      Id="ea4c4887-749c-4efe-8c98-fdee144baeb0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="894599e7-e81b-4042-b79d-c849c4761bb9"
+        name="RCCarCameraService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="686c5f8b-2c70-4a1c-86b4-2ad9d2b8e302"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="531d4915-eeb2-4e2a-8223-cd1efc528e61"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af591324-5657-4917-a006-a2b6fd22b7c6">
+                <propertyInstance
+                  Id="5425176d-57c1-466c-83fd-80f406b0c635"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2685a3eb-181e-40fd-9149-0042c18f7ab6">
+                <propertyInstance
+                  Id="ae6b378b-9110-4660-bc96-90b9bc679a4b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cfb78054-fca3-4d0e-818c-198512e8d4dc">
+                <propertyInstance
+                  Id="4c5a7c07-636d-4f44-9ac1-803f91fd9327"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="38d88ab2-c808-4efa-9c28-f5bb677588ca">
+                <propertyInstance
+                  Id="d69d28e2-2ba3-40e1-a055-f8c828bda06e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c58f9cc3-5198-4510-bfa5-ff4c898d84e0">
+                <propertyInstance
+                  Id="61d7cec0-257b-4291-a0ad-cbfb8e5e831a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="5633ae89-69f3-4766-9822-5e87918089bf">
+            <interfaceMoniker
+              Id="f5029892-29f2-4afc-8619-70015125208b"
+              LastKnownName="ICarCameraService"
+              LastKnownLocation="Package2_0013.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="74a3e69b-fd63-4118-9d8c-ad13b87c8c84"
+            name="CameraAddress"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="83f23ebb-6394-42d9-97e8-09f5db5ad4f7"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=CameraAddress"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e8c8306b-911c-4bc4-9c5f-b1842bc4c0b1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd31bdd4-dc32-41b7-946c-293fdede9609">
+                    <propertyInstance
+                      Id="2ace2203-bee0-4f03-9310-e6b35a4d8060"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="954b0b8c-ad57-4c4e-994f-7036a40fff61">
+                    <propertyInstance
+                      Id="ae558ed9-a01c-4c8e-94b2-7d7185d95041"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc68d22f-4a11-491c-90b1-045db4ff8196">
+                    <propertyInstance
+                      Id="e5d5d842-4360-41cc-b208-788bec4f8f48"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe57520c-ab3b-4763-aaec-8bc6fd7fb20d">
+                    <propertyInstance
+                      Id="a02378e2-d7a0-4d5c-bc99-ee48e7c1d520"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa0e1552-1377-4db8-ba09-1ef82610c6a2">
+                    <propertyInstance
+                      Id="2132ea5e-acf8-4383-9444-f9fa120b6f90"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6e2cbcc-bc38-4300-98d0-430e98e49856">
+                    <propertyInstance
+                      Id="53c4c3f9-efc7-4b37-acea-04f7845dc11a"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ab80021c-d6ba-48a5-ba1a-b0371af86ee2"
+            name="Username"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b05afb56-1bee-42c6-90c0-f8317d80d1d2"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=Username"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="359cc0d4-138f-45a4-a2ea-7f990bc3437d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbe9ef43-a75d-445f-9ed7-4f08de3dc85a">
+                    <propertyInstance
+                      Id="ad73be43-c987-45dc-9e9e-af110e6aa8bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="633814f5-9d93-4267-ba8f-614e0464b4a3">
+                    <propertyInstance
+                      Id="2f483751-894b-46fa-967d-94098a9286d7"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bc3f685-38d8-4846-94d5-8cde3f35ae44">
+                    <propertyInstance
+                      Id="a721bd68-cbe3-4977-bc5e-08093645af7f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57a60377-60c0-4820-ac0a-d39780457843">
+                    <propertyInstance
+                      Id="df4ed5cf-0273-43a1-9176-231b2e904396"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f86605f-a691-4515-bd53-2b828e92be8c">
+                    <propertyInstance
+                      Id="9c354595-123d-4831-982f-0c521293b792"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd38809a-5523-4576-a2f0-5243294062c8">
+                    <propertyInstance
+                      Id="d05514f2-e660-4de0-9dd2-f87f8ebc7041"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="50430a46-aa44-4a27-b6ac-d495e218c957"
+            name="Password"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="17c6026d-9538-43a8-88e1-f1db2dd28627"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=Password"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d6eab3cd-7f84-49d6-86ed-8aaefe96484b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85c6ee41-3e48-49aa-966f-6d866d2afdcf">
+                    <propertyInstance
+                      Id="075e5775-f6df-40a3-a756-943a26c11628"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60311ec5-523f-43fb-a9ff-83a0627a2efd">
+                    <propertyInstance
+                      Id="09ee5142-1e49-4d71-90c4-29a06eac8fd2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b4d0411-b544-4eed-94b1-9ed8902bfccb">
+                    <propertyInstance
+                      Id="0fa3c925-eae4-4dfd-a4f7-0172e8830342"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="476dd4f0-4001-4573-963f-5d4a6ec00f31">
+                    <propertyInstance
+                      Id="42fc9260-a946-4b39-9c39-a485a1fea293"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2ec76eb5-4abb-47c3-9e76-ca0390d230d5">
+                    <propertyInstance
+                      Id="849bd8d8-7cc2-4187-9418-bfe97eb2f3ca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd146efa-7ccf-4497-b2e9-eba392d84594">
+                    <propertyInstance
+                      Id="7b27ad81-472e-4286-92af-20df4caf9b69"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="17087b42-b80d-4849-b52d-88338f1e8548"
+            name="_mjpegDecoder"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3d18d544-87ad-4a66-a4a6-f995d31d290b"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=_mjpegDecoder"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5fd59879-394a-4b15-9915-25b60fe25747"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12428a43-b19f-4669-a40b-fa1fce215788">
+                    <propertyInstance
+                      Id="cc7dee6b-544d-408d-9270-cc164e690be2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c7c4482-56d9-4a67-b09d-888a36ebfb1d">
+                    <propertyInstance
+                      Id="62dbeb96-1e28-4cd9-b622-431d4fb5cbd8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="356e1820-f240-4387-855b-ec0353d5ca9e">
+                    <propertyInstance
+                      Id="ce60c0df-ef6b-4e46-bd03-fa7f509de459"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd30c842-6654-4cc3-b915-60b581b5a48d">
+                    <propertyInstance
+                      Id="c26a39b8-cec4-4821-a942-f05e3c125817"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d02fdd02-a989-4793-812a-3bd6fe2fef57">
+                    <propertyInstance
+                      Id="7ab3bddb-8ed9-4d5d-97fe-4a87e775964a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c2219fb8-b68d-4876-9b62-abb7a112ac23"
+                LastKnownName="MjpegDecoder"
+                LastKnownLocation="Package20_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="de857e86-8d0b-409d-b564-8be05bf61ea7"
+            name="ImageReady"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4148bec2-156c-434d-b873-05848569ec31"
+                handle="viewcode://./CodeSchema_Event?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=ImageReady"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9f5aed90-fb5c-4f0e-907f-e2a253aa13b4"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="105a437e-4836-4051-9042-e92e52db790a">
+                    <propertyInstance
+                      Id="fc62bea9-fbdf-4311-9d24-f2860cafda63"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="039442cc-e856-45bc-ba44-ceb1efd32a3c">
+                    <propertyInstance
+                      Id="87f78d93-0bc9-46f3-bef4-3f23b91ee381"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3d8e97a-c7ec-4b46-9300-90b207093ced">
+                    <propertyInstance
+                      Id="55033f26-c806-468e-9d39-736627ce5a21"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a812297f-13d3-4a72-a105-525c4e60c1e3">
+                    <propertyInstance
+                      Id="ea9a36ea-ba2e-4749-b982-e7630c6a970f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c52023c-4f5d-4dc0-8821-25fd57a5722b">
+                    <propertyInstance
+                      Id="e2214724-0430-4a60-bc7d-3c0ba3ba3050"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="42b5303f-ac22-41f0-9fda-95a16ae350d9"
+                LastKnownName="EventHandler&lt;ImageReadyEventArgs&gt;"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="001d4a7d-cd4e-410b-9176-2511eccbabe2"
+            name="RCCarCameraService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1d318ad1-f1cb-4897-a0a6-06356c42d06f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=MjpegDecoder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f74992eb-f082-483b-9283-898c6accd82a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce8a74bf-9df2-44eb-bf56-ca022fb5d000">
+                    <propertyInstance
+                      Id="4cb68e47-f176-4b63-b048-0c247d2b296e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24533f8a-4e99-4ea7-ac71-193ce270759f">
+                    <propertyInstance
+                      Id="c2506ccf-2865-494b-9bd0-ee3b5a82eef6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0b3d103-b704-46e4-856f-1edc62767ca3">
+                    <propertyInstance
+                      Id="58f9f726-8fa4-4eeb-a963-5881d1d093b0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77cbe816-0a46-42bd-8f33-1f49e761ebcf">
+                    <propertyInstance
+                      Id="c67fa451-7641-4d11-85ac-29984d132c66"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c4771cd-e61e-4a71-877a-614f4a09a615">
+                    <propertyInstance
+                      Id="209811c7-c883-42ab-9c32-1c0efd1f00c7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="850f5e08-f35c-4156-84d9-cbfbc6a2a950"
+                  name="mjpegDecoder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="59725f84-7a84-40e5-8a9a-d6d872f11592"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=MjpegDecoder)]) ParameterIdentifier=mjpegDecoder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c2219fb8-b68d-4876-9b62-abb7a112ac23"
+                      LastKnownName="MjpegDecoder"
+                      LastKnownLocation="Package20_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="accf071a-5572-4313-aecf-6017727db80d"
+            name="Initialize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9f2a999e-48f2-46d4-9c7a-492d73da9815"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=Initialize"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="90d57f60-c1d9-4dde-b1a1-f5c1c4de3f5a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0820de5d-d613-4746-88fc-85f6ab6c3d0b">
+                    <propertyInstance
+                      Id="a834d7cf-33de-4870-82f0-003cfce9ff74"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ad0a2d0-5a7e-470e-8b04-fe9e28613b07">
+                    <propertyInstance
+                      Id="1db9260c-7ee3-4934-a3de-9f5216472653"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a03b02c5-329b-497e-827c-be372ba0b54a">
+                    <propertyInstance
+                      Id="b2021cb3-3eb4-4170-a4a9-a3659650490a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed2ecc44-3d4a-43b5-acd1-fd2b9c26686a">
+                    <propertyInstance
+                      Id="ff9b000c-e6d2-465d-8ac8-d149fd1be3a3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c5920f1-9590-4c2c-a597-9ccac498c20a">
+                    <propertyInstance
+                      Id="e6d2c114-b457-4d7a-8d74-0d0cb639a157"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="4a2c4750-ef19-433a-8e8d-26922365b0a0"
+            name="Uninitialize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3f16d694-61e3-4822-8046-33b577e513ec"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=Uninitialize"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2d0ddf15-b7c2-48bb-bbdc-c6ac8efd7d13"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e814bac-e4d7-4141-8314-6380e7376733">
+                    <propertyInstance
+                      Id="e8a16049-7446-4b5f-b882-1481799581ef"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43d079c6-46d7-4a40-843a-072281e84a55">
+                    <propertyInstance
+                      Id="afd4e48e-c0e0-4f1a-84e5-33c3f30fc5b6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="732c0744-b1b5-4d6d-b357-cdfaa5ea43d9">
+                    <propertyInstance
+                      Id="4452a416-7de7-4586-84e6-52eb500f1453"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20e97730-a7f1-4829-8605-91d5ce1c36b1">
+                    <propertyInstance
+                      Id="98f3edc2-4c0b-4c8c-895f-5f48a3497b40"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5794021-c36c-4b08-bfa2-508f855344c3">
+                    <propertyInstance
+                      Id="9789ec1c-7042-4f99-b068-7160259093fa"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="894fcbde-8731-4058-b4d5-87ba9d5dc2c4"
+            name="OnImageReady"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f76c0c8f-e76b-4353-a08b-5d5f47ba350d"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=(Name=OnImageReady OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6804474e-77f4-4fff-a335-71b95deba78b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af9e7aad-cdf0-45cb-99d8-244bff26597a">
+                    <propertyInstance
+                      Id="8cab459e-1c45-4365-b3fb-04f790cc4a23"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0667504-4552-41d4-a193-cb9578a03706">
+                    <propertyInstance
+                      Id="9f26fd12-057c-45ef-b5aa-c0dff2e758e6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e70a0b0d-85eb-40d7-bb09-32d96469452c">
+                    <propertyInstance
+                      Id="3f8ca420-e575-40a3-b154-69f344eb9c4a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e58fd1b2-e458-4fd3-832a-73ecdff3f390">
+                    <propertyInstance
+                      Id="0063fc2d-2eda-43a9-8896-c177f3fd9e9b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="600b4b34-b1f1-471a-a1e6-6bdead825cc4">
+                    <propertyInstance
+                      Id="816b8d33-a48e-4b20-8c8b-c7213cbd5c17"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1c12ff55-72e6-45c8-8757-f8cd856278be"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="61531d1e-b399-4f22-9c1c-92ae2e456415"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=(Name=OnImageReady OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)]) ParameterIdentifier=e"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6061cfd3-9292-4f79-9d29-30da3ad66f1e"
+                      LastKnownName="FrameReadyEventArgs"
+                      LastKnownLocation="Package20_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9e236796-4c24-4008-a3d4-6d6a90bdb6ae"
+            name="MjpegDecoderFrameReady"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b16c945b-4554-40dc-a04e-3499c8a1932f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=(Name=MjpegDecoderFrameReady OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="adbc93b2-ed59-4a57-8470-c8ff84c9bdd9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62e40642-b3e5-412f-8d03-df7265c514ac">
+                    <propertyInstance
+                      Id="4e19470a-1619-4cad-a87b-49375a1d2fd9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="512e880c-eb0e-4f8f-814b-96a02803b1dc">
+                    <propertyInstance
+                      Id="78be06f3-86b8-48b9-aa23-27c8058eb80a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="859959d0-955d-4533-9a4e-32bc0c73392d">
+                    <propertyInstance
+                      Id="c8f2fbb0-45d7-4ac0-a066-76ea1071d832"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18db0925-4794-47db-930e-eb046b4f4460">
+                    <propertyInstance
+                      Id="1baa3dcf-6f83-4d65-bc76-6a0ab5f886d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbe2d205-edb4-44aa-a513-64623e394dac">
+                    <propertyInstance
+                      Id="3dfba5a7-3fa6-4304-82fa-f57e85b2968f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9d95ea6a-c0e0-4a4e-9aaf-715ae66aff01"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c353f5ee-16dc-4af4-8a6f-41d99546d3b0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=(Name=MjpegDecoderFrameReady OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)]) ParameterIdentifier=sender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d760b69d-8a36-4924-82bd-7d3ca9db8bca"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d0a7ec98-4ef6-4f16-b092-6701f6dd1627"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=RCCarCameraService Member=(Name=MjpegDecoderFrameReady OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)]) ParameterIdentifier=e"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6061cfd3-9292-4f79-9d29-30da3ad66f1e"
+                      LastKnownName="FrameReadyEventArgs"
+                      LastKnownLocation="Package20_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6da06e7c-ec1b-47f4-85b0-bff188caf447"
+            name="Start"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="65ad2e17-e831-46ae-927c-51ddedb65456"
+            name="Stop"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8b237ddb-90e0-409b-b4f8-8c950a62cd79"
+        name="CarCameraService"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0ca1a59b-05eb-4c38-9c0c-a79acb91a62a"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="235fbe53-a76e-4c78-bec7-8ba24aa6fbb3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6cbb10e-de3a-4b95-b862-ad9f16fa5752">
+                <propertyInstance
+                  Id="78dffced-3fa8-4b71-8725-1a1a91c8182f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="593e2abd-7f9f-47b2-b110-2b2567c35f2b">
+                <propertyInstance
+                  Id="8ea8b550-e925-410c-add0-be9064caf56c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ee01d854-65a6-48e9-95bb-9a7e723ab9cc">
+                <propertyInstance
+                  Id="8bfb7261-8de5-4b7b-8f4c-d8841237b513"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="afc138fb-1776-4420-ac94-151d233413c4">
+                <propertyInstance
+                  Id="4b03b4fb-5f4b-4b9d-b2f8-07c840dc456e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d16a874-a67b-440d-a7c0-6109915e4a5e">
+                <propertyInstance
+                  Id="0f6dca62-dc83-4d2a-b69a-ba7c76364df9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="94ee084b-970e-46c3-a599-169aae252a79">
+            <interfaceMoniker
+              Id="f5029892-29f2-4afc-8619-70015125208b"
+              LastKnownName="ICarCameraService"
+              LastKnownLocation="Package2_0013.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="453dc09c-c42d-4116-865f-acb9708a489f"
+            isDerived="false"
+            sourceEndRoleName="CarCameraService"
+            targetEndRoleName="CameraAddress"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="84fdd6ea-2c11-4e12-bc8f-33b9ad1155e4"
+              LastKnownName="Uri"
+              LastKnownLocation="Package3_0013.uml" />
+            <description>Property CameraAddress references type Uri.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7f5899b2-0699-46c3-9ad7-f7ff69ec52f3"
+                  name="CarCameraService"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0a8d7c95-82a2-4a5e-b238-23f9a3df73d4"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0d2818aa-3835-4f1e-be29-3a43719ce08c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="79d18e8a-2943-4be0-92ab-6cc911c3fede"
+                  name="CameraAddress"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="ad3d946b-1eb4-444b-91cc-3e50f8332030"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4dce2d25-0676-4f04-87ab-829688f58dc6"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="f8c66641-4531-40d9-9fd2-5fbea0160acf"
+            name="CameraAddress"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="408de2c7-3a97-4891-ae28-9ecd77d7f303"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=CameraAddress"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2b5af39d-5508-4de0-897b-5ac6840667cc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb1f5af0-2123-4014-bd03-b090a3153b00">
+                    <propertyInstance
+                      Id="726f2407-8778-4748-ae47-5e480e81c943"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04ec601f-b740-41c7-8ec2-9ff2065e74af">
+                    <propertyInstance
+                      Id="10be5a9b-0626-4a2f-b6f6-54416a70150b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="934935ce-373c-4c0f-9dec-c070439f9713">
+                    <propertyInstance
+                      Id="55bd4376-8339-452e-b3b1-ecc51a17fc11"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6c43d07-d68f-4c22-9163-8156bfc4118e">
+                    <propertyInstance
+                      Id="35ec3754-9b49-4ebf-a2f7-7aee933b3079"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a52e9aea-dcb3-4391-a07a-a375fb3b628e">
+                    <propertyInstance
+                      Id="abb33551-f298-4725-98a2-40734fbfcc68"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11b641a0-9ac4-4c87-bab3-069cc0efda56">
+                    <propertyInstance
+                      Id="7e19048a-79d3-42f4-9b1a-6723c63fb1f6"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="84fdd6ea-2c11-4e12-bc8f-33b9ad1155e4"
+                LastKnownName="Uri"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c6c9c180-970d-410f-aa51-52187f875f04"
+            name="Username"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="4832df84-b371-4210-8aea-13a799fef704"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=Username"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e7f3bbd1-7e01-4585-8518-9e21609d1f3d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="675d3cc3-e828-4b27-bd0d-f9df0b1dd084">
+                    <propertyInstance
+                      Id="a80c1469-30d2-43c5-a20b-cab2642944f9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99e47875-26e6-4bbf-bef3-48d3e58f1346">
+                    <propertyInstance
+                      Id="fbc2e7aa-1321-4b61-9815-c99784d6891a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4ca4bcf-1746-4aef-b43f-b14a23fc7b3f">
+                    <propertyInstance
+                      Id="fd139724-9baf-4501-a953-d08d6411286e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85f554ee-e653-4c9f-8891-de0a8426e587">
+                    <propertyInstance
+                      Id="af37574f-af12-446b-8ea3-acf7a2e76e03"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e5d423e-f6a5-4ead-9540-c383e63d3c67">
+                    <propertyInstance
+                      Id="1a7ddbd6-652a-48e1-aebc-f9d896af0dd4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58d3f428-f450-4708-882b-d6b8652a9fbb">
+                    <propertyInstance
+                      Id="dd71bee7-c905-490d-b7a9-655197c5fd8f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2f83dac4-27a0-4bad-b43f-e6ea25db6f38"
+            name="Password"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d95a76ba-937e-476c-a9ba-1d65433a877b"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=Password"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="00379d86-a69d-454f-970d-14d4c4c4056a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92a67e83-6c26-4f3f-9f5f-24349f3de26b">
+                    <propertyInstance
+                      Id="1e3f0d98-21da-4ed2-a4bb-ee9df6ed69b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ce9ba73-93be-4b71-96a4-b012665c1391">
+                    <propertyInstance
+                      Id="9aeae074-4310-4b03-914a-07ecd78fc170"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="657a5123-252a-4672-825f-a98c7b8948f9">
+                    <propertyInstance
+                      Id="9b313772-0519-411f-bd48-96cc0d005389"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f173ccf-99fa-48e7-90d1-993c6ab44fac">
+                    <propertyInstance
+                      Id="96c8a982-8f62-4101-b971-ca6ce372cd7e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c214771d-4ff9-4005-895d-7a0d1310da87">
+                    <propertyInstance
+                      Id="7840721e-be6d-4c13-af05-6f1eb704fe58"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54d3ca06-13cb-4f6d-8af0-676bec1d6be8">
+                    <propertyInstance
+                      Id="9e19b222-029d-47dd-a7ec-73fb247ea0a4"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="eb2bcfba-267b-466f-a115-a77721ec686b"
+            name="IsRunning"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3631296d-4f7f-4030-ba34-e450f4d7ad6a"
+                handle="viewcode://./CodeSchema_Property?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=IsRunning"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5d77e5f-b288-42c8-9d6a-69fa1138f60c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0a643b2-e6e1-49f9-b079-0fac1c638e1f">
+                    <propertyInstance
+                      Id="6b785859-405d-4b1f-80c5-fb1475750910"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fcf04d0-182b-4877-af93-7566470839cb">
+                    <propertyInstance
+                      Id="e93d2d51-86d0-482a-b263-7652c3152777"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5525fff-c7ac-41c9-9109-684692a2128f">
+                    <propertyInstance
+                      Id="a3a70acf-fc05-4065-9e2b-32ceae485613"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="377a2c1b-627c-467e-83d8-ecaed72e0e52">
+                    <propertyInstance
+                      Id="32271a3f-15a0-4568-925b-dfa53f999e3b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6d62352-78c3-4a9f-86d7-663b9f69109d">
+                    <propertyInstance
+                      Id="9b485a40-d16a-4822-bca8-22af2fb77596"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41dce8bc-0b01-4d3d-8f25-371b1927ac44">
+                    <propertyInstance
+                      Id="3c4c85e4-368d-43db-bc57-167e474c6ca9"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                LastKnownName="Boolean"
+                LastKnownLocation="KinectRCCar.Modeling.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6089e383-80a1-47f2-b3bb-64b3a0cde551"
+            name="_mjpegDecoder"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="084bd91c-7512-4f3c-a9db-725780f3bb15"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=_mjpegDecoder"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="db8433ce-6651-4390-ae9c-44ccc1cec130"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52a8c31c-a38c-4f29-923b-a099fa1ff2f6">
+                    <propertyInstance
+                      Id="99c80f61-c61d-407e-ad05-1808b2369c0f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca99b00d-5c9f-4bf7-84dd-586011040d93">
+                    <propertyInstance
+                      Id="dc949550-385c-47c9-80c1-fedc0ddb391f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29f1e297-6ee0-4ba1-a95b-dfb7cb1ee500">
+                    <propertyInstance
+                      Id="bc1ed78e-7e4a-437d-9f3a-d012a298f6e8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cc2c7ec-3e61-42ca-a37f-73f2431c004d">
+                    <propertyInstance
+                      Id="de30c444-d048-44b3-9df3-e94cbda59b33"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fea2e8a-357b-4b6d-bbe0-a217d1563563">
+                    <propertyInstance
+                      Id="1db62744-c7cb-43d7-91a2-c1e8509d1a97"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c2219fb8-b68d-4876-9b62-abb7a112ac23"
+                LastKnownName="MjpegDecoder"
+                LastKnownLocation="Package20_0013.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="cb67d2aa-e7ef-4e60-8055-c925c322c3eb"
+            name="ImageReady"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ef1a2e3a-8884-4400-99a8-b37d80a7ca65"
+                handle="viewcode://./CodeSchema_Event?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=ImageReady"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bb4eab88-2476-4b3c-a580-5128c4da1d93"
+                name="event"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbd4cbdf-659c-4f79-a112-c7f525137993">
+                    <propertyInstance
+                      Id="34c7e055-4fab-4ea3-b238-40c2a114d286"
+                      name="Add"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13c5e97d-4c20-47f6-88fe-7437b6b22e10">
+                    <propertyInstance
+                      Id="e2f86f64-42f7-4290-8419-4007f02effdb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6861ec01-8b49-4a1c-9a22-b773539025d2">
+                    <propertyInstance
+                      Id="a8d3dc10-da93-44e4-bc2e-0a539fe1fe3a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cefcdd9d-d77a-43e9-851d-3408b02921a9">
+                    <propertyInstance
+                      Id="f0d33645-0a97-43fa-b00a-99a722713e6b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80b2e5c5-bfa3-4793-b106-81795ae2c708">
+                    <propertyInstance
+                      Id="5e91b2c0-435d-4c1a-8276-6e47a0b2a013"
+                      name="Remove"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="42b5303f-ac22-41f0-9fda-95a16ae350d9"
+                LastKnownName="EventHandler&lt;ImageReadyEventArgs&gt;"
+                LastKnownLocation="Package3_0013.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="86e93712-82a6-45a8-b0f4-94905f09fa55"
+            name="CarCameraService"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3c58b99f-2e18-47a8-9c3e-084d58f8dccf"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=MjpegDecoder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d28834cd-71a8-4c66-b71f-1f116d8faee2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5284e854-74b1-4c49-b8c9-fcc13f6554a5">
+                    <propertyInstance
+                      Id="bb1ff4ba-4dd2-4cd3-91cd-ac487291923d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e9a1312-2e91-4376-985c-fb8e88453105">
+                    <propertyInstance
+                      Id="d41c8c14-53a8-4ddb-8a73-6b48a846d299"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a31ec59d-4a9c-4b82-bdf8-3a2a6190710f">
+                    <propertyInstance
+                      Id="226e4315-d048-4a19-a113-cce48dab32e4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35fba0a1-3e0b-4eb9-82a3-b0a09451373c">
+                    <propertyInstance
+                      Id="76f8f08c-5dbb-4deb-8947-7af4eb67c8d6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fadbb3a3-ffbe-4673-88fa-775a1bb637ec">
+                    <propertyInstance
+                      Id="b6e0f5cb-dd76-438e-b509-49894409d026"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e514e56d-ce0d-400e-a589-ebd12a49c506"
+                  name="mjpegDecoder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3ac3f5b4-6237-45a0-8bad-7dddcc7cbb3e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=MjpegDecoder)]) ParameterIdentifier=mjpegDecoder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c2219fb8-b68d-4876-9b62-abb7a112ac23"
+                      LastKnownName="MjpegDecoder"
+                      LastKnownLocation="Package20_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="822efd95-b80d-458c-b444-6ebfed66aa76"
+            name="Start"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3e2c9ebd-6204-45ed-a14d-bafcf5832e80"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=Start"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9d9b1dc6-f406-45aa-849b-cd3eb7b44a51"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e731265-da41-45a1-bfaa-a22269548fe6">
+                    <propertyInstance
+                      Id="7081324f-9a11-4aa4-a6c0-6101dfac90b4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="178a02ec-5272-4f65-8c72-d2a297166c44">
+                    <propertyInstance
+                      Id="532d9368-89ef-46bd-aa55-65b49e4d34cb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86e6c4cd-504f-40f3-bf41-575958883ab9">
+                    <propertyInstance
+                      Id="6ed8a8c7-d643-495c-a5ae-6aa98d2e5e62"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bf32ddc-a202-46fd-8e22-3ebb10dd7849">
+                    <propertyInstance
+                      Id="3753fc67-23bd-40d4-85f2-6d95361aecbb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84c55907-a1d6-437e-a41b-e0b5f372e72b">
+                    <propertyInstance
+                      Id="b5276708-8a10-4549-8ad5-b697cba97e22"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="283bae28-83fc-4397-a230-ff6a42f78850"
+            name="Stop"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="81269e1e-f5be-485c-8b27-cdbe7c8048b8"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=Stop"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ba2203e1-4b23-4764-bce0-f8e638617372"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5ee4b00-9b85-44a9-af06-c6a6cee101cd">
+                    <propertyInstance
+                      Id="a9596651-fbd5-4e37-9416-28ecac919d98"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65068a66-bf87-4d0b-a269-a5e7bd591f75">
+                    <propertyInstance
+                      Id="a2ae5e59-a3cd-42f5-b92e-744a6fad54c7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1182c65d-1878-4403-a00f-6e32d740826d">
+                    <propertyInstance
+                      Id="7153998d-17c8-40e0-aea3-10a8112ad34f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02783b1f-a94e-437c-8650-890760d75bcf">
+                    <propertyInstance
+                      Id="dad2e06e-c64c-46da-8187-57520da38603"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ea86137-b4fa-47ce-ac61-8d04adb898d8">
+                    <propertyInstance
+                      Id="91bb3045-de93-4142-b416-dbd302d7dcfe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="620bb2f3-98ce-40c6-8831-bb5192772f9c"
+            name="OnImageReady"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="45f546a0-6c86-4563-90ae-2f79a25ee9a1"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=(Name=OnImageReady OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="64a16d63-3fcc-448b-a069-43f9d44aaa96"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59582a2a-f4bd-4357-b57e-9c953332aca1">
+                    <propertyInstance
+                      Id="696e2375-c1e5-4ad2-9b66-59df6b4abbf1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57007f41-3e38-4728-91a4-40f4183eac4a">
+                    <propertyInstance
+                      Id="8079ad95-40f8-4948-9503-5ef031c4e380"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="906261d2-bbf5-47f8-8b1b-6a5fe9c762ef">
+                    <propertyInstance
+                      Id="6838f96e-0188-486a-88a5-f13ed7f229fb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cb0cda5-1943-43dc-8808-69521bf0fb35">
+                    <propertyInstance
+                      Id="eb921af0-94d7-4001-8c31-1a3d98ad5a92"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5548fa69-2ff9-4111-95d4-5ef71ef70ada">
+                    <propertyInstance
+                      Id="f0eb0366-eb20-4ef2-b3ff-dfa6ea129d5f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e3e3a429-ecf9-45fa-be44-e91ce1a94f7a"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="83ffbe98-4f72-42e3-86aa-b2fd22a4578c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=(Name=OnImageReady OverloadingParameters=[(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)]) ParameterIdentifier=e"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6061cfd3-9292-4f79-9d29-30da3ad66f1e"
+                      LastKnownName="FrameReadyEventArgs"
+                      LastKnownLocation="Package20_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2c3c9408-5fa9-466b-80bc-d1ecae7ca48c"
+            name="MjpegDecoderFrameReady"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f639ca7d-9d3b-4884-8728-80cece45e0a7"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=(Name=MjpegDecoderFrameReady OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1e0e0fd0-e913-4a62-bae7-2bf4b9c824a0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8ea588a-d886-4882-ae65-a942aa8d1801">
+                    <propertyInstance
+                      Id="b7b4c493-edd2-451b-a200-59b96651544b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1ef7c84-9ffe-48df-ae6e-244e87ae1d0e">
+                    <propertyInstance
+                      Id="4f5d2ada-2f96-4bbd-8877-575ccd371302"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bdf6cde-f3f3-4f9a-b8af-e164e79f561d">
+                    <propertyInstance
+                      Id="047e9e41-823b-441b-8ad2-46a07aff902a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0516a0e-66c7-401f-8b17-9788d802ebf7">
+                    <propertyInstance
+                      Id="74f5dab9-d38f-42c4-b7f3-be627271f922"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4a05319-b5ff-4c67-bd9f-ed59393d692a">
+                    <propertyInstance
+                      Id="b35e439a-a35b-4549-a341-fd65daf3d408"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3bd3fe95-70a9-4c81-bbfc-de17dea6057b"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="023b9940-527b-42a3-a04b-39cf8bb79551"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=(Name=MjpegDecoderFrameReady OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)]) ParameterIdentifier=sender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d363ff7-69cf-4a8c-bdea-934a44fa2567"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3c96cf32-40a5-4638-82dd-d603c81c5588"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.CarCamera/bin/Debug/KinectRCCar.CarCamera.dll&quot; Namespace=KinectRCCar.CarCamera Type=CarCameraService Member=(Name=MjpegDecoderFrameReady OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.MjpegProcessor/bin/Debug/KinectRCCar.MjpegProcessor.dll&quot; Namespace=KinectRCCar.MjpegProcessor Type=FrameReadyEventArgs)]) ParameterIdentifier=e"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6061cfd3-9292-4f79-9d29-30da3ad66f1e"
+                      LastKnownName="FrameReadyEventArgs"
+                      LastKnownLocation="Package20_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

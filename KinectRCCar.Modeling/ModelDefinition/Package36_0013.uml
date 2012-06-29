@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="244887dd-3d44-4437-8abe-e931d9d2045b"
+  name="Converters"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="794946ca-bf05-454b-81e2-959c8c36534d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=KinectRCCar.WPFUI.Converters"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ed701a97-554c-4439-842d-c79cff2224f5"
+        name="BoolToLimeGreenWhiteColorConverter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="604c58ba-c38f-4e36-8607-a66ebb304c0e"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5effafa4-5a06-4ae1-bc67-7df34a584230"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec27dc24-0d41-47fc-a0a5-dafae14abe04">
+                <propertyInstance
+                  Id="89b26751-6af1-426d-87a8-0c82e1bb769a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c2e3cc63-a882-4543-b1e8-d8afb6b88ce7">
+                <propertyInstance
+                  Id="bea446fe-caef-4334-95e3-228a6c36d0e9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a358eef8-29c7-4bff-a295-b3483b23420f">
+                <propertyInstance
+                  Id="b792a75f-d027-46d2-9f11-efbf666017fc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a40c5f96-d5e1-49be-b75a-0775fd5e504f">
+                <propertyInstance
+                  Id="619b97e9-aaeb-4404-81f9-1591dffb3252"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f6ca81bb-a010-471e-ba5c-2244ba90b917">
+                <propertyInstance
+                  Id="007c4f0c-0263-4cb3-abc4-b52ea6f7f6e8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="3365a532-07e9-4f36-a18d-64ce59a48799">
+            <interfaceMoniker
+              Id="920a5bdb-8ea6-4bf7-aa87-4655353067ba"
+              LastKnownName="IValueConverter"
+              LastKnownLocation="Package26_0013.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d2b3d168-a84c-47a6-a5b5-44f211854a66"
+            name="Convert"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="241a9b25-6857-4a06-a444-6f235c318073"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6e7e2f63-33f3-4117-9bc4-97af984a0ac8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c3b2cef-e182-4633-9774-db3b892fa417">
+                    <propertyInstance
+                      Id="5300b817-4ccd-4ad3-9901-f9ae51d134ec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d033a46a-2111-47f8-b706-525ebbb9bf1e">
+                    <propertyInstance
+                      Id="9a4a6e01-3b0c-4ba4-b025-53caf3735d33"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab7b7b12-9a70-452f-ba45-efe328f9f372">
+                    <propertyInstance
+                      Id="7d3240e3-1e50-45f9-9a60-84d9dfe578aa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="deeeeada-ea4f-45f0-a4e9-d13e6fdf35b9">
+                    <propertyInstance
+                      Id="2f9573b1-fb40-433c-9a2c-8e1fc1f7669e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5450311f-92b8-4d67-91dc-b6004744874d">
+                    <propertyInstance
+                      Id="b30b0f5f-0959-4b55-bea8-f61a064ae841"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ad6252d9-1792-4ba0-84b5-575965828c3d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da11f5ce-35b9-4b59-a319-e853b23f1195"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="af1aeea1-57e4-4c3e-9bfc-375bdf7596f8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=value"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1034515b-e21c-41de-a874-f9188746140d"
+                  name="targetType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0b8da031-d1e0-4b06-b9c7-a8110e846fe3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=targetType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c4387962-bfcd-45f5-8669-2d7131fc7610"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="92e47553-3241-4b64-a908-14706dfe5371"
+                  name="parameter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="82d40128-9b6a-4835-a2a5-c5d3f47143f7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=parameter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d589b141-6f9c-4ae1-9627-c5e67950e60b"
+                  name="culture"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5730ff1b-8caa-47ec-8bbe-00f3b53462b1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=culture"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="92262950-3c82-4664-adf0-90c8ca871d05"
+                      LastKnownName="CultureInfo"
+                      LastKnownLocation="Package12_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6bf2b874-071d-4daa-916d-06779d9f52d0"
+            name="ConvertBack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ee04c723-03af-48a5-b812-4d8035514b06"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d2383401-1471-4f1d-b1ae-dc6bec93bf97"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82b0f1fd-f0fe-43bc-ba5b-f1073d9c56ff">
+                    <propertyInstance
+                      Id="520c59bb-5848-4900-9eed-77eaa124ff3a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60039c25-a91c-477a-ac3c-3b77456a79f7">
+                    <propertyInstance
+                      Id="280b7bab-354a-4e03-a310-4ae2bc9aaea6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cbd71b4-1a0a-4e8c-af3b-558d44175ff3">
+                    <propertyInstance
+                      Id="6cd8a904-ba36-4b41-b8c4-aeb5df1b1034"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b67c3a44-15ba-4c3a-b418-cc1f44929f01">
+                    <propertyInstance
+                      Id="b19af37a-cdb5-4d43-b5d6-bca4c5318b27"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5913a69b-8b8f-46ad-b915-000a62605b9c">
+                    <propertyInstance
+                      Id="a62bac58-98e0-4ddc-a486-b338621a7751"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dba6f594-9ac7-4541-8dfc-8c7da5be08ca"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="53add642-9c47-40f0-8ff2-16aea29f4b9d"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7b2310e6-ebd7-4f31-914f-ac2f7bbcbce9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=value"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bd415bfd-5892-442a-917d-b8a0fefeec12"
+                  name="targetType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="13fb2e72-1e81-4941-9f94-79136a517ff3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=targetType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c4387962-bfcd-45f5-8669-2d7131fc7610"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f1030ed7-179d-4129-997b-d29f2c3a1206"
+                  name="parameter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ffeb4b45-c23f-493c-817a-a441ec1ada5b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=parameter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ba26ca40-be9e-4a4a-ba62-1eaa6598b50c"
+                  name="culture"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="51bbd09f-d6a9-467d-9c45-55d2164e608d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=culture"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="92262950-3c82-4664-adf0-90c8ca871d05"
+                      LastKnownName="CultureInfo"
+                      LastKnownLocation="Package12_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="caca7bcc-4002-45f5-8588-ecfed1dfa9ea"
+            name="BoolToLimeGreenWhiteColorConverter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="889d50a5-ca10-4be5-a30f-88d416fdbd1c"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToLimeGreenWhiteColorConverter Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="47df27b1-9920-442c-8c65-56828885b11b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb6289fc-0ddb-4dc3-ba6a-2cb13faa78e4">
+                    <propertyInstance
+                      Id="b37c3eb6-0631-418a-8200-179268d094f9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dc43803-56e9-4acb-98f9-fd0418e4dd42">
+                    <propertyInstance
+                      Id="37429e91-7f34-483d-ad6b-d18e5ab64290"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d1b16e4-1939-4de6-ac6b-450b164a1e20">
+                    <propertyInstance
+                      Id="e0201a05-2b32-492e-9675-3173db2537a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5db46ef-3c0d-4463-8a30-852e53d50438">
+                    <propertyInstance
+                      Id="4fa78be8-be41-494c-952c-724cdffe84e4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fe47d63-e60b-48c1-ba45-13f9fa0620b4">
+                    <propertyInstance
+                      Id="3251e8bf-87af-4a40-bf06-96b29ee60258"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d88a8cb9-2659-4816-a889-7846d40118e0"
+        name="BoolToWindowStateConverter"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9080db83-a433-472d-8547-d7f3e6f12cf1"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="91f5f9b5-ee90-4029-a89a-888860cb6526"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4b68b656-f017-44d5-aa10-bd325bdc66b7">
+                <propertyInstance
+                  Id="50c60a82-9c2e-4cf6-a7c5-f5c27af5888a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a60152b-9e36-49e4-9d0d-9c75bbf16fbe">
+                <propertyInstance
+                  Id="4eb9c1f8-2613-40e3-a57f-a35b9cd4daa9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3dfcd786-02bd-41b2-9aa8-a03e78860093">
+                <propertyInstance
+                  Id="e9d04ec3-1504-439f-80d4-32d20c61812c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6163d1de-7ba9-43ba-9b25-6910fe9ff1f0">
+                <propertyInstance
+                  Id="bd7c0ba0-6684-4d28-82f5-389c5ded8f65"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c92b965a-1623-4810-a606-429babd05dcd">
+                <propertyInstance
+                  Id="d538e6e2-0779-472f-b1b7-d73dbccc1944"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="861e18e1-1750-4f1c-b210-206f4ab62418">
+            <interfaceMoniker
+              Id="920a5bdb-8ea6-4bf7-aa87-4655353067ba"
+              LastKnownName="IValueConverter"
+              LastKnownLocation="Package26_0013.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="55d67905-c48d-48af-85ae-e20b4f50190a"
+            name="Convert"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b3e21102-ad89-40ff-9928-0603f6ed75dd"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a3d382ee-6067-40c2-80a5-b6ce539d1872"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c7fc89d-76c8-41bb-8e70-9f6d2b3cbb6d">
+                    <propertyInstance
+                      Id="5cb67e9b-155c-4a77-966e-6c56d83bc777"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d10515f6-bf07-4b9d-a7d2-f70f1613d2cd">
+                    <propertyInstance
+                      Id="cf792e1c-4efc-446a-90fa-f47b75c43112"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f977957c-be17-4ecb-a654-741032724153">
+                    <propertyInstance
+                      Id="347f48bf-a517-40ec-a7e2-4127cf6980c7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88f01761-3ae9-4e50-93ec-75a3e0e03c88">
+                    <propertyInstance
+                      Id="75a74c82-11bd-4ee1-a3f4-dc4271bc4db6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28ce6b4f-4d26-431b-92ff-ea9771b86f4d">
+                    <propertyInstance
+                      Id="60559b98-01dc-44cb-a11f-7e18f68c4dd5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bc7ffdfa-8f17-46e1-bf6b-e43b207166d0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="78fa9845-ef41-4d91-b428-f8f1c49b6f9f"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cc5b55c6-0b3e-4c0e-b5b1-cea5a8b693e6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=value"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="397a611f-8861-4044-a65f-c070ec52c137"
+                  name="targetType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4461521e-6bef-4cd4-9992-95099016f89d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=targetType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c4387962-bfcd-45f5-8669-2d7131fc7610"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5e2a5a04-e6e1-47bb-9e9b-4b4820b859c2"
+                  name="parameter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7e431d88-e356-4e36-a587-dd23fb0ed0f3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=parameter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cc6fc566-1057-478c-b2f4-095e6ce79eed"
+                  name="culture"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3bfaffe2-fc8b-47d5-ac07-b277828ded17"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=Convert OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=culture"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="92262950-3c82-4664-adf0-90c8ca871d05"
+                      LastKnownName="CultureInfo"
+                      LastKnownLocation="Package12_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0756d983-e953-4c3a-aba6-a3d107c06675"
+            name="ConvertBack"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="df7deb37-6dff-4a9e-a7df-d4d06ea9ac0e"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="85af9f89-cb66-4241-90cd-26789ad9ef9d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="358fa892-977c-437f-920a-587e0815d1d6">
+                    <propertyInstance
+                      Id="7671fd52-5daf-4e33-9f50-81e9ec82477a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dc33a54-be20-4ae1-b3f6-badc5a379b18">
+                    <propertyInstance
+                      Id="24d004cd-b881-455b-80a2-9cc692bb691d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27493f96-2171-4cd1-8d4f-82af4c33ab7f">
+                    <propertyInstance
+                      Id="582e9f2b-7add-46c0-bd08-151e61de5614"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c1a5f8a-7824-466a-90e6-60033b279507">
+                    <propertyInstance
+                      Id="b2dc19dc-c2c8-4d48-abc5-f5d199cf2c4a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca2766bf-cd1e-4109-be8d-b110041f436a">
+                    <propertyInstance
+                      Id="61d3840f-172b-4723-971e-4585645e758a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0d7513ce-750e-43d9-bc8d-a9371ddde37f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b53768db-00c0-4ddc-a600-33b07e9f7257"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="36bf7a06-0f41-458d-a499-1288eb6bcd1e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=value"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c876fa9f-aecc-488e-98c1-be713a2e95b0"
+                  name="targetType"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="98a54e49-70e5-4d36-b358-30b922fe325c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=targetType"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c4387962-bfcd-45f5-8669-2d7131fc7610"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed1da2b8-cfaa-4c3c-bba1-81dc2c106334"
+                  name="parameter"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a9a4bb90-efd6-4c34-8ecb-b1df4b94b611"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=parameter"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="114c5dfc-80e8-4fbb-92d7-ac6c1b72407c"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="15c2a8d4-e24f-4379-9d8a-6e234b10b501"
+                  name="culture"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="104b885a-2157-428d-babf-ccf16248f6ed"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=(Name=ConvertBack OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Type),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System.Globalization Type=CultureInfo)]) ParameterIdentifier=culture"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="92262950-3c82-4664-adf0-90c8ca871d05"
+                      LastKnownName="CultureInfo"
+                      LastKnownLocation="Package12_0013.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2053997c-5d10-41ef-97c0-97b6c24ee784"
+            name="BoolToWindowStateConverter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="42144357-97fd-4e4b-a1f0-68fcfadf53bb"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/KinectRCCar.WPFUI/bin/Debug/KinectRCCar.WPFUI.dll&quot; Namespace=KinectRCCar.WPFUI.Converters Type=BoolToWindowStateConverter Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5a78e27-8024-4421-9f44-042be4feac3b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="283f112e-c4e0-4a68-b010-7747adb8d56b">
+                    <propertyInstance
+                      Id="cfd6e56e-16a1-4043-adb0-507202a22f31"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5744df1c-1050-4214-ab6a-8adac072388d">
+                    <propertyInstance
+                      Id="64424bbd-1f66-43fc-9324-3b22e40d4dfe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="906e00d4-7ca6-4b25-bb25-30a725918a3b">
+                    <propertyInstance
+                      Id="3c6d2bb4-166b-4484-ae1d-84e11eb33e61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c9f72bf-74f9-4011-94d7-b1cc9956bc2b">
+                    <propertyInstance
+                      Id="3f675d1f-46d8-49e2-8816-cf7fd2dce865"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="505a1180-a2f5-4aad-9531-a00421016fb9">
+                    <propertyInstance
+                      Id="80f5460e-b5c7-4bb4-b762-32c978022da9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

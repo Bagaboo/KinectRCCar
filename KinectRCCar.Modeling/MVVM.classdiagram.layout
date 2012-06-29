@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12" name="MVVM">
+  <logicalClassDesignerModelMoniker Id="3b33f81d-e517-4263-b670-7dc71685a028" />
+  <nestedChildShapes>
+    <classShape Id="f41b7a33-3ecc-408a-a7ae-7aab002fd607" absoluteBounds="0.5, 1.5, 4.125, 1.9886168446143473" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="5539ca33-254e-4db4-b696-896897d82871" LastKnownName="MainView" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="0a2c60c5-1dfc-434b-9a07-693ed419318f" absoluteBounds="0.515, 2.0153356393178306, 4.0950000000000006, 0.52148435761531176" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="7d94faf8-a481-4bee-b913-e790a796c920" absoluteBounds="0.515, 2.5468199969331424, 4.0950000000000006, 0.84179684768120455" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b8fed48f-c4ce-42df-b122-66519b17037d" absoluteBounds="5.25, 0.625, 2.875, 11.117522811492284" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="7cf1fb85-ce49-4e0d-af36-34972118fddd" LastKnownName="MainViewModel" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="449a5caf-3c44-4a10-9101-4f90d274fab2" absoluteBounds="5.2650000000000006, 1.1403356393178306, 2.8449999999999998, 7.8886716291308412" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="479565a4-2248-4b95-89f8-149c35334ddb" absoluteBounds="5.2650000000000006, 9.0390072684486711, 2.8449999999999998, 2.6035155430436134" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

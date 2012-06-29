@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="be0f7a4e-111d-44c5-a4ad-29fc45586f63"
+  name="Regions"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0d954bcb-5f09-48e9-8528-5e818aa91b78"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Microsoft.Practices.Prism.Regions"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="12fb4328-d7c8-4bab-ad53-ce0147098a01">
+      <profileInstance
+        Id="a89a8909-c41d-41a1-af8d-a5a1341b9b70"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="016ea92a-9603-477c-b42e-731ea941ed7c"
+        name="IRegionManager"
+        isAbstract="true"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6db77576-5aa4-4427-9d27-f3f0386528f0"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///C:/Users/Devin/Documents/Visual Studio 2010/Projects/KinectRCCar/packages/Prism.4.1.0.0/lib/NET40/Microsoft.Practices.Prism.dll&quot; Namespace=Microsoft.Practices.Prism.Regions Type=IRegionManager"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c7794bd0-6f47-469f-ad92-efc54a1acf6d"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69598ac3-de9a-4da1-819d-82bd3d394bc6">
+                <propertyInstance
+                  Id="a289a998-4a8f-41f8-b319-eaa02c2621c6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35bf2c4f-9aba-4e06-8ac5-d6a72c791b94">
+                <propertyInstance
+                  Id="cd3b464c-7de5-4584-9cdd-201f13224a3e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0da2c58e-e1d6-4980-944c-016f769ae752">
+                <propertyInstance
+                  Id="11f01b8f-7a2d-46c2-bc55-9c84aca782f9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f7978cb7-5ac0-407c-badf-065e74606f41">
+                <propertyInstance
+                  Id="22a92483-a3f3-4b9c-a96a-2ea1c1f2671f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

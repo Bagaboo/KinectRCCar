@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="14d177ef-1c6f-4ff2-b414-75d9b907d09e"
+  name="Prism"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1954e129-a7f0-47bb-ab52-f8637fe11d06"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Microsoft.Practices.Prism"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bd07543a-a486-40b2-920d-f84a880c4846"
+        LastKnownName="Modularity"
+        LastKnownLocation="Package18_0013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="be0f7a4e-111d-44c5-a4ad-29fc45586f63"
+        LastKnownName="Regions"
+        LastKnownLocation="Package35_0013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b249a809-a79b-422e-a0a9-367d31c3026d"
+        LastKnownName="UnityExtensions"
+        LastKnownLocation="Package42_0013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7db96b24-210c-4ce3-8d85-8f769b049fa7"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package45_0013.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

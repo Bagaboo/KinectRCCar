@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectRCCar.CarController.T
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "KinectRCCar.Modeling", "KinectRCCar.Modeling\KinectRCCar.Modeling.modelproj", "{D75615E4-9345-4587-BA89-764B63F1A4FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{041AFD83-F948-40E6-88BC-69C597DC6591}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
